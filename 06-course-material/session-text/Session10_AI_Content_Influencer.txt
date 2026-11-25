@@ -1,0 +1,299 @@
+
+--- page 1 ---
+SCALING A D2C BUSINESS
+Session 10
+AI in Content Creation & Influencer Discovery
+How can AI tools help you create content faster and find the right creators, at scale?
+Ankit Agarwal   |   Masters' Union   |   90 mins
+--- page 2 ---
+SESSION OBJECTIVES
+By the End of This Session, You'll Be Able To...
+1
+Write Effective Prompts
+Generate captions, hashtags, and post 
+ideas using ChatGPT — reliably, not by 
+luck.
+2
+Build a Prompt Bank
+A reusable prompt bank for ongoing 
+content needs, refined over time, not 
+rebuilt each time.
+3
+Shortlist by Fit
+Use an AI-powered discovery tool to 
+shortlist influencers by audience fit and 
+engagement, not follower count.
+SCALING A D2C BUSINESS  ·  SESSION 10 Session Objectives
+--- page 3 ---
+PRE-CLASS RECAP  ·  0–5 MIN
+Before We Start: Your 3 Prompts
+Your Favorite Result
+What made it usable — tone, specificity, or something else?
+Your Least Favorite Result
+What went wrong — generic, off-brand, or just factually odd?
+LET'S DISCUSS
+Read your least favorite result aloud. What was missing from the prompt that caused it?
+SCALING A D2C BUSINESS  ·  SESSION 10 Pre-Class Recap
+--- page 4 ---
+KICKOFF  ·  0–10 MIN
+Where AI Actually Saves You Time, and Where It Doesn't
+AI SAVES TIME ON
+•   First-draft captions and hashtag lists
+•   Generating 10 content-idea variations in seconds
+•   Rewriting one caption in five different tones
+•   Shortlisting influencers from thousands of profiles
+AI DOESN'T REPLACE
+•   Your actual brand voice and judgment
+•   Real outreach that needs a human touch
+•   Knowing which creator is actually a fit
+•   Deciding what NOT to post
+SCALING A D2C BUSINESS  ·  SESSION 10 Kickoff
+--- page 5 ---
+OBJECTIVE 1  ·  10–20 MIN
+Anatomy of a Good Prompt
+WEAK PROMPT
+"Write an Instagram caption for my coffee brand."
+STRONG PROMPT
+You are writing an Instagram caption for Breww 47, a specialty coffee outlet. Audience: working professionals, 25–35. Tone: 
+warm, a little witty, never corporate. Write 1 caption (max 3 lines) for a photo of our filter coffee being poured, ending with a 
+soft CTA. Avoid the word "kickstart."
+Formula: Role + Brand context + Audience + Tone + Task + Constraints + What to avoid
+SCALING A D2C BUSINESS  ·  SESSION 10 Prompting · Anatomy
+--- page 6 ---
+OBJECTIVE 2  ·  30–45 MIN
+Building a Reusable Prompt Bank
+1 Caption prompt — for regular posts
+2 Hashtag prompt — for discoverability
+3 Hook prompt — for short-form video
+4 Reply prompt — for comment engagement
+SCALING A D2C BUSINESS  ·  SESSION 10 Prompt Bank
+--- page 7 ---
+OBJECTIVE 1 · LIVE EXAMPLE 1 OF 5
+Example 1 — Caption Generation
+Output type: short-form caption
+RUN THIS LIVE — PROMPT
+You are writing an Instagram caption for Breww 47, a specialty coffee outlet. Audience: working professionals, 25–35. Tone: warm, witty, not corporate. 
+Write 1 caption (max 3 lines) for a photo of our filter coffee being poured, ending with a soft CTA. Avoid the word "kickstart."
+ILLUSTRATIVE SAMPLE OUTPUT
+"Some mornings need a plan. Others just need a pour like this one.
+Filter coffee, made slow, served fast — because you've got places to be.
+Swing by before 11 and the first cup's on us."
+Differentiator: optimized for a single scroll-stopping moment — short, visual, one clear feeling.
+SCALING A D2C BUSINESS  ·  SESSION 10 Prompting · Live Examples
+--- page 8 ---
+OBJECTIVE 1 · LIVE EXAMPLE 2 OF 5
+Example 2 — Hashtag Set Generation
+Output type: tiered hashtag list
+RUN THIS LIVE — PROMPT
+Generate a hashtag set for the same Breww 47 filter coffee post. Give me 3 tiers: 5 broad (1M+ posts), 5 mid-size niche (50K–500K posts), 5 
+hyperlocal/community tags. No generic spam tags like #instagood.
+ILLUSTRATIVE SAMPLE OUTPUT
+Broad: #CoffeeLovers #FilterCoffee #CoffeeCulture #IndianCoffee #CoffeeAddict
+Niche: #ThirdWaveCoffee #SpecialtyCoffeeIndia #FilterKaapi #CoffeeOutletLife #SlowCoffee
+Local: #BrewsFromTheCity #GurgaonCoffee #CoffeeSpotsNearMe #WeekdayBrew #CafeHopping
+Differentiator: a structured LIST with explicit reach tiers, not a paragraph — reusable as-is.
+SCALING A D2C BUSINESS  ·  SESSION 10 Prompting · Live Examples
+--- page 9 ---
+OBJECTIVE 1 · LIVE EXAMPLE 3 OF 5
+Example 3 — Content Idea Generation
+Output type: content pillar ideas
+RUN THIS LIVE — PROMPT
+Act as a content strategist for Breww 47. Our content pillars are: product, people/behind-the-scenes, community, and offers. Give me 8 post ideas for 
+next week, 2 per pillar, each as a one-line concept — not a caption, just the idea.
+ILLUSTRATIVE SAMPLE OUTPUT
+Product: (1) Macro shot of crema forming (2) 'Guess the roast' taste-test reel
+People: (3) Barista's coffee order of the day (4) A day in the life, opening shift
+Community: (5) Regular customer shoutout (6) 'Tag your coffee buddy' post
+Offers: (7) Happy-hour countdown story (8) Referral offer carousel
+Differentiator: a PLANNING output — a week's worth of ideas, not a single finished asset.
+SCALING A D2C BUSINESS  ·  SESSION 10 Prompting · Live Examples
+--- page 10 ---
+OBJECTIVE 1 · LIVE EXAMPLE 4 OF 5
+Example 4 — Hook / Video Script Lines
+Output type: reel/short-video hooks
+RUN THIS LIVE — PROMPT
+Write 5 different hook lines (first 3 seconds of spoken audio) for a 20-second reel about why our cold brew takes 18 hours to make. Each hook should 
+use a different angle: curiosity, myth-busting, relatable pain point, bold claim, question.
+ILLUSTRATIVE SAMPLE OUTPUT
+1. "Here's what happens 18 hours before your cold brew reaches you."
+2. "Everyone thinks cold brew is just iced coffee. It's not."
+3. "If your iced coffee tastes bitter by 2pm, this is why."
+4. "This is the slowest thing we make — on purpose."
+5. "Why does cold brew take 18 hours? Genuine question we get daily."
+Differentiator: multiple ANGLES on one idea, built for video/audio delivery, not a caption.
+SCALING A D2C BUSINESS  ·  SESSION 10 Prompting · Live Examples
+--- page 11 ---
+OBJECTIVE 1 · LIVE EXAMPLE 5 OF 5
+Example 5 — Carousel Outline / Story Arc
+Output type: multi-slide structure
+RUN THIS LIVE — PROMPT
+Outline a 6-slide Instagram carousel for Breww 47 titled 'How to actually taste your coffee.' Slide 1 is the cover/hook, slide 6 is the CTA. Give me a 
+one-line purpose for each slide, not full text.
+ILLUSTRATIVE SAMPLE OUTPUT
+1. Cover: "You've been drinking coffee wrong. Here's how to actually taste it."
+2. Smell it first — what your nose tells you before your tongue does
+3. Sip, don't gulp — why slurping actually helps
+4. Notice the aftertaste — where the real flavour notes show up
+5. Common myth: "bitter = strong" — busted
+6. CTA: "Try this on your next visit — tell us what you taste."
+Differentiator: a STRUCTURED sequence with a beginning/middle/end — the most planning-heavy of the five formats.
+SCALING A D2C BUSINESS  ·  SESSION 10 Prompting · Live Examples
+--- page 12 ---
+CHATGPT SETUP · STEP 1 OF 3
+Teaching ChatGPT Your Brand Voice
+Custom Instructions tell ChatGPT who you're writing for, every single time — so you stop re-explaining your brand in every prompt.
+1 Open Settings → Personalization → Custom Instructions
+2 In "What would you like ChatGPT to know about you?", paste your brand facts: category, audience, price point, 2–3 real product details
+3 In "How would you like ChatGPT to respond?", describe tone: 3 adjectives, one thing to avoid, preferred length
+4 Save. Now every new chat starts already knowing your brand — no re-briefing needed
+SCALING A D2C BUSINESS  ·  SESSION 10 ChatGPT Setup · Step 1
+--- page 13 ---
+CHATGPT SETUP · STEP 2 OF 3
+Creating a Project for Ongoing Content Work
+A Project is a dedicated workspace — its own memory, files, and instructions — so your brand's content work doesn't get mixed up with everything else.
+11 Click "Projects" in the sidebar → "New Project" → name it (e.g. "Breww 47 Content")
+22 Add project-level instructions: brand voice, audience, and formatting rules — these apply to every chat inside the project automatically
+33 Upload reference files: brand guidelines, past best-performing captions, a product list — ChatGPT reads these before responding
+44 Every new chat you start inside the project inherits all of this — no repeating context, ever
+SCALING A D2C BUSINESS  ·  SESSION 10 ChatGPT Setup · Step 2
+--- page 14 ---
+CHATGPT SETUP · STEP 3 OF 3
+Saving Reusable Outputs with Canvas
+Canvas is ChatGPT's editable workspace for a piece of output — use it to save and refine things you'll reuse, instead of losing them in chat scroll.
+1 When ChatGPT generates something worth keeping, ask it to "put this in canvas"
+2 Canvas opens the content in a separate editable panel — tweak it directly without re-prompting
+3 Save it: copy into your prompt bank doc (Notion, Google Doc, or spreadsheet) so it survives outside the chat
+4 Rule of thumb: if you'll reuse it more than twice, it belongs in your prompt bank — not just in chat history
+SCALING A D2C BUSINESS  ·  SESSION 10 ChatGPT Setup · Step 3
+--- page 15 ---
+HALFWAY POINT
+You Can Write the Content.
+Now, Who Actually Posts It For You?
+So far: prompting ChatGPT to draft your own content, and setting it up to remember your brand. The rest of today is about someone 
+else's audience — finding the right creators to reach people you can't reach on your own account.
+ASK YOURSELF, BEFORE WE GO FURTHER
+If you could borrow ONE other person's audience tomorrow, whose would you pick — and would you rather they 
+sell for you, vouch for you, or just be seen using your product?
+SCALING A D2C BUSINESS  ·  SESSION 10 Transition · Content to Creators
+--- page 16 ---
+FRAMEWORK
+Prompt to Pitch Pipeline
+1
+AI Drafts
+Captions, hashtags, and a first-pass creator 
+shortlist
+2
+AI Shortlists
+By audience overlap and engagement rate, 
+not raw follower count
+3
+Human Writes the Ask
+The actual outreach message stays personal, 
+always
+SCALING A D2C BUSINESS  ·  SESSION 10 Named Framework
+--- page 17 ---
+WORKED EXAMPLE  ·  A REAL BUSINESS
+Breww 47's AI-Sourced Shortlist
+Illustrative example — tagged by fit, not just follower count. 
+@citybrews_diaries
+8.2K followers
+92% audience overlap with young office-goers in the same city
+@deskcoffeeclub
+14K followers
+Posts daily about work-from-cafe culture — exact lunch-hour context
+@thirdwavefinds
+31K followers
+Specialty coffee reviewer, high engagement rate despite mid-size following
+SCALING A D2C BUSINESS  ·  SESSION 10 Worked Example
+--- page 18 ---
+OBJECTIVE 3 · INFLUENCER STRATEGY
+What Kind of Influencer Fits Your Category?
+Before you search, decide who you're even looking for — the right creator TYPE depends on category and objective, not just budget.
+F&B / Cafes (Breww 47) Hyperlocal micro-creators (2K–20K) + food/lifestyle reviewers in-city Search by city + #cafehopping / #foodblogger; geotag the outlet
+Beauty & Personal Care Mid-tier creators (20K–150K) with strong tutorial/GRWM content Discovery tools filtered by category + engagement rate + past collabs
+Fashion & Apparel Style-led creators + a small set of macro/celeb for launch buzz Look-book style match, not just follower count; check sentiment
+D2C Tech / Appliances Niche 'how it works' reviewers and unboxing creators YouTube + Reels reviewers; check watch-through, not just likes
+B2B / Services Founders, operators and category experts — not lifestyle creators LinkedIn search by role/industry (next slide), not Instagram
+SCALING A D2C BUSINESS  ·  SESSION 10 Influencer Strategy · Category Fit
+--- page 19 ---
+OBJECTIVE 3 · INFLUENCER STRATEGY
+What Kind of Arrangement Do You Want?
+1 Commission / Affiliate
+Pay a % of sales via a tracked code or link. Best for: performance-focused, 
+lower upfront risk, a wide funnel of small creators.
+2 Awareness / Reach Deal
+Flat fee for a post/story/reel to a specific audience. Best for: launches, reach 
+into a new city or segment.
+3 Brand Fan / Ambassador
+Ongoing relationship, often gifting plus a small retainer. Best for: long-term 
+trust-building, real product love.
+4 Gifting / Barter
+Free product in exchange for a post, no cash. Best for: small brands, new 
+products, testing a relationship first.
+SCALING A D2C BUSINESS  ·  SESSION 10 Influencer Strategy · Arrangements
+--- page 20 ---
+OBJECTIVE 3 · INFLUENCER STRATEGY
+LinkedIn: The Influencer Platform You're Ignoring
+Instagram isn't the only place creators/experts have influence. LinkedIn works differently — and for some objectives, works better.
+Instagram-fit brands & goals
+•   Visual, emotional, lifestyle-driven purchases
+•   Impulse or low-consideration buys
+•   Objective: reach, discovery, awareness at volume
+•   Audience decides fast, scrolls fast
+LinkedIn-fit brands & goals
+•   B2B brands — decision-makers ARE the audience here
+•   High-consideration B2C (finance, health, real estate)
+•   Objective: credibility, trust, thought leadership, hiring
+•   Founder-led content and category expertise travel far
+SCALING A D2C BUSINESS  ·  SESSION 10 Influencer Strategy · LinkedIn
+--- page 21 ---
+OBJECTIVE 3 · TOOL WALKTHROUGH
+Finding the Right Influencers with Modash
+Modash is an AI-powered discovery tool — search millions of creators and filter by audience fit and engagement, not just follower count.
+1 Search by category, location and follower range Set your category-fit type from two slides ago, and a realistic follower band
+2 Filter by engagement rate, not follower count A 10K creator at 6% often outperforms a 100K creator at 0.8%
+3 Check audience overlap Confirm audience location/age/gender actually matches YOUR customer
+4 Review past brand collaborations See what other brands a creator has worked with, and how it performed
+5 Export your shortlist 8–10 creators with contact details — feeds into Session 11's outreach
+SCALING A D2C BUSINESS  ·  SESSION 10 Tool Walkthrough · Modash
+--- page 22 ---
+65–85 MIN  ·  LIVE BUILD
+Build Your Shortlist
+Use your AI discovery tool to find 5 real creators — tag each with why it's a fit.
+•   Also generate 3 GPT outputs for your own brand using your prompt bank.
+•   Check the LinkedIn fit test — does part of your outreach or story belong there instead?
+•   Flag explicitly if your category may not need influencers at all.
+This shortlist carries straight into Session 11 — you'll send real outreach to one of these 5.
+SCALING A D2C BUSINESS  ·  SESSION 10 Live Build
+--- page 23 ---
+ASK YOURSELF FIRST
+Does Influencer Marketing Even Fit Your Business?
+1 Does influencer marketing even make sense for your price point and purchase frequency?
+2 Am I judging a creator by their follower count, or by whether their audience is actually MY customer?
+3 Is there a part of my content or outreach strategy that belongs on LinkedIn instead of Instagram?
+SCALING A D2C BUSINESS  ·  SESSION 10 Ask Yourself First
+--- page 24 ---
+SESSION OBJECTIVES  ·  ACHIEVED
+What You Set Out to Do, Today
+Wrote effective prompts to generate captions, hashtags, and post ideas
+Built a reusable prompt bank for ongoing content needs, backed by ChatGPT's brand voice, Projects and Canvas
+Used an AI-powered discovery tool to shortlist influencers by fit — including when LinkedIn beats Instagram
+If any of these still feels shaky, that's exactly what the post-class submission is for.
+SCALING A D2C BUSINESS  ·  SESSION 10 Objectives Achieved
+--- page 25 ---
+85–90 MIN  ·  WRAP
+Deliverables & Next Step
+END OF SESSION
+3 GPT-generated posts + a 5-name AI-sourced influencer shortlist, each tagged with why it's a fit.
+COMING UP — SESSION 11
+Turning your shortlist into real outreach — writing the Hook, Fit and Ask that gets a creator to actually reply.
+SCALING A D2C BUSINESS  ·  SESSION 10 Deliverables & Wrap
+--- page 26 ---
+PRE-CLASS PREP FOR SESSION 11
+Before Session 11: Your Assignment
+FIND 2 GOOD OUTREACH EXAMPLES
+Find 2 influencer outreach messages you think are good — from any public case study or brand you 
+follow.
+Write down why each one works — be specific about what made it feel personal rather than templated.
+Bring your Session 10 shortlist — you'll draft and send real outreach to one of these 5 names.
+SCALING A D2C BUSINESS  ·  SESSION 10 Next Assignment

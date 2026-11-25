@@ -1,0 +1,295 @@
+SCALING A D2C BUSINESS
+Session 20
+Retention, Repeat Purchase & Unit Economics
+Getting a customer once is easy. What brings them back, and what does that do to your numbers?
+Ankit Agarwal   |   Masters' Union   |   90 mins
+
+=== PAGE ===
+SESSION OBJECTIVES
+By the End of This Session, You'll Be Able To...
+1
+Measure Who Comes Back
+Work out repeat rate and new customer 
+rate, and compare this month's 
+customers with last month's.
+2
+Check the Math
+Calculate a basic CAC to LTV ratio and say 
+if it is healthy.
+3
+Pick Your Lever
+Name the one thing that would move 
+repeat purchase most in your business.
+SCALING A D2C BUSINESS  ·  SESSION 20 Session Objectives
+
+=== PAGE ===
+KICKOFF  ·  0–5 MIN
+Why Getting a Customer Back Is Harder
+THE FIRST ORDER
+You pay for it: an ad, a creator, a discount. The customer 
+shows up because you pushed.
+THE SECOND ORDER
+Nobody pays them to come back. They return only if the 
+product and the experience earned it.
+Last session showed where customers come from. Today: do they stay?
+SCALING A D2C BUSINESS  ·  SESSION 20 Kickoff
+
+=== PAGE ===
+5–10 min  ·  Pause and Discuss
+Why Come Back?
+SCALING A D2C BUSINESS  ·  SESSION 20 Pause
+
+=== PAGE ===
+10–12 MIN  ·  ROADMAP
+What You Need to Work Out
+Three things. Today you do all three, in this order.
+1
+WHO COMES BACK
+Repeat rate, new customer rate, 
+and this month's customers 
+against last month's.
+2
+THE MATH
+What a customer costs to win 
+(CAC) against what they are 
+worth (LTV).
+3
+YOUR LEVER
+The one thing that would bring 
+more people back to your brand.
+By the end of class, all three sit on one page: your Retention Snapshot.
+SCALING A D2C BUSINESS  ·  SESSION 20 Roadmap
+
+=== PAGE ===
+12–20 MIN  ·  TEACH
+Repeat Rate vs New Customer Rate
+ONE MONTH:  200 customers ordered. 140 were buying for the first time. 60 had ordered before.
+NEW CUSTOMER RATE
+First time customers ÷ all customers
+140 ÷ 200 =  70%
+REPEAT RATE
+Returning customers ÷ all customers
+60 ÷ 200 =  30%
+A high new rate with a low repeat rate means you are paying for every sale all over again.
+SCALING A D2C BUSINESS  ·  SESSION 20 Repeat vs New
+
+=== PAGE ===
+20–29 MIN  ·  ROUND 1
+Work Out the Repeat Rate
+YOUR TURN
+MAKE   5 min → SHOW   2 min → FIX   2 min
+YOUR TASK
+1 Work out the new rate and the repeat rate for September and for 
+October.
+2 Say which way the repeat rate is moving, and by how many points.
+3 Write one sentence on what that means for the brand.
+WE WILL CHECK
+Do new and repeat add to 100%?
+Is the direction of change correct?
+Does the sentence say something useful?
+Practice data (illustrative): September, 250 customers, 75 returning. October, 300 customers, 60 returning.
+SCALING A D2C BUSINESS  ·  SESSION 20 Round 1
+
+=== PAGE ===
+29–35 MIN  ·  TEACH
+This Month's Customers vs Last Month's
+Illustrative data
+A cohort is a group of customers who made their first order in the same month.
+FIRST ORDER IN MONTH 0 MONTH 1 MONTH 2 MONTH 3
+July 100% 38% 30% 26%
+August 100% 33% 25%
+September 100% 27%
+October 100%
+Each box: the share of that group who ordered again that month. Data runs to October, so later boxes are 
+blank.
+READ ACROSS
+Does a group fade away, or flatten out?
+READ DOWN
+Is each new group better or worse than the last? 
+Look at the orange column.
+DO NOT BLEND
+One number for all customers hides both of these.
+SCALING A D2C BUSINESS  ·  SESSION 20 Cohort Thinking
+
+=== PAGE ===
+35–41 MIN  ·  TEACH
+The CAC to L TV Math
+CAC
+What it costs to win a customer
+Marketing spend ÷ new customers
+₹50,000 ÷ 100 = ₹500
+L TV
+What a customer is worth over time
+Order value × orders per year × years
+Then × gross margin for profit
+THE RATIO
+Is the customer worth the cost?
+LTV ÷ CAC
+₹1,500 ÷ ₹500 = 3 to 1
+WHAT THE RATIO TELLS YOU
+Below 1 to 1
+You lose money on every customer.
+Around 3 to 1
+The widely quoted healthy level.
+Above 5 to 1
+Often means you are under investing in growth.
+A rule of thumb, not a law. Count L TV on profit, not revenue.
+SCALING A D2C BUSINESS  ·  SESSION 20 CAC to LTV
+
+=== PAGE ===
+41–50 MIN  ·  ROUND 2
+Work Out the CAC to L TV Ratio
+YOUR TURN
+MAKE   5 min → SHOW   2 min → FIX   2 min
+YOUR TASK
+1 Work out the CAC and the LTV (on revenue). Then the ratio.
+2 Now count LTV on profit, with a 50% gross margin. What does the 
+ratio become?
+3 Write: healthy, risky or losing money? One line on why.
+WE WILL CHECK
+Is CAC spend divided by new customers?
+Did the margin change the ratio?
+Is the verdict backed by the number?
+Practice data (illustrative): spent ₹50,000, won 100 new customers. Order value ₹400, 3 orders a year, stays 2 years.
+SCALING A D2C BUSINESS  ·  SESSION 20 Round 2
+
+=== PAGE ===
+50–55 MIN  ·  NAMED FRAMEWORK
+Attach Rate as Canary
+A canary in a mine warns of danger early. Attach rate often does the same for retention.
+1
+ATTACH RATE SLIPS
+A second item stops selling 
+alongside the main item.
+→
+2
+REPEAT RATE SLIPS
+Fewer people come back for 
+another order.
+→
+3
+REVENUE FEELS IT
+By now the problem is months 
+old.
+ATTACH RATE:  how often a second item sells alongside the main item.
+What is your main item, and what could attach to it?
+SCALING A D2C BUSINESS  ·  SESSION 20 Named Framework
+
+=== PAGE ===
+55–60 MIN  ·  LIVE DATA  ·  A REAL BUSINESS
+Breww 47: The Canary in Action
+Real Breww 47 data
+BREWW 47 ATTACH RATE
+21% → 11–12%
+Fewer orders now include a second item.
+ASK THE CLASS
+1 What does this say about what people put in their 
+basket?
+2 What would you check next: repeat rate, or 
+something else?
+3 What would you test first to bring it back?
+Remember the canary: it warns early, so find the cause before the repeat rate moves.
+SCALING A D2C BUSINESS  ·  SESSION 20 Breww 47 Data
+
+=== PAGE ===
+60–65 MIN  ·  DEBATE
+Repeat Driven or Acquisition Driven?
+YOUR TURN
+REPEAT DRIVEN
+People need it again and again.
+Coffee, skincare, supplements, pet food
+Put the next rupee on bringing customers back.
+ACQUISITION DRIVEN
+People buy it once in a while.
+Gifting, furniture, wedding items, big gadgets
+Put the next rupee on finding new customers.
+Subscription: they agree to come back in advance. One time purchase: you win them again each time.
+Move to the side that fits your category. One minute to prepare, then each side defends its priority.
+SCALING A D2C BUSINESS  ·  SESSION 20 Debate
+
+=== PAGE ===
+65–68 MIN  ·  WORKED EXAMPLE  ·  A REAL BUSINESS
+Breww 47's Retention Snapshot
+Illustrative example
+1  WHO COMES BACK
+October customers
+600 ordered
+First timers
+360, so 60% new
+Returning
+240, so a repeat rate of 40%
+2  THE MATH
+CAC
+₹1,26,000 ÷ 360 new customers = ₹350
+12 month LTV
+₹300 × 8 orders × 1 year × 60% margin 
+= ₹1,440
+Ratio
+4.1 to 1: healthy
+3  ONE LEVER
+Lever
+Raise the attach rate with a snack offer 
+next to the coffee.
+Why
+A second item makes the order habit 
+stronger.
+Watch
+Attach rate and repeat rate, every 
+month.
+Who comes back, does the math work, and what is the one thing to fix first.
+SCALING A D2C BUSINESS  ·  SESSION 20 Worked Example
+
+=== PAGE ===
+68–80 MIN  ·  FINAL BUILD
+Build Your Retention Snapshot
+YOUR TURN
+ONE PAGE: WHO COMES BACK, THE MATH, ONE LEVER, FOR YOUR OWN SIMULATED BRAND
+1 68–72 min Who comes back:  Invent a month: customers, returning, new rate and repeat rate.
+2 72–77 min The math:  CAC, LTV on profit, the ratio, and a verdict.
+3 77–80 min One lever:  Name one lever for your category, why, and the number you will watch.
+ON THE PROJECTOR
+Three snapshots go up near the end. You get 
+one thing that works and one thing to fix, 
+then you fix it live.
+We will check: the numbers add up, LTV uses margin, 
+and the lever is specific.
+Use the Retention Snapshot handout, then paste your page into the class deck.
+SCALING A D2C BUSINESS  ·  SESSION 20 Live Work
+
+=== PAGE ===
+ASK YOURSELF FIRST
+Is Repeat Purchase Your Lever?
+1 Is repeat purchase even the right growth lever for my category, or does my category run more on new customer acquisition, like a one time gift?
+2 Is there a natural attach rate opportunity for my category, an obvious add on to my main product?
+3 Which one number from my snapshot would I check first next month?
+SCALING A D2C BUSINESS  ·  SESSION 20 Reflection
+
+=== PAGE ===
+SESSION OBJECTIVES  ·  ACHIEVED
+What You Set Out to Do, Today
+Measured who comes back: repeat rate, new rate and cohorts
+Calculated a CAC to LTV ratio and read the verdict
+Picked one lever to move repeat purchase in your business
+If any of these still feels shaky, that's exactly what the post class submission is for.
+SCALING A D2C BUSINESS  ·  SESSION 20 Objectives Achieved
+
+=== PAGE ===
+83–88 MIN  ·  WRAP
+Deliverables & Next Step
+END OF SESSION
+A one page Retention Snapshot with a CAC to L TV ratio and one named lever to improve repeat rate.
+POST CLASS SUBMISSION
+Improve your snapshot with today's feedback, then submit it for your own venture with at least one lever you would pull to improve 
+repeat rate.
+Next: bringing your whole marketing plan together into one go to market plan.
+SCALING A D2C BUSINESS  ·  SESSION 20 Wrap
+
+=== PAGE ===
+88–90 MIN  ·  PRE-CLASS PREP FOR SESSION 21
+Before Session 21: Your Assignment
+BRING THREE THINGS TO CLASS
+Your content calendar from Session 9, your influencer outreach draft from Session 11 and your media 
+plan from Session 18.
+We pull them together into one go to market plan.
+Also due: your improved Retention Snapshot from today.
+SCALING A D2C BUSINESS  ·  SESSION 20 Next Assignment

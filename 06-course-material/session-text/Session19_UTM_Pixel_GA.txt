@@ -1,0 +1,319 @@
+SCALING A D2C BUSINESS
+Session 19
+UTM, Meta Pixel & Google Analytics
+How do you know where your traffic is really coming from?
+Ankit Agarwal   |   Masters' Union   |   90 mins
+
+=== PAGE ===
+SESSION OBJECTIVES
+By the End of This Session, You'll Be Able To...
+1
+Tag Your Links
+Build UTM links with one consistent 
+naming rule.
+2
+Pick Your Actions
+Define three actions to count with the 
+Meta Pixel.
+3
+Choose Your Number
+Choose one north star metric for your 
+Google Analytics dashboard.
+SCALING A D2C BUSINESS  ·  SESSION 19 Session Objectives
+
+=== PAGE ===
+KICKOFF  ·  0–5 MIN
+Why Most Founders Fly Blind
+WITHOUT TRACKING
+Orders come in. Was it the ad, the post, the poster or the 
+WhatsApp message? You guess, and you keep spending on 
+the guess.
+WITH TRACKING
+Every link has a label, every action is counted, and one 
+number tells you if it is working. You move money to what 
+pays.
+Last session's ROAS and MER only work if you know which sale came from where.
+SCALING A D2C BUSINESS  ·  SESSION 19 Kickoff
+
+=== PAGE ===
+5–10 min  ·  Pause and Discuss
+Let’s go back
+SCALING A D2C BUSINESS  ·  SESSION 19 Pause
+
+=== PAGE ===
+16–20 MIN  ·  FRAMEWORK
+Breww 47's Tracking Map
+Illustrative setup
+WHERE THEY COME FROM, AND HOW WE LABEL IT WHAT THEY DO WHO COUNTS IT
+Paid
+Meta ads, Google ads
+UTM
+Organic
+Search, Instagram posts
+Automatic
+AI tools
+ChatGPT and others
+Automatic
+Others
+Email, WhatsApp, creators
+UTM
+Direct
+Typed in, or no label
+No label
+→
+YOUR SHOPIFY SITE
+1 Views a product
+2 Adds to cart
+3 Starts checkout
+4 Buys
+Every order is recorded here.
+→
+Google Analytics
+All visitors: where from, and what they did.
+Meta Pixel
+What Meta ad visitors do. Reports to Meta.
+Google Ads tag
+What Google ad visitors do. Reports to Google 
+Ads.
+Shopify orders are the moment of truth. Every number from the other tools gets checked against them.
+SCALING A D2C BUSINESS  ·  SESSION 19 Tracking Map
+
+=== PAGE ===
+10–12 MIN  ·  ROADMAP
+What You Need to Track
+Three things. Today you make all three, in this order.
+1
+LABELLED LINKS
+A tag on every link, so you know 
+where each click came from.
+2
+COUNTED ACTIONS
+Three actions on your site that 
+you count, such as a view, a chat 
+or a purchase.
+3
+ONE NORTH STAR
+One number on your dashboard 
+that tells you the business is 
+working.
+By the end of class, all three sit on one page: your Tracking Sheet.
+SCALING A D2C BUSINESS  ·  SESSION 19 Roadmap
+
+=== PAGE ===
+12–16 MIN  ·  FRAMEWORK
+The Tracking Triangle
+Not three tools. One system: label it, count it, read it.
+GA
+UTM PIXEL
+LABEL IT
+A tag on the link says where the click came from.
+COUNT IT
+A small piece of code counts what people do on the site.
+READ IT
+Google Analytics adds it all up on one dashboard.
+Break one corner and the picture is wrong.
+SCALING A D2C BUSINESS  ·  SESSION 19 Named Framework
+
+=== PAGE ===
+20–26 MIN
+UTM: A Label on Every Link
+breww47.com/utm_source=instagram&utm_medium=cpc&utm_campaign=cold-brew-launch
+SOURCE
+Where the click came from
+instagram, google, whatsapp
+MEDIUM
+What kind of traffic it is
+cpc for paid, social for organic posts
+CAMPAIGN
+Which push it belongs to
+cold-brew-launch
+THE RULE
+All lowercase. No spaces. Same names every time. Instagram and instagram count as two different sources.
+SCALING A D2C BUSINESS  ·  SESSION 19 UTM
+
+=== PAGE ===
+26–29 MIN  ·  EXAMPLES
+A Good Link and a Bad One
+Illustrative examples
+GOOD
+breww47.com/?utm_source=instagram&utm_medium=cpc&ut
+m_campaign=cold-brew-launch
+BAD
+breww47.com/?utm_source=Insta&utm_medium=Paid 
+Social&utm_campaign=Sale!
+Lowercase, no spaces, a medium that says paid, and a campaign name 
+you can recognise next month.
+Capital letters, a space, a vague campaign name, and a source nobody 
+else on the team will type the same way. The next link says fb, and the 
+data splits.
+SCALING A D2C BUSINESS  ·  SESSION 19 Examples
+
+=== PAGE ===
+29–38 MIN  ·  ROUND 1
+Build Three UTM Links
+YOUR TURN
+MAKE   4 min → SHOW   3 min → FIX   2 min
+YOUR TASK
+1 Pick three links: one paid, one organic and one WhatsApp or email.
+2 Give each a source, a medium and a campaign. Lowercase, no spaces.
+3 Write each full link on your slide in the class deck.
+WE WILL CHECK
+Is everything lowercase?
+Does the medium show paid or organic?
+Is the campaign name recognisable?
+Use Google's Campaign URL Builder, or type the link yourself.
+SCALING A D2C BUSINESS  ·  SESSION 19 Round 1
+
+=== PAGE ===
+38–44 MIN
+Meta Pixel: Count What People Do
+A small piece of code on your site that tells Meta when someone takes an action, so you can see what your ads achieved.
+STANDARD EVENTS: THE ACTIONS META ALREADY HAS NAMES FOR
+ViewContent
+Someone views a key page
+AddToCart
+An item goes in the cart
+InitiateCheckout
+Checkout starts
+Purchase
+A purchase is completed
+Lead
+A form or enquiry is submitted
+Contact
+Someone calls, texts or chats
+Test it before you trust it. Browsers can block some tracking, so important events are also sent from the server.
+SCALING A D2C BUSINESS  ·  SESSION 19 Meta Pixel
+
+=== PAGE ===
+44–53 MIN  ·  ROUND 2
+Pick Three Actions to Count
+YOUR TURN
+MAKE   4 min → SHOW   3 min → FIX   2 min
+YOUR TASK
+1 Write your buyer's journey in three steps: they look, they start, they 
+finish.
+2 Match each step to a standard event name from the list.
+3 Write what each count would tell you.
+WE WILL CHECK
+Are the three steps really different?
+Do the names match standard events?
+Would the count change a decision?
+Write your three events on your slide in the class deck.
+SCALING A D2C BUSINESS  ·  SESSION 19 Round 2
+
+=== PAGE ===
+53–60 MIN
+Google Analytics: Where It All Adds Up
+WHERE FROM
+Acquisition
+Shows which source, medium and 
+campaign brought people. Your UTM labels 
+appear here.
+WHAT THEY DID
+Events
+Shows what people did on the site, such as 
+viewing a page or buying.
+WHAT MATTERS MOST
+Key events
+The few actions you mark as most 
+important. Google used to call these 
+conversions.
+No live website yet? We use Google's public demo account, which has real shop data.
+Watch the demo: find where your UTM link would show up.
+SCALING A D2C BUSINESS  ·  SESSION 19 Google Analytics
+
+=== PAGE ===
+60–63 MIN
+Choose One North Star
+The one number that tells you your business is working.
+CHOICES
+Purchases Sign ups WhatsApp chats started Repeat orders Something else
+ASK
+Does it match how my business makes money?
+ASK
+Did I choose it, or did the default suggestion?
+SCALING A D2C BUSINESS  ·  SESSION 19 North Star
+
+=== PAGE ===
+63–66 MIN  ·  WORKED EXAMPLE  ·  A REAL BUSINESS
+Breww 47's Tracking Sheet
+Illustrative example
+3 UTM LINKS
+Paid
+utm_source=instagram&utm_medium=cpc&utm_
+campaign=cold-brew-launch
+Organic
+utm_source=instagram&utm_medium=social&ut
+m_campaign=cold-brew-launch
+WhatsApp
+utm_source=whatsapp&utm_medium=message&
+utm_campaign=cold-brew-launch
+3 PIXEL ACTIONS
+ViewContent
+Someone views the menu page
+Contact
+Someone starts a WhatsApp chat
+Purchase
+An order is completed
+1 NORTH STAR
+Repeat orders per week
+Breww 47 sells a daily habit, so a second and third 
+order says more than a first one.
+Label it, count it, read it: three links, three actions, one number.
+SCALING A D2C BUSINESS  ·  SESSION 19 Worked Example
+
+=== PAGE ===
+66–80 MIN  ·  FINAL BUILD
+Build Your Tracking Sheet
+YOUR TURN
+COMPLETE THE TRACKING SHEET: THREE LINKS, THREE ACTIONS, ONE NORTH STAR
+1 66–70 min Tidy your links and actions:  Fix your round 1 links and round 2 events using the feedback.
+2 70–74 min North star:  Choose one number and write why it fits your business.
+3 74–80 min Check the triangle:  Does each link lead to an action, and does the action feed your north star? Then review.
+ON THE PROJECTOR
+Three sheets go up at the end. You get one 
+thing that works and one thing to fix, then 
+you fix it live.
+We will check: clean links, three different actions, and a 
+north star with a reason.
+No accounts to open. Just the Tracking Sheet and your class deck slide.
+SCALING A D2C BUSINESS  ·  SESSION 19 Live Work
+
+=== PAGE ===
+ASK YOURSELF FIRST
+Is It Your North Star, or the Default?
+1 What is actually the north star metric for my business: purchases, sign ups, or something else entirely?
+2 Am I tracking this metric because it truly matters for my model, or just because it is the default Google Analytics suggests?
+3 Which of my three links will I be able to check next week, and what would I change if it was weak?
+SCALING A D2C BUSINESS  ·  SESSION 19 Reflection
+
+=== PAGE ===
+SESSION OBJECTIVES  ·  ACHIEVED
+What You Set Out to Do, Today
+Built UTM links with one consistent naming rule
+Defined three actions to count with the Meta Pixel
+Chose one north star metric for your dashboard
+If any of these still feels shaky, that's exactly what the post-class submission is for.
+SCALING A D2C BUSINESS  ·  SESSION 19 Objectives Achieved
+
+=== PAGE ===
+83–88 MIN  ·  WRAP
+Deliverables & Next Step
+END OF SESSION
+3 UTM tagged links, 3 Pixel tracked actions defined and 1 north star metric chosen, on your Tracking 
+Sheet.
+POST-CLASS SUBMISSION
+Improve your sheet with today's feedback, then submit a demo dashboard showing your 3 UTM links, 3 Pixel actions and your north 
+star metric.
+Next: getting a customer back, and what that does to your unit economics.
+SCALING A D2C BUSINESS  ·  SESSION 19 Wrap
+
+=== PAGE ===
+88–90 MIN  ·  PRE-CLASS PREP FOR SESSION 20
+Before Session 20: Your Assignment
+READ AND CALCULATE
+Read the short primer on CAC, L TV and cohort retention, then work out a rough CAC from the ad spend 
+numbers in your Session 13 or Session 18 work.
+Bring your CAC number to class.
+Next session: why a customer coming back matters more than the first sale, and how to put numbers on it.
+SCALING A D2C BUSINESS  ·  SESSION 19 Next Assignment

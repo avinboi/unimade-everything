@@ -1,0 +1,302 @@
+{
+ "campus": {
+  "students": 1500,
+  "resident_share": 0.65,
+  "residents": 1000
+ },
+ "prices": {
+  "wf": {
+   "name": "Wash & Fold",
+   "unit": "per kg (min 4 kg)",
+   "price": 69,
+   "payout": 45,
+   "other": 2,
+   "gateway": 1.38,
+   "keep": 20.62,
+   "margin": 29.9,
+   "market": "₹59–75/kg"
+  },
+  "pass": {
+   "name": "Laundry Pass",
+   "unit": "8 kg / month, 2 pickups",
+   "price": 499,
+   "payout": 360,
+   "other": 16,
+   "gateway": 9.98,
+   "keep": 113.02,
+   "margin": 22.6,
+   "market": "₹470–600"
+  },
+  "iron": {
+   "name": "Wash & Iron",
+   "unit": "per kg (min 4 kg)",
+   "price": 89,
+   "payout": 60,
+   "other": 2,
+   "gateway": 1.78,
+   "keep": 25.22,
+   "margin": 28.3,
+   "market": "₹90–120/kg"
+  },
+  "room": {
+   "name": "Room Clean",
+   "unit": "1 room, 45 min",
+   "price": 299,
+   "payout": 210,
+   "other": 0,
+   "gateway": 5.98,
+   "keep": 83.02,
+   "margin": 27.8,
+   "market": "₹799 (UC bedroom)"
+  },
+  "bath": {
+   "name": "Bathroom Clean",
+   "unit": "1 bathroom, 45 min",
+   "price": 249,
+   "payout": 175,
+   "other": 0,
+   "gateway": 4.98,
+   "keep": 69.02,
+   "margin": 27.7,
+   "market": "₹579 (UC)"
+  },
+  "tiffin": {
+   "name": "Tiffin Month",
+   "unit": "lunch + dinner, veg, 26 days",
+   "price": 3999,
+   "payout": 3519,
+   "other": 0,
+   "gateway": 79.98,
+   "keep": 400.02,
+   "margin": 10.0,
+   "market": "₹3,000–6,000"
+  },
+  "trial": {
+   "name": "Tiffin Trial",
+   "unit": "5 meals",
+   "price": 449,
+   "payout": 395,
+   "other": 0,
+   "gateway": 8.98,
+   "keep": 45.02,
+   "margin": 10.0,
+   "market": "₹90–100/meal"
+  }
+ },
+ "kit": {
+  "name": "Unimade Laundry Day Kit",
+  "price": 749,
+  "mrp": 899,
+  "cogs": 250,
+  "gm": 66.6,
+  "payout": 558.7,
+  "left": 308.7,
+  "qc_left": 251.8,
+  "comm": 74.9,
+  "fixed": 20,
+  "ship": 60,
+  "gst": 27.9,
+  "tcs": 7.5
+ },
+ "gm": 0.261,
+ "gm_pct": 26,
+ "be_roas": 3.83,
+ "laundry_m": 26.7,
+ "clean_m": 27.8,
+ "food_m": 10.0,
+ "mix": {
+  "laundry": 0.68,
+  "cleaning": 0.14,
+  "food": 0.14,
+  "kit": 0.04
+ },
+ "plan": [
+  {
+   "month": "Dec",
+   "new": 80,
+   "returning": 0,
+   "active": 80,
+   "cum": 80,
+   "repeat_rate": 0,
+   "gmv": 36000,
+   "keep": 9396,
+   "mkt": 9000,
+   "fixed": 1500,
+   "contrib": -1104,
+   "mer": 4.0
+  },
+  {
+   "month": "Jan",
+   "new": 170,
+   "returning": 44,
+   "active": 214,
+   "cum": 250,
+   "repeat_rate": 21,
+   "gmv": 162640,
+   "keep": 42449,
+   "mkt": 14000,
+   "fixed": 1500,
+   "contrib": 26949,
+   "mer": 11.6
+  },
+  {
+   "month": "Feb",
+   "new": 110,
+   "returning": 132,
+   "active": 242,
+   "cum": 360,
+   "repeat_rate": 55,
+   "gmv": 198440,
+   "keep": 51793,
+   "mkt": 7000,
+   "fixed": 1500,
+   "contrib": 43293,
+   "mer": 28.3
+  }
+ ],
+ "tot": {
+  "new": 360,
+  "gmv": 397080,
+  "keep": 103638,
+  "mkt": 30000,
+  "fixed": 4500,
+  "contrib": 69138,
+  "mer": 13.2,
+  "margin_mer": 3.45,
+  "roi": 2.5,
+  "cac": 83,
+  "gmv_per_cust": 950,
+  "reach_pct": 36
+ },
+ "paid": [
+  {
+   "name": "Meta (IG Reels + Stories)",
+   "spend": 6000,
+   "cpc": 7,
+   "clicks": 857,
+   "cvr": 4.2,
+   "cust": 36,
+   "cac": 167,
+   "rev": 34200,
+   "roas": 5.7,
+   "first_roas": 1.8,
+   "note": "chat, then first pickup"
+  },
+  {
+   "name": "Google Search",
+   "spend": 4000,
+   "cpc": 18,
+   "clicks": 222,
+   "cvr": 6.0,
+   "cust": 13,
+   "cac": 308,
+   "rev": 12350,
+   "roas": 3.1,
+   "first_roas": 1.0,
+   "note": "search-light category"
+  }
+ ],
+ "creators": {
+  "name": "Campus creators (6 nano)",
+  "spend": 4000,
+  "cust": 42,
+  "cac": 95,
+  "rev": 39900,
+  "roas": 10.0
+ },
+ "paid_tot": {
+  "spend": 14000,
+  "rev": 86450,
+  "cust": 91,
+  "roas": 6.2,
+  "share": 25
+ },
+ "ltv": {
+  "order": 310,
+  "orders_per_year": 10,
+  "years": 1,
+  "value": 809,
+  "ratio_blended": 9.7,
+  "ratio_meta": 4.8
+ },
+ "bud": [
+  {
+   "ch": "Meta Ads",
+   "bucket": "Paid",
+   "dec": 2000,
+   "jan": 3000,
+   "feb": 1000,
+   "total": 6000,
+   "pct": 20.0
+  },
+  {
+   "ch": "Google Search Ads",
+   "bucket": "Paid",
+   "dec": 2000,
+   "jan": 0,
+   "feb": 2000,
+   "total": 4000,
+   "pct": 13.3
+  },
+  {
+   "ch": "Campus creators",
+   "bucket": "Paid",
+   "dec": 1000,
+   "jan": 3000,
+   "feb": 0,
+   "total": 4000,
+   "pct": 13.3
+  },
+  {
+   "ch": "ATL / offline activation",
+   "bucket": "Earned",
+   "dec": 1500,
+   "jan": 4500,
+   "feb": 0,
+   "total": 6000,
+   "pct": 20.0
+  },
+  {
+   "ch": "PR & campus partnerships",
+   "bucket": "Earned",
+   "dec": 500,
+   "jan": 1000,
+   "feb": 0,
+   "total": 1500,
+   "pct": 5.0
+  },
+  {
+   "ch": "Content & SEO",
+   "bucket": "Owned",
+   "dec": 500,
+   "jan": 500,
+   "feb": 500,
+   "total": 1500,
+   "pct": 5.0
+  },
+  {
+   "ch": "WhatsApp + email",
+   "bucket": "Conversational",
+   "dec": 500,
+   "jan": 1500,
+   "feb": 1500,
+   "total": 3500,
+   "pct": 11.7
+  },
+  {
+   "ch": "Referral & first-order credits",
+   "bucket": "Conversational",
+   "dec": 1000,
+   "jan": 500,
+   "feb": 2000,
+   "total": 3500,
+   "pct": 11.7
+  }
+ ],
+ "buckets": {
+  "Paid": 14000,
+  "Earned": 7500,
+  "Owned": 1500,
+  "Conversational": 7000
+ }
+}

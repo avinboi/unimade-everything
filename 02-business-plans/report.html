@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Unimade — Business Plan & Founder's Guide</title>
+<style>
+@page { size: A4; margin: 12mm 13mm 13mm 13mm; }
+* { box-sizing: border-box; }
+body { font-family: "Segoe UI", system-ui, sans-serif; color: #1d1d27; font-size: 9.9pt; line-height: 1.42; margin: 0; }
+h1 { font-size: 30pt; line-height: 1.05; margin: 0 0 8px; letter-spacing: -0.5px; }
+h2 { font-size: 17pt; margin: 0 0 10px; padding-bottom: 6px; border-bottom: 3px solid #7c3aed; break-after: avoid; }
+h3 { font-size: 12pt; margin: 13px 0 5px; color: #4c1d95; break-after: avoid; }
+h4 { font-size: 10.8pt; margin: 12px 0 4px; break-after: avoid; }
+p { margin: 0 0 8px; }
+ul, ol { margin: 0 0 8px; padding-left: 20px; }
+li { margin-bottom: 3px; }
+section { break-before: page; }
+section.nobreak { break-before: auto; margin-top: 22px; }
+table { width: 100%; border-collapse: collapse; margin: 5px 0 10px; font-size: 9pt; break-inside: avoid; }
+th { background: #2e1065; color: #fff; text-align: left; padding: 5px 7px; font-weight: 600; }
+td { padding: 3.5px 7px; border-bottom: 1px solid #e4e1ee; vertical-align: top; }
+tr:nth-child(even) td { background: #faf8ff; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+tr.tot td { font-weight: 700; background: #ede9fe !important; border-top: 2px solid #7c3aed; }
+.plan td, .plan th { text-align: right; font-size: 8.6pt; padding: 4px 5px; }
+.plan td:first-child, .plan th:first-child { text-align: left; }
+td.neg { color: #b91c1c; font-weight: 600; }
+.box { border-radius: 10px; padding: 11px 14px; margin: 10px 0 12px; break-inside: avoid; }
+.verdict { background: #f5f3ff; border-left: 5px solid #7c3aed; }
+.warn { background: #fff7ed; border-left: 5px solid #ea580c; }
+.good { background: #ecfdf5; border-left: 5px solid #059669; }
+.learn { background: #eff6ff; border-left: 5px solid #2563eb; }
+.box h4 { margin-top: 0; }
+.tag { display: inline-block; font-size: 8pt; font-weight: 700; padding: 1px 7px; border-radius: 99px; color: #fff; }
+.t-keep { background: #059669; } .t-park { background: #d97706; } .t-kill { background: #b91c1c; } .t-partner { background: #2563eb; }
+.cover { height: 262mm; display: flex; flex-direction: column; justify-content: space-between; padding: 8mm 4mm; }
+.cover .brand { font-size: 13pt; font-weight: 800; letter-spacing: 4px; color: #7c3aed; }
+.cover .sub { font-size: 14pt; color: #4b4b5c; max-width: 150mm; }
+.cover .meta { font-size: 9.5pt; color: #666; border-top: 1px solid #ddd; padding-top: 10px; }
+.big { font-size: 20pt; font-weight: 800; color: #4c1d95; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+.card { border: 1px solid #e4e1ee; border-radius: 10px; padding: 10px 12px; break-inside: avoid; }
+.card .k { font-size: 8.5pt; color: #6b6b7b; text-transform: uppercase; letter-spacing: .5px; }
+.card .v { font-size: 16pt; font-weight: 800; color: #2e1065; }
+.small { font-size: 8.8pt; color: #555; }
+.formula { font-family: Consolas, monospace; background: #f4f4f8; padding: 2px 6px; border-radius: 4px; font-size: 9.2pt; }
+.toc li { margin-bottom: 2px; }
+.est { color: #b45309; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<div class="cover">
+  <div>
+    <div class="brand">UNIMADE</div>
+    <h1 style="margin-top:28mm">Business Plan<br>&amp; Founder's Guide</h1>
+    <p class="sub">What to sell, how it makes money, the numbers behind it, and exactly what to do over the next 90 days. Written for a first-time founder, starting from zero.</p>
+  </div>
+  <div>
+    <div class="grid3">
+      <div class="card"><div class="k">Core service</div><div class="v">Laundry Pass</div><div class="small">₹{{laundry.inputs.price}}/month · recurring</div></div>
+      <div class="card"><div class="k">D2C product</div><div class="v">Hostel Starter Kit</div><div class="small">₹{{kit.inputs.mrp}} · seasonal, high margin</div></div>
+      <div class="card"><div class="k">Year-1 goal</div><div class="v">200 subscribers</div><div class="small">+ 500 kits · one campus cluster</div></div>
+    </div>
+    <p class="meta">Prepared for Avin Dev · Unimade (unimade.vercel.app) · 2 November 2026<br>
+    Grounded in the 18 sessions of "Scaling a D2C Business" (Masters' Union). All amounts in Indian Rupees (₹). Figures marked <span class="est">estimate</span> are market estimates you must confirm locally before spending money; the Appendix lists exactly how.</p>
+  </div>
+</div>
+
+<!-- ============ CONTENTS ============ -->
+<section>
+<h2>Contents</h2>
+<ol class="toc">
+  <li><b>The one-page answer</b>: verdict, what to sell, the numbers, what to do first</li>
+  <li><b>Is Unimade worth building?</b> An honest scorecard</li>
+  <li><b>What you have today</b>: an audit of the site, pricing, newsletter and ATL plan</li>
+  <li><b>The customer and the market</b>: who hurts, who pays, what they use today</li>
+  <li><b>The decision: what Unimade sells</b> (and what it stops doing)</li>
+  <li><b>Business basics from zero</b>: every term you need, explained with ₹ examples</li>
+  <li><b>Unit economics</b>: how much you make on each subscriber and each kit</li>
+  <li><b>How Unimade makes money</b>: pricing and every revenue stream</li>
+  <li><b>12-month financial plan</b>: revenue, profit, cash, and the bad case</li>
+  <li><b>Go-to-market</b>: brand, channels, media plan, using the course frameworks</li>
+  <li><b>Operations</b>: how laundry and kits actually get done, without an app</li>
+  <li><b>Legal, money and team</b>: registration, GST, agreements, co-founders</li>
+  <li><b>Metrics</b>: the dashboard you check every week</li>
+  <li><b>The 90-day plan</b>: week by week, with stop rules</li>
+  <li><b>Risks</b> and how to reduce each one</li>
+  <li><b>Things you didn't ask but need to know</b></li>
+  <li><b>Appendix</b>: Lean Canvas, interview script, vendor call script, assumptions to verify, glossary</li>
+</ol>
+
+<div class="box learn">
+<h4>How to read this</h4>
+<p>If you only have 10 minutes, read Section 1 and Section 14. If you have an hour, read Sections 1, 2, 5, 6, 7 and 14. Section 6 explains every business term used later, so if a word confuses you, look there first.</p>
+</div>
+</section>
+
+<!-- ============ 1. ONE PAGE ============ -->
+<section>
+<h2>1. The one-page answer</h2>
+
+<div class="box verdict">
+<h4>Verdict</h4>
+<p><b>Yes, Unimade is worth building, but not in its current form.</b> As a "student operating system" with seven services (laundry, food, cleaning, storage, errands, internships, deals) it is a list, not a business. You would run seven operations badly, with no money and no team. As a <b>focused laundry subscription for hostel and PG students in one campus cluster, plus a seasonal Hostel Starter Kit</b>, it can be profitable in year one, needs under ₹1.5 lakh of your own money, and teaches you every lesson from the D2C course on a real business.</p>
+</div>
+
+<h3>What Unimade sells</h3>
+<table>
+<tr><th>Offer</th><th>What it is</th><th class="num">Price</th><th class="num">You keep per unit*</th></tr>
+<tr><td><b>Laundry Pass</b> (core)</td><td>4 pickups a month from your hostel or PG, up to 5 kg each, washed separately, folded, back in 48 hours</td><td class="num">₹{{laundry.inputs.price}}/month</td><td class="num">₹{{laundry.cm}}/month ({{laundry.cm_pct}}%)</td></tr>
+<tr><td>Single pickup</td><td>One bag, up to 5 kg, no subscription. The "try it first" option</td><td class="num">₹{{ppp.inputs.price}}</td><td class="num">₹{{ppp.cm}} ({{ppp.cm_pct}}%)</td></tr>
+<tr><td><b>Hostel Starter Kit</b> (D2C product)</td><td>Everything a fresher needs on day one, in one box, plus a Unimade laundry bag and one free pickup</td><td class="num">₹{{kit.inputs.mrp}}</td><td class="num">₹{{kit.cm}} before ads ({{kit.cm_pct}}%)</td></tr>
+</table>
+<p class="small">*Contribution margin: what's left after all costs of delivering that unit, before marketing and fixed costs. Explained in Section 6.</p>
+
+<h3>The numbers that matter</h3>
+<div class="grid3">
+  <div class="card"><div class="k">Break-even subscribers</div><div class="v">{{laundry.breakeven_subs_27k}}</div><div class="small">to cover ₹27,000/month of fixed costs</div></div>
+  <div class="card"><div class="k">Year-1 revenue (base case)</div><div class="v">₹{{totals.rev}}</div><div class="small">laundry + kits, Nov 2026 to Oct 2027</div></div>
+  <div class="card"><div class="k">Year-1 profit (base case)</div><div class="v">₹{{totals.profit}}</div><div class="small">before paying yourself; bad case ₹{{bad_case_profit}}</div></div>
+  <div class="card"><div class="k">Cash you need</div><div class="v">₹1.5 lakh</div><div class="small">lowest cash point ₹{{cash_low}} (June, buying kit stock) + buffer</div></div>
+  <div class="card"><div class="k">Kit break-even ROAS</div><div class="v">{{kit.be_course}}× / {{kit.be_roas}}×</div><div class="small">course formula / with all costs counted</div></div>
+  <div class="card"><div class="k">Max cost to win a subscriber</div><div class="v">₹{{ltv.cac_target}}</div><div class="small">paid back in {{ltv.payback}} months</div></div>
+</div>
+
+<h3>What to do first (the next 14 days)</h3>
+<ol>
+  <li><b>Talk to 30 students</b> in hostels and PGs near you about laundry, using the script in the Appendix. Not about Unimade. About how they do laundry today and what it costs.</li>
+  <li><b>Call 5 laundromats</b> and get a bulk per-kg price. If nobody goes below ₹40/kg, the pricing in this plan must change (Section 7 shows how).</li>
+  <li><b>Sort out the team.</b> Five names are on the website, one person is working. Decide who is in, in writing, before any money flows (Section 12).</li>
+  <li><b>Run a 20-student pilot</b> in one hostel or PG with WhatsApp + payment links. No app. First pickup at ₹99.</li>
+  <li><b>Change the website</b> from "seven services" to "laundry, sorted", with one button: "Book your first pickup – ₹99".</li>
+</ol>
+</section>
+
+<!-- ============ 2. WORTH IT ============ -->
+<section>
+<h2>2. Is Unimade worth building?</h2>
+<p>The course's first lesson (Session 1) is that "most ideas die because nobody was hurting enough to pay — not because the product was badly built." So the real question isn't "is this a nice idea?" It's "<b>will a specific student pay, every month, for a specific thing?</b>" Here's an honest scorecard of Unimade as it stands, and of the focused version this plan recommends.</p>
+
+<table>
+<tr><th>Test</th><th>Unimade today ("student OS", 7 services)</th><th class="num">Score</th><th>Focused Unimade (laundry + kit)</th><th class="num">Score</th></tr>
+<tr><td>Is the pain real? (S1: "has someone paid to solve it?")</td><td>Mixed. Laundry and food: yes. Internships, errands, deals: weak, nobody pays for these.</td><td class="num">3/5</td><td>Yes. Students already pay dhobis, laundromats, or lose hours to hostel machines every week.</td><td class="num">4/5</td></tr>
+<tr><td>How often do they need it?</td><td>Varies: storage twice a year, laundry weekly</td><td class="num">3/5</td><td>Weekly. Laundry is one of the most frequent paid chores in student life.</td><td class="num">5/5</td></tr>
+<tr><td>Will they pay enough?</td><td>Current pricing adds 40% in fees on a typical order (Section 3)</td><td class="num">2/5</td><td>₹50/kg all-in is at or below what local options charge <span class="est">estimate</span>; parents often pay</td><td class="num">3/5</td></tr>
+<tr><td>Can you deliver it well?</td><td>No. Seven different operations, partners, quality problems</td><td class="num">1/5</td><td>Yes. One partner laundromat, one runner, two pickup slots a week per hostel</td><td class="num">4/5</td></tr>
+<tr><td>Can you reach customers cheaply?</td><td>Yes, you live among them</td><td class="num">5/5</td><td>Yes. Hostels are dense: one poster in a laundry room reaches 200 people</td><td class="num">5/5</td></tr>
+<tr><td>Competition</td><td>Swiggy, Zomato, Urban Company, Blinkit, Internshala, all bigger and better funded</td><td class="num">1/5</td><td>Local dhobis and laundromats: cheap but unreliable, no tracking, no pickup from your room</td><td class="num">3/5</td></tr>
+<tr><td>Does it fit a D2C course?</td><td>It's a marketplace, not D2C</td><td class="num">2/5</td><td>Yes. The kit is a classic D2C product (margin gate, Meta, marketplaces); the Pass is a D2C subscription service</td><td class="num">5/5</td></tr>
+<tr class="tot"><td>Total</td><td></td><td class="num">17/35</td><td></td><td class="num">29/35</td></tr>
+</table>
+
+<div class="box warn">
+<h4>The hard truth about the ceiling</h4>
+<p>One campus of laundry is a small business: about 200 to 300 subscribers, or ₹2 to 3 lakh of monthly revenue and ₹60,000 to ₹1 lakh of monthly profit. That is a very good student business and an excellent learning project. It becomes a <i>company</i> only if you prove you can copy the model to campus #2, #3 and #10 with the same economics. That's what investors look for: "density" (many customers per square kilometre) and "replicability" (the playbook works anywhere). So the goal for year one is not "become the student super-app". It's <b>"prove one campus works, write the playbook, then copy it."</b></p>
+</div>
+
+<h3>Why laundry, of all seven services?</h3>
+<ul>
+  <li><b>Highest frequency:</b> every student, every week. Storage is twice a year; internships aren't something students pay for.</li>
+  <li><b>Easiest to subscribe to:</b> predictable volume (a bag a week), so a monthly pass makes sense to the customer and gives you recurring revenue.</li>
+  <li><b>You don't need a kitchen, a licence or inventory</b> (unlike food, which needs FSSAI registration, hygiene control, and competes with Swiggy/Zomato).</li>
+  <li><b>It earns you the right to sell more.</b> A laundry runner visits the same hostels twice a week. That trust and that route are what you later use to sell cleaning, storage and kits.</li>
+  <li><b>The laundry bag is a media channel.</b> Your bag goes into hundreds of rooms. Later, brands that want to reach students (snacks, deodorant, apps) can pay to put samples or flyers in it.</li>
+</ul>
+</section>
+
+<!-- ============ 3. AUDIT ============ -->
+<section>
+<h2>3. What you have today</h2>
+<p>I went through the live site (unimade.vercel.app), its source code, your onboarding newsletter, the ATL planning sheet and posters you made for Session 17, and the 15 blog posts. Here's what is genuinely good and what needs to change.</p>
+
+<div class="grid2">
+<div class="box good">
+<h4>What's strong</h4>
+<ul>
+  <li><b>The brand voice is excellent.</b> "Mom's not here. But we are." and "Same jeans since Monday? We noticed." are sharp, funny and specific. Keep this voice.</li>
+  <li><b>The site looks professional</b>: doodle style, animation, clear service cards.</li>
+  <li><b>15 SEO blog posts</b> on hostel life, PGs and saving money. That's the course's "3 Pillar Blog Map" (S15) already done, and it will bring free Google traffic over time.</li>
+  <li><b>The ATL sheet is well built</b>: one promise, one audience, a 60/30/10 split, a unique QR per spot, a code word (HOSTEL50). That is exactly how Session 17 says to do it.</li>
+  <li><b>The name passes "Say It, Spell It, Search It"</b> (S3): short, easy to say, hints at university.</li>
+</ul>
+</div>
+<div class="box warn">
+<h4>What needs to change</h4>
+<ul>
+  <li><b>Too many services.</b> Seven services, one person working. The course's Lean Canvas rule (S2) is "top 3 features mapped 1:1 to the top 3 problems — no extras yet."</li>
+  <li><b>The "Download app" button goes nowhere.</b> There is no app. A broken promise on the first screen costs trust. Replace it with a WhatsApp booking button.</li>
+  <li><b>The pricing hurts you</b> (below).</li>
+  <li><b>No proof yet</b>: no customer count, no reviews, no photos of real orders. The S6 "Above the Fold Checklist" requires a trust signal.</li>
+  <li><b>The domain is a free subdomain</b> (vercel.app). Buy unimade.in (about ₹500–900/year <span class="est">estimate</span>) and a hello@ email, as S3 and S7 say.</li>
+  <li><b>The team section lists five people</b> while only one is working. Fix the reality first (Section 12), then the page.</li>
+</ul>
+</div>
+</div>
+
+<h3>The pricing problem, in numbers</h3>
+<p>Your newsletter says: "Service fee ₹50/order · delivery ₹30/order · partner commission stays on the vendor side. Unimade+ is ₹199/month."</p>
+<table>
+<tr><th>A typical student laundry order</th><th class="num">₹</th></tr>
+<tr><td>Laundry charged by the partner</td><td class="num">{{current_pricing.inputs.laundry}}</td></tr>
+<tr><td>+ Unimade service fee</td><td class="num">{{current_pricing.inputs.service_fee}}</td></tr>
+<tr><td>+ Delivery fee</td><td class="num">{{current_pricing.inputs.delivery}}</td></tr>
+<tr class="tot"><td>Student pays</td><td class="num">{{current_pricing.total}}</td></tr>
+<tr><td>Fees as a share of the actual laundry</td><td class="num">{{current_pricing.markup_pct}}%</td></tr>
+</table>
+<p>A student compares ₹{{current_pricing.total}} with the dhobi down the road and walks away. Three other problems with this model:</p>
+<ul>
+  <li><b>"Partner commission on the vendor side"</b> means asking a local laundry shop or tiffin uncle to give you 15–20% of every order. Small vendors rarely agree, and when they do, they raise prices or cut quality, and your brand takes the blame.</li>
+  <li><b>You don't control the experience.</b> In a marketplace, the vendor decides quality and timing. In D2C, <i>you</i> own the customer and the experience. That is the whole point of a brand.</li>
+  <li><b>Unimade+ at ₹199/month</b> doesn't say what the student gets. People pay for outcomes ("your laundry, done, every week"), not for memberships.</li>
+</ul>
+<div class="box good"><p><b>The fix:</b> one simple all-inclusive price, where you buy laundry wholesale from a partner and sell it under your brand. "₹{{laundry.inputs.price}}/month. 4 pickups. Done." No fees, no surprises. Section 7 shows the maths.</p></div>
+</section>
+
+<!-- ============ 4. CUSTOMER & MARKET ============ -->
+<section>
+<h2>4. The customer and the market</h2>
+
+<h3>Who exactly is the customer?</h3>
+<p>Session 1 warns: "Every word must be specific. No 'everyone.'" So:</p>
+<div class="box verdict">
+<p><b>Primary customer (the user):</b> a 1st or 2nd-year undergraduate living away from home in a hostel or PG near campus, in your Gurugram cluster. Has class 9-to-5, no washing machine in the room, or a shared machine with a queue. Gets ₹8,000–20,000 a month from parents for living costs <span class="est">estimate</span>.</p>
+<p><b>Secondary customer (often the payer):</b> their parent. Worried their child isn't eating or living properly, happy to pay for something that makes life easier. Your poster "Mom's not here. But we are." speaks to exactly this person. <b>Parents buy the Starter Kit and can gift the Laundry Pass.</b></p>
+<p><b>Later customer (B2B):</b> PG owners who want to offer laundry as part of rent without running it themselves. One PG owner can mean 30–100 students at once.</p>
+</div>
+
+<h3>The problem, in one sentence (Session 1 format)</h3>
+<p class="box learn">"For hostel and PG students who lose hours every week to laundry, Unimade is a laundry subscription that picks up from your room and returns it folded in 48 hours. Unlike the local dhobi or the hostel machine, Unimade is booked on WhatsApp, tracked, priced up front, and your clothes are never mixed with anyone else's."<br><br>
+Short version: <b>"We help hostel students get their laundry done without thinking about it, by picking it up from their room every week."</b></p>
+
+<h3>What students do today (your real competition)</h3>
+<table>
+<tr><th>Alternative</th><th>Cost to the student <span class="est">estimate</span></th><th>What's bad about it</th><th>How Unimade wins</th></tr>
+<tr><td>Wash by hand</td><td>Free, plus 2–3 hours a week</td><td>Time, effort, clothes never dry in monsoon</td><td>Time back; that's the whole pitch</td></tr>
+<tr><td>Hostel washing machine</td><td>₹0–50 per load</td><td>Queues, broken machines, clothes stolen or left wet</td><td>Pickup from the room, folded, guaranteed</td></tr>
+<tr><td>Local dhobi / press-wala</td><td>₹40–70/kg washing, ₹8–15 per piece ironing</td><td>Unreliable timing, lost items, no pickup, cash only</td><td>Fixed schedule, tracking, digital payment, damage policy</td></tr>
+<tr><td>Branded laundry stores (UClean, etc.)</td><td>₹70–150/kg</td><td>Expensive for students; you go to the store</td><td>Cheaper per kg on the Pass; comes to your hostel</td></tr>
+<tr><td>Student housing brands with laundry (Stanza Living, etc.)</td><td>Bundled in rent</td><td>Only for their residents</td><td>Available to everyone else</td></tr>
+</table>
+
+<h3>How big is the opportunity?</h3>
+<p>Investors use three numbers. Here's how to think about them for Unimade, starting where you are:</p>
+<table>
+<tr><th>Level</th><th>Meaning</th><th>Unimade estimate</th></tr>
+<tr><td><b>TAM</b> (Total Addressable Market)</td><td>Everyone in India who could ever buy this</td><td>India has over 4 crore students in higher education (AISHE); a large share live away from home. Several crore rupees a month of student laundry spending. Big, but not useful for planning.</td></tr>
+<tr><td><b>SAM</b> (Serviceable Available Market)</td><td>The part you could serve with this model</td><td>Hostel and PG students in Gurugram and Delhi-NCR college clusters: lakhs of students.</td></tr>
+<tr><td><b>SOM</b> (Serviceable Obtainable Market)</td><td>What you can realistically win soon</td><td>Your cluster: say 5 campuses and their PGs ≈ 3,000–5,000 students. Winning 5% = 150–250 subscribers. <b>That's the year-1 target in this plan.</b></td></tr>
+</table>
+<p class="small">Start from the SOM. Big TAM numbers in a pitch deck mean nothing until you've shown you can win the first 5% of the students you can walk to.</p>
+
+<h3>Seasonality: the thing that will surprise you</h3>
+<p>Students leave in vacations. Your laundry business will nearly stop in <b>mid-May to July</b> and drop in <b>December</b> (exams and winter break). The plan handles this in two ways: the Starter Kit sells hardest in exactly those months (freshers buy in June to August), and the Pass is priced per month with an easy pause, so students don't cancel forever when they go home.</p>
+</section>
+
+<!-- ============ 5. DECISION ============ -->
+<section>
+<h2>5. The decision: what Unimade sells</h2>
+<p>You gave me authority to decide. Here's the decision, and the reasoning behind each piece.</p>
+
+<h3>Product 1: the Unimade Laundry Pass (the core, recurring business)</h3>
+<table>
+<tr><th>Detail</th><th>Decision</th></tr>
+<tr><td>Price</td><td><b>₹{{laundry.inputs.price}}/month</b> (≈ ₹{{laundry.per_kg_student}}/kg at full use). Single pickup without a pass: ₹{{ppp.inputs.price}}. First-ever pickup: ₹99.</td></tr>
+<tr><td>What's included</td><td>4 pickups a month (one a week), up to 5 kg each. Wash, dry, fold. Back within 48 hours. Each student's clothes washed separately, never mixed.</td></tr>
+<tr><td>Add-ons (high margin)</td><td>Ironing ₹10/piece; blanket or duvet ₹199; shoe cleaning ₹199; extra kg ₹60.</td></tr>
+<tr><td>How it's booked</td><td>WhatsApp. Fixed pickup slots per hostel (e.g. Monday and Thursday, 7–9 pm). The student drops the Unimade bag at the hostel reception or the runner collects from the room.</td></tr>
+<tr><td>Pause rule</td><td>Pause for free during vacations; no lock-in. This reduces cancellations and builds trust.</td></tr>
+<tr><td>Promise</td><td>"Back in 48 hours or the next pickup is free. Lost or damaged? We pay." (Capped; see Operations.)</td></tr>
+</table>
+
+<h3>Product 2: the Unimade Hostel Starter Kit (the D2C product)</h3>
+<p>A box with everything a student needs on day one in a hostel or PG, sold to freshers <i>and their parents</i> before the semester starts. It's your classic D2C product: you can apply every course tool to it (margin gate, Meta ads, influencers, marketplaces).</p>
+<table>
+<tr><th>Detail</th><th>Decision</th></tr>
+<tr><td>Price</td><td><b>₹{{kit.inputs.mrp}}</b> including GST. Target product cost (COGS) ₹{{kit.inputs.cogs}} or less.</td></tr>
+<tr><td>Contents (draft, 10 items)</td><td>Mattress protector, pillow + 2 covers, bedsheet set, Unimade laundry bag (branded), collapsible bucket + mug, 10 hangers, BIS-certified extension board, LED desk/clip lamp, padlock, under-bed storage organiser. Plus a card: "Your first laundry pickup is free".</td></tr>
+<tr><td>Why it works</td><td>One purchase solves a stressful shopping list. High price (good for ads maths), high margin, a gift parents feel good about, and <b>it pre-sells the Laundry Pass</b>: every kit includes the bag and a free pickup.</td></tr>
+<tr><td>When it sells</td><td>Main season: June to August (admissions and move-in). Small second season: January.</td></tr>
+<tr><td>Where it sells</td><td>Your own site + WhatsApp first; campus stalls on move-in days; Amazon later, once you know it sells (Section 10).</td></tr>
+<tr><td>Margin check (S16 gate)</td><td>Gross margin {{kit.gm_pct}}%: <b>clears the course's 65% gate</b>. At ₹2,499 with ₹1,100 COGS it would only reach about 51% and fail, which is why the price and cost are set where they are.</td></tr>
+</table>
+
+<h3>The other five services: keep, park, partner or kill</h3>
+<table>
+<tr><th>Service</th><th>Decision</th><th>Why</th></tr>
+<tr><td>Laundry</td><td><span class="tag t-keep">KEEP: CORE</span></td><td>Weekly need, subscribable, low regulation, builds the route and the trust.</td></tr>
+<tr><td>Storage</td><td><span class="tag t-partner">PARTNER</span></td><td>Huge need, but only twice a year. In April and May, partner with a storage company and earn 10–15% referral commission. You run the pickups on the same route.</td></tr>
+<tr><td>Cleaning</td><td><span class="tag t-park">PARK</span> → add-on later</td><td>Add as a laundry add-on (room clean ₹299) once you have 150+ subscribers and a reliable cleaner partner.</td></tr>
+<tr><td>Food / tiffin</td><td><span class="tag t-partner">PARTNER</span> only</td><td>Needs FSSAI registration, hygiene liability, thin margins, and competes with Swiggy and Zomato. At most, list 2–3 verified tiffin providers and take a referral fee. Never cook or handle food yourself.</td></tr>
+<tr><td>Errands</td><td><span class="tag t-kill">KILL</span> for now</td><td>Every errand is different, so you can't price or scale it. Bad unit economics.</td></tr>
+<tr><td>Internships</td><td><span class="tag t-park">CONTENT</span></td><td>Students won't pay for this. Keep it as free content (a weekly "5 internships" post or newsletter) to grow your audience; it costs nothing to run.</td></tr>
+<tr><td>Student deals</td><td><span class="tag t-park">CONTENT</span></td><td>Same as above: a content pillar and later affiliate links, not a product.</td></tr>
+</table>
+
+<div class="box learn">
+<h4>The "student OS" vision isn't dead. It's sequenced.</h4>
+<p>Every big "super-app" started with one thing done extremely well: Swiggy was food delivery, Urban Company started with a few home services, Zomato was restaurant menus. Your sequence: <b>laundry (now) → kit (summer 2027) → storage and cleaning via the same route (late 2027) → brand partnerships through the bag and community (2028)</b>. Each step uses the customers and trust from the last one.</p>
+</div>
+</section>
+
+<!-- ============ 6. BASICS ============ -->
+<section>
+<h2>6. Business basics from zero</h2>
+<p>Every term used in this plan, with a Unimade example. The course defines Gross Margin, ROAS, MER and Break-even ROAS (Sessions 16 and 18); the others are standard business terms you'll hear everywhere.</p>
+
+<h3>Money in</h3>
+<table>
+<tr><th style="width:22%">Term</th><th>What it means</th><th style="width:36%">Unimade example</th></tr>
+<tr><td><b>Revenue</b></td><td>Money customers pay you for what you sell (excluding GST, which belongs to the government).</td><td>100 Pass subscribers × ₹999 = ₹99,900 revenue a month.</td></tr>
+<tr><td><b>GMV</b> (Gross Merchandise Value)</td><td>Total value of all orders flowing through you. Marketplaces quote it because it's bigger than revenue.</td><td>If you passed tiffin orders worth ₹1 lakh to a partner and kept ₹10,000, GMV is ₹1 lakh but your revenue is ₹10,000.</td></tr>
+<tr><td><b>Take rate</b></td><td>The share of GMV you keep as a marketplace.</td><td>₹10,000 ÷ ₹1,00,000 = 10%.</td></tr>
+<tr><td><b>AOV</b> (Average Order Value)</td><td>Revenue ÷ number of orders.</td><td>Kits ₹{{kit.inputs.mrp}}; single pickups ₹{{ppp.inputs.price}}.</td></tr>
+<tr><td><b>MRP vs selling price vs net</b></td><td>MRP is the printed maximum; selling price is what the customer actually pays; net is after GST.</td><td>Kit sells at ₹{{kit.inputs.mrp}}; GST inside it ≈ ₹{{kit.gst}}; your net revenue = ₹{{kit.net}}.</td></tr>
+<tr><td><b>Recurring revenue</b></td><td>Revenue that repeats automatically every month (subscriptions).</td><td>The Laundry Pass. Investors value recurring revenue far more than one-off sales.</td></tr>
+</table>
+
+<h3>Costs</h3>
+<table>
+<tr><th style="width:22%">Term</th><th>What it means</th><th style="width:36%">Unimade example</th></tr>
+<tr><td><b>COGS</b> (Cost of Goods Sold)</td><td>The direct cost of the thing you sold.</td><td>Kit: ₹{{kit.inputs.cogs}} of products. Pass: ₹{{laundry.cost.partner}}/month paid to the laundromat.</td></tr>
+<tr><td><b>Variable costs</b></td><td>Costs that go up with every unit sold.</td><td>Laundromat fee, runner per pickup, packaging, payment gateway fee (≈2%), shipping.</td></tr>
+<tr><td><b>Fixed costs</b></td><td>Costs you pay every month no matter how much you sell.</td><td>Runner's base pay, phone, tools, storage space, website. About ₹25,000–40,000/month in this plan.</td></tr>
+<tr><td><b>Marketing spend</b></td><td>Everything you spend to get customers: ads, posters, influencers, discounts.</td><td>Posters ₹1,000 each (S17); the ₹99 first pickup is also a marketing cost.</td></tr>
+</table>
+
+<h3>Margins: how much you keep</h3>
+<table>
+<tr><th style="width:22%">Term</th><th>Formula</th><th style="width:36%">Unimade example</th></tr>
+<tr><td><b>Gross margin</b> (course, S16)</td><td><span class="formula">(Selling price − COGS) ÷ Selling price</span></td><td>Kit: (₹{{kit.net}} − ₹{{kit.inputs.cogs}}) ÷ ₹{{kit.net}} = <b>{{kit.gm_pct}}%</b>. Pass: {{laundry.gm_pct}}% (services have lower gross margins than products).</td></tr>
+<tr><td><b>Contribution margin</b></td><td><span class="formula">Revenue − all variable costs</span></td><td>Kit: ₹{{kit.net}} − ₹{{kit.var}} = <b>₹{{kit.cm}}</b>. Pass: ₹{{laundry.inputs.price}} − ₹{{laundry.var}} = <b>₹{{laundry.cm}}</b>. This is the money that pays for marketing, fixed costs and profit.</td></tr>
+<tr><td><b>Net profit</b></td><td><span class="formula">Contribution − marketing − fixed costs − tax</span></td><td>See the 12-month plan, Section 9.</td></tr>
+<tr><td><b>Break-even</b></td><td><span class="formula">Fixed costs ÷ contribution per unit</span></td><td>₹27,000 ÷ ₹{{laundry.cm}} ≈ <b>{{laundry.breakeven_subs_27k}} subscribers</b> to stop losing money.</td></tr>
+</table>
+
+<h3>Marketing maths</h3>
+<table>
+<tr><th style="width:22%">Term</th><th>Formula</th><th style="width:36%">Unimade example</th></tr>
+<tr><td><b>CPM</b></td><td>Cost per 1,000 ad views</td><td>Meta ads in India often cost about ₹80–200 per 1,000 views <span class="est">estimate</span>.</td></tr>
+<tr><td><b>CTR</b> (Click-through rate)</td><td><span class="formula">Clicks ÷ impressions</span></td><td>1,000 views, 10 clicks = 1% CTR.</td></tr>
+<tr><td><b>CPC</b></td><td><span class="formula">Spend ÷ clicks</span></td><td>₹120 CPM at 1% CTR = ₹12 per click.</td></tr>
+<tr><td><b>Conversion rate (CVR)</b></td><td><span class="formula">Buyers ÷ visitors</span></td><td>100 visitors, 2 kits sold = 2%.</td></tr>
+<tr><td><b>CAC</b> (Customer Acquisition Cost)</td><td><span class="formula">Marketing spend ÷ new customers</span></td><td>₹6,000 on posters + ₹99 pickups bring 20 subscribers → CAC ₹300.</td></tr>
+<tr><td><b>ROAS</b> (course, S18)</td><td><span class="formula">Revenue from ads ÷ ad spend</span></td><td>₹10,000 on Meta brings ₹30,000 of kit sales → ROAS 3.0. Always count what customers actually paid, not MRP: S16's "ROAS trap".</td></tr>
+<tr><td><b>MER</b> (course, S18)</td><td><span class="formula">Total revenue ÷ total marketing spend</span></td><td>Whole-business health. ₹1,20,000 revenue on ₹20,000 marketing = MER 6.0.</td></tr>
+<tr><td><b>Break-even ROAS</b> (course, S18)</td><td><span class="formula">1 ÷ gross margin</span></td><td>Kit: 1 ÷ {{kit.gm_pct}}% = <b>{{kit.be_course}}</b>. Below that, every ad sale loses money.</td></tr>
+<tr><td><b>LTV</b> (Lifetime Value)</td><td><span class="formula">Contribution per month × months a customer stays</span></td><td>₹{{laundry.cm}} × {{ltv.life}} months = <b>₹{{ltv.ltv_cm}}</b> per subscriber.</td></tr>
+<tr><td><b>LTV : CAC</b></td><td><span class="formula">LTV ÷ CAC</span></td><td>₹{{ltv.ltv_cm}} ÷ ₹{{ltv.cac_target}} = {{ltv.ltv_cac}}. Healthy is above 3.</td></tr>
+<tr><td><b>Payback period</b></td><td><span class="formula">CAC ÷ monthly contribution</span></td><td>₹{{ltv.cac_target}} ÷ ₹{{laundry.cm}} = {{ltv.payback}} months to earn back what you spent to win them.</td></tr>
+<tr><td><b>Churn</b></td><td>% of subscribers who cancel each month</td><td>If 100 subscribers become 85 next month without new ones, churn is 15%.</td></tr>
+</table>
+
+<div class="box warn">
+<h4>The course's break-even ROAS is a floor, not the real number</h4>
+<p>Session 18 uses <span class="formula">1 ÷ gross margin</span>, which only counts product cost. In reality you also pay shipping, packaging, payment fees and returns. Counting <i>all</i> variable costs, the kit's true break-even ROAS is <b>{{kit.be_roas}}</b> on net revenue, or about <b>{{kit.be_roas_gross}}</b> on the GST-inclusive figure Meta Ads Manager shows you. Use the stricter number when deciding whether an ad is working.</p>
+</div>
+
+<h3>A worked ad example: why conversion rate decides everything</h3>
+<table>
+<tr><th>Step</th><th class="num">Good case</th><th class="num">Bad case</th></tr>
+<tr><td>Meta spend</td><td class="num">₹10,000</td><td class="num">₹10,000</td></tr>
+<tr><td>CPM ₹120 → impressions</td><td class="num">83,333</td><td class="num">83,333</td></tr>
+<tr><td>CTR 1.2% / 0.8% → clicks</td><td class="num">1,000</td><td class="num">667</td></tr>
+<tr><td>Conversion 2.5% / 1% → kits sold</td><td class="num">25</td><td class="num">7</td></tr>
+<tr><td>CAC (spend ÷ kits)</td><td class="num">₹400</td><td class="num">₹1,429</td></tr>
+<tr><td>Contribution per kit (₹{{kit.cm}}) − CAC</td><td class="num">+₹984 per kit</td><td class="num">−₹45 per kit</td></tr>
+<tr><td>ROAS on net revenue</td><td class="num">6.7</td><td class="num">1.9</td></tr>
+</table>
+<p>Same budget, same product; one makes ₹24,600 and the other loses money. The difference is a better ad and a better landing page. That's why the course says to run each Meta test for at least 7 days, with one goal, one audience and one creative (S13), and to judge it on numbers.</p>
+</section>
+
+<!-- ============ 7. UNIT ECONOMICS ============ -->
+<section>
+<h2>7. Unit economics</h2>
+<p>"Unit economics" means: <b>on one customer or one product, do you make or lose money?</b> If the answer is "lose", more sales only means bigger losses. Get this right before spending on growth.</p>
+
+<h3>Laundry Pass: one subscriber, one month</h3>
+<table>
+<tr><th>Line</th><th>Assumption</th><th class="num">₹</th></tr>
+<tr><td>Price paid by student</td><td>4 pickups, 20 kg cap</td><td class="num">{{laundry.inputs.price}}</td></tr>
+<tr><td>Laundromat (partner) cost</td><td>{{laundry.kg_used}} kg actually used (85% of cap) × ₹{{laundry.inputs.partner_per_kg}}/kg bulk rate <span class="est">estimate</span></td><td class="num">−{{laundry.cost.partner}}</td></tr>
+<tr><td>Pickup and drop (runner)</td><td>4 × ₹{{laundry.inputs.logistics_per_pickup}}, batching 15–25 bags per hostel trip</td><td class="num">−{{laundry.cost.logistics}}</td></tr>
+<tr><td>Tags and poly bags</td><td></td><td class="num">−{{laundry.cost.packaging}}</td></tr>
+<tr><td>Payment gateway</td><td>≈2%</td><td class="num">−{{laundry.cost.gateway}}</td></tr>
+<tr><td>Damage and loss reserve</td><td>2% set aside for claims</td><td class="num">−{{laundry.cost.damage}}</td></tr>
+<tr class="tot"><td>Contribution per subscriber per month</td><td></td><td class="num">{{laundry.cm}} ({{laundry.cm_pct}}%)</td></tr>
+</table>
+
+<h4>What moves this number most (sensitivity)</h4>
+<table>
+<tr><th>If this changes…</th><th>…contribution per subscriber becomes</th></tr>
+<tr><td>Partner rate ₹28/kg instead of ₹32</td><td>≈ ₹388 (+₹68). <b>Negotiating the partner rate is your biggest lever.</b></td></tr>
+<tr><td>Partner rate ₹40/kg</td><td>≈ ₹184. Still positive, but you'd need ~150 subscribers to break even. Raise the price to ₹1,199.</td></tr>
+<tr><td>Students use the full 20 kg</td><td>≈ ₹224. Keep the 5 kg per bag cap and charge ₹60/extra kg.</td></tr>
+<tr><td>Runner batches only 8 bags per trip (₹40/pickup)</td><td>≈ ₹240. <b>Density matters</b>: sign up whole floors and hostels, not scattered students.</td></tr>
+</table>
+
+<h3>Hostel Starter Kit: one kit</h3>
+<table>
+<tr><th>Line</th><th>Assumption</th><th class="num">₹</th></tr>
+<tr><td>Price paid (GST included)</td><td></td><td class="num">{{kit.inputs.mrp}}</td></tr>
+<tr><td>GST (paid to the government)</td><td>≈12% blended across items <span class="est">estimate, confirm with a CA</span></td><td class="num">−{{kit.gst}}</td></tr>
+<tr><td><b>Net revenue</b></td><td></td><td class="num"><b>{{kit.net}}</b></td></tr>
+<tr><td>Products (COGS)</td><td>10 items bought wholesale in 300-unit batches <span class="est">estimate</span></td><td class="num">−{{kit.cost.cogs}}</td></tr>
+<tr><td>Box and printed insert</td><td></td><td class="num">−{{kit.cost.packaging}}</td></tr>
+<tr><td>Delivery</td><td>Blended: campus hand-delivery ≈ ₹40, courier ≈ ₹150</td><td class="num">−{{kit.cost.shipping}}</td></tr>
+<tr><td>Payment gateway</td><td>2%</td><td class="num">−{{kit.cost.gateway}}</td></tr>
+<tr><td>Returns and replacements</td><td>5% reserve</td><td class="num">−{{kit.cost.returns}}</td></tr>
+<tr class="tot"><td>Contribution per kit, before marketing</td><td></td><td class="num">{{kit.cm}} ({{kit.cm_pct}}%)</td></tr>
+</table>
+<p><b>What this means for ads:</b> you can spend up to ₹{{kit.cm}} to sell one kit and still break even. Aim for a CAC of ₹500–700 so each kit leaves ₹700–900 of real profit. Break-even ROAS: {{kit.be_course}} by the course formula, {{kit.be_roas}} with all costs counted.</p>
+
+<h3>Same kit on Amazon: why marketplaces come later</h3>
+<p>Using Session 16's net-payout logic with typical fees (≈15% referral fee, closing fee, fulfilment and shipping, GST on fees, returns) <span class="est">estimate</span>, the same kit leaves about <b>₹{{kit.amazon_cm}}</b> per unit on Amazon instead of ₹{{kit.cm}} on your own channels. Amazon still has its place: people searching "hostel essentials kit" are already there, and reviews build trust. Use it to learn what sells, as S16 says, but keep pushing buyers to your own site and WhatsApp, where you keep more and own the customer.</p>
+
+<div class="box learn">
+<h4>Quick commerce (Blinkit, Zepto, Instamart)?</h4>
+<p>No, not in year one. Session 16: listing costs around ₹25,000 per product per state on Blinkit plus ₹2–3 lakh a month in ads, and platforms informally expect 200+ orders a month and a 4.2+ rating elsewhere. A seasonal ₹3,000 kit isn't a quick-commerce product. Revisit only for small single items (e.g. the Unimade laundry bag) once you have demand proof.</p>
+</div>
+</section>
+
+<!-- ============ 8. REVENUE ============ -->
+<section>
+<h2>8. How Unimade makes money</h2>
+
+<h3>The revenue ladder (in the order you turn them on)</h3>
+<table>
+<tr><th>#</th><th>Stream</th><th>When</th><th>How it makes money</th><th>Rough size, year 1</th></tr>
+<tr><td>1</td><td><b>Laundry Pass</b></td><td>Now</td><td>₹{{laundry.inputs.price}}/month subscription; ₹{{laundry.cm}} contribution each</td><td>Main recurring income</td></tr>
+<tr><td>2</td><td>Single pickups</td><td>Now</td><td>₹{{ppp.inputs.price}} per bag; the trial step before the Pass</td><td>Small, but feeds the Pass</td></tr>
+<tr><td>3</td><td>Laundry add-ons</td><td>Month 2</td><td>Ironing, blankets, shoes: 50–70% margin because the runner is already there</td><td>Adds 10–20% to laundry revenue</td></tr>
+<tr><td>4</td><td><b>Hostel Starter Kit</b></td><td>Test Jan 2027; season Jun–Aug 2027</td><td>₹{{kit.inputs.mrp}} product, ₹{{kit.cm}} contribution before ads</td><td>About half of year-1 revenue</td></tr>
+<tr><td>5</td><td>Storage referrals</td><td>Apr–May 2027</td><td>10–15% commission from a storage partner; you earn on pickups too</td><td>Small, seasonal</td></tr>
+<tr><td>6</td><td>Laundry bag sampling and brand partnerships</td><td>500+ active users</td><td>Brands pay to put samples or flyers in hundreds of rooms (e.g. ₹3–5 per insert, or a monthly sponsor)</td><td>Year 2</td></tr>
+<tr><td>7</td><td>PG contracts (B2B)</td><td>Test from month 3</td><td>PG owner pays a monthly fee for all residents; you serve 30–100 students in one stop</td><td>Can be large; test early</td></tr>
+</table>
+
+<h3>Pricing psychology: why these exact numbers</h3>
+<ul>
+  <li><b>₹999, not ₹1,000:</b> it reads as "under a thousand", and an easy "₹250 a week" story.</li>
+  <li><b>Per month, not per kg:</b> students hate calculating. "4 pickups a month, done" is simple. Per-kg pricing makes them weigh every T-shirt.</li>
+  <li><b>₹99 first pickup, not free:</b> "free" brings people who never intended to pay. ₹99 filters for real interest, and shows they'll pay at all.</li>
+  <li><b>Single pickup at ₹{{ppp.inputs.price}}</b> makes the Pass look like a deal: 4 single pickups would cost ₹1,196 vs ₹{{laundry.inputs.price}}.</li>
+  <li><b>Semester Pass:</b> later, offer 5 months for ₹4,499 (pay upfront, ~10% off). It gives you cash in advance and fewer cancellations.</li>
+  <li><b>Never discount the Pass below cost</b> to grow faster. You'd be buying customers who leave when the discount ends.</li>
+</ul>
+
+<h3>How money flows</h3>
+<p>Student pays Unimade up front (Razorpay link / UPI) → Unimade pays the laundromat weekly for kg processed → Unimade pays the runner per pickup or a monthly salary. You collect first and pay later. That's healthy for cash flow. For kits it's the opposite: you buy stock before you sell it, which is why the cash plan in Section 9 matters, and why <b>pre-orders</b> are the key tactic for the kit.</p>
+</section>
+
+<!-- ============ 9. FINANCIAL PLAN ============ -->
+<section>
+<h2>9. The 12-month financial plan</h2>
+<p>Base case, November 2026 to October 2027. "Subs" = average paying Pass subscribers in the month. Fixed costs include a part-time runner from January, tools, phone and stock space. Marketing includes posters, ₹99 pickups, stalls, Meta ads and creators. <b>You (the founder) take no salary in year one.</b> "Cash" includes buying kit stock before it sells.</p>
+
+<table class="plan">
+<tr><th>Month</th><th>Subs</th><th>Single</th><th>Kits</th><th>Revenue</th><th>Contribution</th><th>Fixed</th><th>Marketing</th><th>Profit</th><th>Cash (cumulative)</th><th>MER</th></tr>
+<!--PLAN_ROWS-->
+</table>
+
+<div class="grid3">
+  <div class="card"><div class="k">Year revenue</div><div class="v">₹{{totals.rev}}</div><div class="small">Laundry ₹{{totals.rev_l}} · Kits ₹{{totals.rev_k}}</div></div>
+  <div class="card"><div class="k">Year profit (base)</div><div class="v">₹{{totals.profit}}</div><div class="small">before founder salary and income tax</div></div>
+  <div class="card"><div class="k">Year MER</div><div class="v">{{totals.mer}}</div><div class="small">course target is 3.0 or above</div></div>
+</div>
+
+<h3>Reading the table</h3>
+<ul>
+  <li><b>November to April is a slow, near-break-even grind</b> while you build to about 100 subscribers. That's normal. You're buying proof, not profit.</li>
+  <li><b>May and June dip</b> as students leave, and cash goes negative (lowest ₹{{cash_low}} in June) because you buy kit stock ahead of the season.</li>
+  <li><b>July and August are where the year is made</b>: kit season, plus subscribers returning with a new batch of freshers who already got a free pickup in their kit.</li>
+  <li><b>By October</b>, about 200 subscribers bring ≈₹2.4 lakh of monthly laundry revenue and the business funds itself.</li>
+</ul>
+
+<div class="box warn">
+<h4>The bad case: half the customers, same spending</h4>
+<p>If you only get half the subscribers and kit sales but spend the same on marketing and fixed costs, year one ends at about <b>₹{{bad_case_profit}}</b>. That's why the 90-day plan has <b>stop rules</b>: you don't scale spending until each step proves itself. Following the stop rules, your real worst case is losing the ₹30,000–50,000 spent on the pilot, not ₹1 lakh.</p>
+</div>
+
+<h3>How much money you need, and where to get it</h3>
+<table>
+<tr><th>Need</th><th class="num">₹</th><th>Note</th></tr>
+<tr><td>Pilot (Nov–Dec): bags, tags, posters, ₹99 subsidies, domain</td><td class="num">15,000–25,000</td><td>Can come from savings or family</td></tr>
+<tr><td>Laundry ramp (Jan–Apr) losses</td><td class="num">10,000–20,000</td><td>Covered if you hit the subscriber targets</td></tr>
+<tr><td>Kit stock before the season (May–Jun)</td><td class="num">≈ 90,000 peak</td><td>Cut this with pre-orders (customers pay first) and small batches</td></tr>
+<tr class="tot"><td>Total to arrange</td><td class="num">≈ 1,50,000</td><td>including a safety buffer</td></tr>
+</table>
+<p><b>Sources, best first:</b> (1) pre-orders and semester passes (customers fund you); (2) your own or family savings; (3) Masters' Union's incubation or venture support and startup competitions (prize money, no equity lost); (4) later, the Startup India Seed Fund via an incubator (needs a registered company). <b>Do not raise investor money now.</b> At this stage you'd give away a big share of the company cheaply, and you don't need it yet.</p>
+</section>
+
+<!-- ============ 10. GTM ============ -->
+<section>
+<h2>10. Go-to-market</h2>
+<p>This section applies the course frameworks directly to Unimade, in the order the course teaches them.</p>
+
+<h3>Positioning and brand (S1, S3, S4, S5, S17)</h3>
+<table>
+<tr><th>Element</th><th>Unimade</th></tr>
+<tr><td>Single Minded Proposition (S17, ≤5 words)</td><td><b>"Laundry, sorted. Every week."</b> Backup lines: "Mom's not here. But we are." / "Same jeans since Monday? We noticed."</td></tr>
+<tr><td>Brand voice</td><td>The funny, slightly cheeky older sibling who has their life together. Keep the doodles and the handwriting.</td></tr>
+<tr><td>Brand kit (S4)</td><td>Lock 1–2 colours (the violet + cyan you use), 2 fonts, logo placement. Every poster, bag and post should be recognisable in under a second.</td></tr>
+<tr><td>Instagram bio (S5, 3-second rule)</td><td>"Laundry picked up from your hostel. Back folded in 48h. ₹999/month. 📍[Your campus] · First pickup ₹99 ↓"</td></tr>
+<tr><td>Website above the fold (S6)</td><td>Headline + "Book first pickup – ₹99" WhatsApp button + one trust signal ("120 students in Hostel X use Unimade" once true).</td></tr>
+</table>
+
+<h3>Channel plan by phase</h3>
+<p>The course's gate question for every channel: "Does my category actually fit this channel?" Here's the fit:</p>
+<table>
+<tr><th>Channel</th><th>Laundry Pass (local, Nov–Apr)</th><th>Starter Kit (national, Jun–Aug)</th></tr>
+<tr><td>Offline / ATL (S17)</td><td><b>Main channel.</b> Posters in laundry rooms and mess entrances, PG notice boards, canteen table tents. One QR per spot.</td><td>Stalls on move-in and orientation days; tie-ups with PG owners</td></tr>
+<tr><td>WhatsApp (S18)</td><td><b>Booking + retention.</b> Business app, catalogue, labels New/Paid/Repeat, pickup reminders</td><td>Pre-orders, payment links, delivery updates</td></tr>
+<tr><td>Referrals</td><td>"Give ₹100, get ₹100" for subscribers who bring a friend from the same hostel (density!)</td><td>Kit buyers get a referral code for friends</td></tr>
+<tr><td>Instagram content (S8, S9)</td><td>3–4 posts a week: behind the scenes, education, customer proof, offer (S9's 4 buckets)</td><td>Hostel-life Reels, unboxing, "what to pack" content</td></tr>
+<tr><td>Influencers (S10, S11)</td><td>Campus nano creators (1K–10K followers), paid in free Passes</td><td><b>Strong fit.</b> Student "hostel room tour" and "what I packed" creators (micro 10K–100K), tracked with codes</td></tr>
+<tr><td>Meta ads (S13)</td><td>Small: 2–3 km radius around campuses once a poster test shows what message works</td><td><b>Main paid channel.</b> Target parents 40–55 and admitted students; one goal, one audience, one creative; 7 days per test</td></tr>
+<tr><td>Google ads (S14)</td><td>"Laundry near [college]" (transactional) at small budget</td><td>"Hostel essentials kit", "hostel packing list" (informational → your blog)</td></tr>
+<tr><td>SEO / blog (S15)</td><td>Your 15 posts + Google Business Profile for local search</td><td>"Hostel packing checklist" post is already written: add a "Buy the kit" button to it</td></tr>
+<tr><td>PR (S12)</td><td>Data angle: "We weighed 1,000 hostel laundry bags. Here's what students actually wash." (passes the S12 "So What" test)</td><td>Founder angle: "Students build the starter kit they wished they had"</td></tr>
+<tr><td>Marketplaces (S16)</td><td>Not applicable</td><td>Amazon from year 2, once your own channels prove demand</td></tr>
+</table>
+
+<h3>Laundry launch: ATL plan (your Session 17 sheet, adjusted)</h3>
+<p>Your sheet budgets ₹50,000. That's too much before you have proof. Start with ₹10,000 using the same 60/30/10 logic, then scale what works:</p>
+<table>
+<tr><th>Split</th><th>Activity</th><th class="num">₹</th><th>Counted by</th></tr>
+<tr><td>60% Safe bet</td><td>12 posters in laundry rooms, mess entrances and 3 PGs + table tents at 2 canteens</td><td class="num">6,000</td><td>One QR per location → WhatsApp "Hi Unimade [spot code]"</td></tr>
+<tr><td>30% Test</td><td>₹99 first pickup for the first 40 students (₹75 subsidy each)</td><td class="num">3,000</td><td>Code HOSTEL99; trial → Pass conversion</td></tr>
+<tr><td>10% Wild card</td><td>"Laundry Mountain" meme on campus pages: tag the friend with the biggest pile</td><td class="num">1,000</td><td>Code word in DMs</td></tr>
+<tr class="tot"><td></td><td>Total</td><td class="num">10,000</td><td></td></tr>
+</table>
+<p class="small">Changes vs your sheet: ₹99 instead of a free first pickup (filters freeloaders), and a smaller test before the ₹50,000 roll-out. Note from S17: in Gurugram, outdoor ads on public walls need municipal permission; inside hostels and PGs you need the warden's or owner's OK.</p>
+
+<h3>Kit season media plan (S18 Media Plan Sheet), June–August 2027, ₹2,20,000</h3>
+<table>
+<tr><th>Channel</th><th>Job</th><th>Activity</th><th class="num">Share</th><th class="num">₹</th></tr>
+<tr><td>Paid</td><td>New buyers</td><td>Meta ads to parents and admitted students; 10 micro creators (paid + product)</td><td class="num">60%</td><td class="num">1,32,000</td></tr>
+<tr><td>Organic</td><td>Trust</td><td>Reels, unboxings, blog, move-in-day stalls, PG owner tie-ups</td><td class="num">25%</td><td class="num">55,000</td></tr>
+<tr><td>Conversational</td><td>Convert + repeat</td><td>WhatsApp pre-order list, reminders, post-purchase "book your free pickup"</td><td class="num">15%</td><td class="num">33,000</td></tr>
+</table>
+<p><b>Targets:</b> paid ROAS ≥ 2.5 (break-even {{kit.be_roas}} with all costs); MER ≥ 3.0. <b>Rule from S18:</b> every week, move money to channels beating break-even and cut those that aren't.</p>
+
+<h3>Content calendar starter (S9: 4 buckets, 3–4 posts a week)</h3>
+<table>
+<tr><th>Bucket</th><th>Example posts</th></tr>
+<tr><td>Behind the brand</td><td>"How your laundry travels in 48 hours" (follow one bag); meet the runner; packing 200 kits</td></tr>
+<tr><td>Education</td><td>"How to stop your white shirt turning pink"; "PG red flags" (repurpose your blog); hostel packing list</td></tr>
+<tr><td>Customer proof</td><td>Before/after laundry piles; student reviews; "Hostel B: 40 students now on Unimade"</td></tr>
+<tr><td>Offer</td><td>"First pickup ₹99 this week"; semester pass; kit pre-order countdown</td></tr>
+</table>
+</section>
+
+<!-- ============ 11. OPERATIONS ============ -->
+<section>
+<h2>11. Operations: how it actually gets done</h2>
+<p>For a service brand, <b>operations is the product</b>. One lost T-shirt shared in a hostel WhatsApp group can undo a month of marketing.</p>
+
+<h3>Choosing the laundry partner</h3>
+<ul>
+  <li>Visit 5 laundromats within 3 km. Ask for a <b>bulk per-kg rate for 200–500 kg a month</b>, with each customer's bag washed separately (script in the Appendix).</li>
+  <li>Test 3 of them with your own and friends' clothes for 2 weeks. Check: turnaround, colour bleeding, folding, missing items.</li>
+  <li>Sign a one-page agreement: rate, 24–36 hour turnaround, separate washing, damage responsibility, weekly payment.</li>
+  <li>Keep a backup partner. Never depend on one shop.</li>
+</ul>
+
+<h3>The weekly flow (no app needed)</h3>
+<ol>
+  <li><b>Booking:</b> subscribers are auto-scheduled for their hostel's slot; single pickups book on WhatsApp.</li>
+  <li><b>Pickup:</b> runner collects tagged Unimade bags (name, room, phone, order ID) at fixed times, photographs each sealed bag.</li>
+  <li><b>Weigh and count:</b> at the partner, each bag is weighed and pieces counted; the count goes back to the student on WhatsApp ("12 pieces, 4.2 kg received").</li>
+  <li><b>Wash:</b> separately per bag, within 24–36 hours.</li>
+  <li><b>Return:</b> folded, in a poly bag with the tag; delivered to the room or reception; "Delivered ✓" on WhatsApp.</li>
+  <li><b>Feedback:</b> one-tap rating after each return; any complaint answered within 2 hours.</li>
+</ol>
+
+<h3>Tools (total ≈ ₹0–2,000/month)</h3>
+<table>
+<tr><th>Need</th><th>Tool</th></tr>
+<tr><td>Bookings and chat</td><td>WhatsApp Business app (free): catalogue, labels, quick replies, broadcast lists up to 256 contacts (S18)</td></tr>
+<tr><td>Payments</td><td>Razorpay payment links and subscriptions, or UPI QR to start</td></tr>
+<tr><td>Orders and customers</td><td>Google Sheets or Airtable: one row per bag, status columns</td></tr>
+<tr><td>Kit store</td><td>Your current site + a simple checkout (Razorpay page), or Shopify (S6) once you sell kits</td></tr>
+<tr><td>Accounts</td><td>Separate bank account + a simple bookkeeping app from day one</td></tr>
+</table>
+
+<div class="box warn">
+<h4>Don't build an app yet</h4>
+<p>An app costs months and lakhs, and students already live on WhatsApp. Build software only when manual work is clearly the bottleneck, around 300+ active subscribers, and then start with the boring parts (scheduling, tags, payments), not a fancy consumer app.</p>
+</div>
+
+<h3>Damage and loss policy (publish it)</h3>
+<p>"If we lose or damage an item, we pay up to 10× the per-kg charge for that item, up to ₹1,000 per order. Tell us within 24 hours of delivery." Clear limits protect you; a published policy builds trust. The 2% reserve in the unit economics pays for this.</p>
+
+<h3>Kit operations</h3>
+<ul>
+  <li><b>Sourcing:</b> Delhi's Sadar Bazaar and IndiaMART suppliers. Get 3 quotes per item, order samples, build 5 test kits and show them to 20 students and parents before buying in bulk.</li>
+  <li><b>Electricals must be BIS-certified</b> (extension board, lamp). Never source unmarked electricals.</li>
+  <li><b>Batches:</b> buy 30 for the January test; 100 → 150 → 200 for the summer, re-ordering only as stock sells. Pre-orders first.</li>
+  <li><b>Packing and storage:</b> a small rented store room or a friend's garage; pack in batches of 50 with a checklist per box.</li>
+  <li><b>Delivery:</b> hand delivery to campus hostels on move-in day (cheapest, best experience); courier (Shiprocket-type aggregators) for other cities.</li>
+</ul>
+</section>
+
+<!-- ============ 12. LEGAL / TEAM ============ -->
+<section>
+<h2>12. Legal, money and team</h2>
+<p class="small">This is general guidance, not legal or tax advice. Spend ₹2,000–5,000 on one session with a chartered accountant (CA) before selling kits.</p>
+
+<h3>Business registration: what and when</h3>
+<table>
+<tr><th>Stage</th><th>Structure</th><th>Why</th></tr>
+<tr><td>Pilot (now)</td><td>Run it under your name; separate bank account; keep every receipt</td><td>Fine for testing with a few lakh of revenue</td></tr>
+<tr><td>Before kit sales / Jan 2027</td><td><b>Sole proprietorship</b> + free Udyam (MSME) registration + current account; or an <b>LLP</b> if co-founders are formally in</td><td>Payment gateways, suppliers and marketplaces need a business identity</td></tr>
+<tr><td>Before raising money or grants</td><td><b>Private Limited company</b> + DPIIT Startup India recognition</td><td>Investors and seed funds need a Pvt Ltd; it also allows clean equity splits</td></tr>
+</table>
+
+<h3>GST in plain words</h3>
+<ul>
+  <li><b>Services (laundry):</b> registration is required once yearly turnover crosses ₹20 lakh. Your laundry business stays below that in year one.</li>
+  <li><b>Goods (kit):</b> the general threshold is ₹40 lakh, but <b>selling on Amazon/Flipkart needs GST from the first sale</b> (S16). Selling across states, or through marketplaces, usually triggers registration. Check your exact case with a CA.</li>
+  <li>Once registered you charge GST to customers, claim back GST paid to suppliers, and file returns monthly or quarterly.</li>
+</ul>
+
+<h3>Other rules that apply to you</h3>
+<table>
+<tr><th>Rule</th><th>What it means for Unimade</th></tr>
+<tr><td>Legal Metrology (packaged goods)</td><td>The kit box must show MRP, contents and quantity, packer name and address, month of packing, and customer care details.</td></tr>
+<tr><td>BIS certification</td><td>Electrical items (extension board, lamp) must carry BIS marks.</td></tr>
+<tr><td>Consumer Protection (E-Commerce) Rules</td><td>Show your returns and refund policy, contact details and grievance contact on the website.</td></tr>
+<tr><td>DPDP Act 2023 (data privacy)</td><td>You collect names, rooms and phone numbers. Get consent, use the data only for the service, and add a privacy policy to the site.</td></tr>
+<tr><td>Trademark</td><td>File "Unimade" (class 37 for laundry services, plus classes for products you sell). Government fees are lower for individuals and startups. Do it early, before someone else does.</td></tr>
+<tr><td>Food (if you ever partner on tiffin)</td><td>Partners must hold FSSAI registration; you should be a referral, never the seller.</td></tr>
+<tr><td>Campus and PG permissions</td><td>Get written OK from wardens and PG owners for posters, pickup points and stalls.</td></tr>
+</table>
+
+<h3>The team question (the most important page in this section)</h3>
+<div class="box warn">
+<p>Your website lists five team members; you say only you are working now. If Unimade succeeds and nothing is written down, any of them can later claim a share, and arguments between co-founders kill more startups than competitors do. Fix it now, while it's cheap and friendly:</p>
+<ol>
+  <li><b>Have one honest conversation</b> with each person: "I'm going full force on this. Are you in, with X hours a week, for the next 6 months?"</li>
+  <li><b>Equity follows future work, not past attendance.</b> People who step back can get a small thank-you share (e.g. 1–2%) or nothing, agreed in writing.</li>
+  <li><b>Use vesting:</b> shares are earned over 4 years with a 1-year "cliff" (someone who leaves before a year gets nothing). This is standard and protects everyone.</li>
+  <li><b>Write a one-page founders' agreement</b> now (roles, equity, vesting, decision-making, what happens if someone leaves). Formalise it when you register a company.</li>
+  <li><b>Update the website</b> to show the real team.</li>
+</ol>
+<p>Practical roles if 1–2 people stay: <b>you</b> on partners, operations and numbers; <b>a second person</b> on content, community and the kit. Add part-time campus ambassadors (paid in Passes plus ₹50 per subscriber they bring) instead of more co-founders.</p>
+</div>
+
+<h3>Money discipline from day one</h3>
+<ul>
+  <li>Separate bank account for Unimade. Never mix it with personal money.</li>
+  <li>Record every rupee in and out weekly, with receipts.</li>
+  <li>Pay suppliers on time: your reputation with the laundromat is an asset.</li>
+  <li>Don't pay yourself until the business has 3 months of fixed costs saved in the bank.</li>
+</ul>
+</section>
+
+<!-- ============ 13. METRICS ============ -->
+<section>
+<h2>13. Metrics: your weekly dashboard</h2>
+<p>Review these every Sunday in a Google Sheet. The course's key metrics box (S2) asks for real numbers; these are Unimade's.</p>
+<table>
+<tr><th>Metric</th><th>What it tells you</th><th>Target by April 2027</th></tr>
+<tr><td>Active paying subscribers</td><td>The size of the business</td><td>100</td></tr>
+<tr><td>New subscribers this week, by channel (QR code)</td><td>Which marketing works</td><td>8–10 a week</td></tr>
+<tr><td>Trial → Pass conversion</td><td>Whether the service is good enough to pay for monthly</td><td>≥ 30% of ₹99 trials</td></tr>
+<tr><td>Monthly churn (cancellations, excluding vacation pauses)</td><td>Whether people stay</td><td>&lt; 10%</td></tr>
+<tr><td>On-time returns (within 48h)</td><td>Reliability, the core promise</td><td>≥ 95%</td></tr>
+<tr><td>Complaints per 100 bags</td><td>Quality</td><td>&lt; 3</td></tr>
+<tr><td>Lost or damaged items per 100 bags</td><td>Trust risk</td><td>&lt; 0.5</td></tr>
+<tr><td>Actual partner cost per kg; runner cost per pickup</td><td>Whether unit economics hold in reality</td><td>≤ ₹32 / ≤ ₹20</td></tr>
+<tr><td>Contribution per subscriber</td><td>Unit economics</td><td>≥ ₹300</td></tr>
+<tr><td>CAC by channel</td><td>Cost to win a subscriber</td><td>≤ ₹300</td></tr>
+<tr><td>Subscribers per hostel or PG</td><td>Density, which drives runner cost</td><td>≥ 15 per building</td></tr>
+<tr><td>NPS ("How likely are you to recommend us, 0–10?")</td><td>Love, and future word of mouth</td><td>≥ 50</td></tr>
+<tr><td>Cash in bank</td><td>How long you can survive</td><td>Never below one month of fixed costs</td></tr>
+</table>
+<p>For kit season, add: ad spend, net revenue from ads, <b>ROAS on net paid value</b> (not MRP: the S16 trap), CAC per kit, MER, conversion rate, return rate, stock left.</p>
+<p class="small">Track every campaign with UTM links and the Meta Pixel on the website. The course's Session 19 covers this; the deck wasn't in your folder, so make sure you get it.</p>
+</section>
+
+<!-- ============ 14. 90 DAYS ============ -->
+<section>
+<h2>14. The 90-day plan</h2>
+<p>S1 asks: "What is the smallest version of this idea you could test in 2 weeks?" This is that, followed by the next steps. <b>Each phase has a stop rule.</b> If you miss it, don't push harder; change something.</p>
+
+<table>
+<tr><th style="width:18%">When</th><th>Do this</th><th style="width:26%">Done when / stop rule</th></tr>
+<tr><td><b>Week 1</b><br>3–9 Nov</td><td>
+<ul><li>Team conversation; write the one-page founders' agreement</li>
+<li>Interview 30 students (Appendix script): how they do laundry, what they pay, what annoys them</li>
+<li>Call or visit 5 laundromats (Appendix script); get bulk rates</li></ul></td>
+<td>30 interviews done; 3 partner quotes. <b>Stop rule:</b> if fewer than 10 of 30 say they'd pay ₹999/month, test ₹699 for 2 pickups instead.</td></tr>
+<tr><td><b>Week 2</b><br>10–16 Nov</td><td>
+<ul><li>Test 2–3 partners with your own clothes</li>
+<li>Buy unimade.in + hello@ email; set up WhatsApp Business (catalogue, labels, quick replies)</li>
+<li>Order 50 laundry bags and tags; set up Razorpay or UPI</li>
+<li>Change the website: laundry first, WhatsApp button instead of "Download app"</li></ul></td>
+<td>Partner chosen at ≤ ₹35/kg, separate washing confirmed</td></tr>
+<tr><td><b>Weeks 3–4</b><br>17–30 Nov</td><td>
+<ul><li>Pilot in 1 hostel or PG: 20 students, ₹99 first pickup</li>
+<li>You do the pickups yourself; time every step</li>
+<li>Get feedback after every return</li></ul></td>
+<td>20 trials; ≥ 95% on time; 0 lost items. <b>Stop rule:</b> if real costs come out above ₹800 per subscriber-month, renegotiate or reprice before expanding.</td></tr>
+<tr><td><b>Weeks 5–6</b><br>1–14 Dec</td><td>
+<ul><li>Convert trials to the Pass; launch the referral offer</li>
+<li>Start the Semester Pass pre-sale for January (₹4,499)</li>
+<li>Get kit quotes; order 5 sample kits</li></ul></td>
+<td>≥ 6 paying Pass subscribers (30% of trials). <b>Stop rule:</b> below 15% conversion, interview every non-converter and fix the reason first.</td></tr>
+<tr><td><b>Weeks 7–8</b><br>15–31 Dec</td><td>
+<ul><li>Exams and vacation: run a small service for those staying</li>
+<li>Show sample kits to 20 students and 10 parents; finalise contents and price</li>
+<li>Prepare January ATL (₹10,000 plan, Section 10) across 3 hostels/PGs</li>
+<li>Register a sole proprietorship or LLP; CA session on GST</li></ul></td>
+<td>Kit contents locked at ≤ ₹900 COGS (gross margin ≥ 65%)</td></tr>
+<tr><td><b>Weeks 9–10</b><br>1–14 Jan</td><td>
+<ul><li>New semester push: posters, canteen tents, stall, referral</li>
+<li>Hire a part-time runner (or paid ambassador) when you pass 30 subscribers</li>
+<li>Kit test: 30 kits for mid-year joiners and replacements via WhatsApp and Instagram</li></ul></td>
+<td>35 subscribers; first kits sold</td></tr>
+<tr><td><b>Weeks 11–13</b><br>15 Jan–2 Feb</td><td>
+<ul><li>Expand to 5 buildings; test a PG-owner contract with one PG</li>
+<li>First small Meta test for the Pass (₹500/day × 7 days, 2 km radius)</li>
+<li>Review all metrics; write the operations playbook (SOPs)</li></ul></td>
+<td>50+ subscribers; CAC ≤ ₹300; contribution ≥ ₹300. <b>Decision point:</b> green → follow the 12-month plan; red → fix pricing or operations, or pivot to PG contracts.</td></tr>
+</table>
+
+<h3>After 90 days: the milestones</h3>
+<table>
+<tr><th>By</th><th>Milestone</th></tr>
+<tr><td>April 2027</td><td>100 subscribers, break-even month, playbook written, kit supplier and contents locked</td></tr>
+<tr><td>May–June 2027</td><td>Kit pre-orders open; creator and Meta campaigns; storage partner live for summer move-outs</td></tr>
+<tr><td>July–August 2027</td><td>500 kits sold; freshers onboarded into the Pass on move-in day</td></tr>
+<tr><td>October 2027</td><td>200 subscribers; decide on campus #2 using the playbook; consider a Pvt Ltd and the next funding step</td></tr>
+</table>
+</section>
+
+<!-- ============ 15. RISKS ============ -->
+<section>
+<h2>15. Risks and how to reduce them</h2>
+<table>
+<tr><th>Risk</th><th>Likelihood</th><th>What you do</th></tr>
+<tr><td>Students won't pay ₹999 a month</td><td>Medium</td><td>Test in week 1 interviews and the pilot; fall back to a ₹699 two-pickup plan; target parents as payers ("gift a Pass")</td></tr>
+<tr><td>Partner quality drops (lost items, colour bleeding)</td><td>High</td><td>Separate washing, piece counts, photos, backup partner, damage reserve, weekly quality checks</td></tr>
+<tr><td>Hostel bans outside services or has its own laundry contract</td><td>Medium</td><td>Get warden permission early; pitch the hostel itself as a B2B client; focus on PGs</td></tr>
+<tr><td>Vacations crush revenue</td><td>Certain</td><td>Pause option, Semester Passes paid upfront, kit season fills the gap, keep fixed costs low in May–July</td></tr>
+<tr><td>Kit stock doesn't sell</td><td>Medium</td><td>Pre-orders, small batches, January test first, non-perishable items that sell next season</td></tr>
+<tr><td>Ad costs too high for the kit</td><td>Medium</td><td>Know your break-even ROAS ({{kit.be_roas}}); 7-day tests with stop rules; lean on creators, stalls and PG tie-ups</td></tr>
+<tr><td>Founder burnout and studies suffer</td><td>High</td><td>Fixed weekly hours; ambassadors and a runner; automate reminders; protect exam weeks</td></tr>
+<tr><td>Co-founder disputes</td><td>Medium</td><td>Written agreement and vesting now (Section 12)</td></tr>
+<tr><td>A bigger player copies you</td><td>Low (year 1)</td><td>Your edge is being on campus, density and student trust. Move fast within your cluster.</td></tr>
+<tr><td>Cash runs out</td><td>Low–medium</td><td>Weekly cash tracking, prepaid passes, never buy stock without pre-orders, keep a buffer</td></tr>
+</table>
+</section>
+
+<!-- ============ 16. THINGS YOU DIDN'T ASK ============ -->
+<section>
+<h2>16. Things you didn't ask but need to know</h2>
+<ol>
+  <li><b>Customer service <i>is</i> the brand.</b> In a service business, how you handle a mistake matters more than the mistake. Reply fast, own it, fix it, give something back.</li>
+  <li><b>Density beats reach.</b> 50 subscribers in one hostel is a better business than 50 spread across 10. Runner cost per bag falls, word of mouth spreads, and you can say "everyone in Block C uses it."</li>
+  <li><b>Retention is the real growth engine.</b> Winning a subscriber costs ₹300; keeping one costs almost nothing. Ask everyone who cancels why, every time.</li>
+  <li><b>Vanity metrics lie.</b> Followers, waitlist sign-ups and app "interest" aren't customers. Only count people who've paid.</li>
+  <li><b>"Do things that don't scale" first.</b> Do the first 100 pickups yourself. You'll learn what breaks, what students care about, and what to write in the playbook.</li>
+  <li><b>Parents are a hidden market.</b> They pay, they worry, and they're on Facebook and WhatsApp, where ads are cheaper. Speak to them directly for the kit and gifted Passes.</li>
+  <li><b>Write things down.</b> Every repeated task becomes a one-page SOP (standard operating procedure). That's how you hand work to a runner, an ambassador, or a campus #2 manager.</li>
+  <li><b>Price is a signal.</b> Too cheap looks unreliable. ₹999 for "never think about laundry again" is a confident, fair price. Compete on reliability, not on being cheapest.</li>
+  <li><b>Collect proof from day one.</b> Photos, reviews, numbers ("2,000 bags washed, 0 lost"). It powers your website, ads, PR, and future investor or incubator pitches.</li>
+  <li><b>Your course project and your business are the same thing.</b> Every course deliverable (canvas, ATL sheet, media plan, listing) can use real Unimade data. Your grades and your business both improve.</li>
+  <li><b>Keep fixed costs near zero until revenue is real.</b> No office, no app developer, no salaries before demand is proven.</li>
+  <li><b>Studies come first in exam weeks.</b> Plan the business calendar around the academic calendar. That's also when your customers are busiest.</li>
+  <li><b>Learn to say no.</b> Students will ask, "Can you also do food? Printing? Bike repair?" Write every request down (it's your future roadmap), but say "not yet" until laundry runs without you.</li>
+</ol>
+</section>
+
+<!-- ============ APPENDIX ============ -->
+<section>
+<h2>Appendix A: Unimade Lean Canvas (S2, with real numbers)</h2>
+<table>
+<tr><th style="width:24%">Box</th><th>Unimade</th></tr>
+<tr><td>Problem (ranked)</td><td>1. Laundry eats 2–3 hours a week (hand washing, machine queues). 2. Local dhobis are unreliable: late, lost items, no pickup. 3. Freshers arrive without basic hostel essentials and waste days shopping.</td></tr>
+<tr><td>Existing alternatives</td><td>Hand washing; hostel machines; local dhobi (₹40–70/kg <span class="est">estimate</span>); branded stores (₹70–150/kg); buying essentials item by item on Amazon or locally.</td></tr>
+<tr><td>Solution</td><td>1. Weekly room pickup, 48-hour return. 2. Tracked, separate washing with a damage policy. 3. One-box Hostel Starter Kit with a free pickup.</td></tr>
+<tr><td>Unique value proposition</td><td>"Laundry, sorted. Every week." Picked up from your room, never mixed, back in 48 hours, ₹999/month.</td></tr>
+<tr><td>Customer segments</td><td>Early adopters: 1st and 2nd-year students in hostels and PGs in your Gurugram cluster (≈3,000–5,000 students). Payers: their parents. Later: PG owners.</td></tr>
+<tr><td>Channels</td><td>Hostel and PG posters with QR (one per spot), canteen table tents, referrals, WhatsApp, campus creators; for the kit: Meta ads to parents, micro creators, move-in-day stalls.</td></tr>
+<tr><td>Revenue streams</td><td>Pass ₹{{laundry.inputs.price}}/month; single pickup ₹{{ppp.inputs.price}}; add-ons; kit ₹{{kit.inputs.mrp}}; storage referral commission; later brand sampling and PG contracts.</td></tr>
+<tr><td>Cost structure</td><td>Partner laundry ₹{{laundry.inputs.partner_per_kg}}/kg; runner ₹{{laundry.inputs.logistics_per_pickup}}/pickup; kit COGS ₹{{kit.inputs.cogs}}; fixed ₹25,000–40,000/month; marketing ₹10,000–90,000/month by season.</td></tr>
+<tr><td>Key metrics</td><td>Active subscribers (100 by Apr), trial → Pass conversion (≥30%), churn (&lt;10%), on-time % (≥95%), contribution per subscriber (≥₹300), CAC (≤₹300), kits sold (500 in season).</td></tr>
+<tr><td>Unfair advantage</td><td>You live on campus: zero-cost access to customers, wardens and student communities, and a brand voice students recognise as their own.</td></tr>
+</table>
+
+<h3>Appendix B: Student interview script (15 minutes)</h3>
+<p class="small">Rule from S1: describe the problem, not your solution. Don't pitch until the end.</p>
+<ol>
+  <li>Walk me through the last time you did laundry. When, where, how long did it take?</li>
+  <li>What do you use today: hand wash, hostel machine, dhobi, laundromat? What does it cost you a month?</li>
+  <li>What's the most annoying part? Any time something went wrong (lost, late, ruined)?</li>
+  <li>How much laundry do you have in a typical week? (Ask them to estimate kg or "one bag/two bags".)</li>
+  <li>Who pays for your living costs: you or your parents? Would your parents pay for something like this?</li>
+  <li>Have you ever paid anyone to solve this? (Real vs assumed problem: S1.)</li>
+  <li><i>Now describe the Pass.</i> Would you try it for ₹99? Would you pay ₹999 a month after that? What would make you say no?</li>
+  <li>Can I add you to the pilot list? (A "yes" with a phone number is the only answer that counts.)</li>
+</ol>
+
+<h3>Appendix C: Laundromat call script</h3>
+<ol>
+  <li>We're a student laundry service near [campus]. We expect 200–500 kg a month, growing.</li>
+  <li>What's your per-kg rate for wash + dry + fold at that volume? For wash + iron?</li>
+  <li>Can you wash each customer's bag separately (not mixed)? Any extra charge?</li>
+  <li>Turnaround: can you return within 24–36 hours, 6 days a week?</li>
+  <li>Who's responsible if something is lost or damaged? Do you count pieces at intake?</li>
+  <li>Can you invoice weekly? Do you have GST registration?</li>
+  <li>Can we do a 2-week trial with 20 bags?</li>
+</ol>
+</section>
+
+<section>
+<h2>Appendix D: Assumptions to verify before spending</h2>
+<p>Web research tools weren't available while writing this, so market prices are estimates from general knowledge of Indian metro pricing. <b>Confirm each before you commit money</b>; the model is easy to update if they differ.</p>
+<table>
+<tr><th>Assumption</th><th>Used in plan</th><th>How to verify (time)</th><th>If it's wrong</th></tr>
+<tr><td>Bulk laundromat rate</td><td>₹{{laundry.inputs.partner_per_kg}}/kg</td><td>5 calls or visits (1 day)</td><td>Above ₹40: price the Pass at ₹1,199 or cut to 3 pickups</td></tr>
+<tr><td>Runner cost per pickup</td><td>₹{{laundry.inputs.logistics_per_pickup}}</td><td>Time your own pilot pickups (2 weeks)</td><td>Increase density per building before expanding</td></tr>
+<tr><td>Students' willingness to pay ₹999</td><td>30% trial → Pass</td><td>30 interviews + pilot (3 weeks)</td><td>₹699 plan; parent-gift positioning</td></tr>
+<tr><td>Kit COGS for 10 items</td><td>₹{{kit.inputs.cogs}}</td><td>3 quotes per item, Sadar Bazaar + IndiaMART (1 week)</td><td>Drop items or raise price to keep gross margin ≥ 65%</td></tr>
+<tr><td>Blended GST on kit</td><td>12%</td><td>CA session (1 hour)</td><td>Adjust net revenue in the model</td></tr>
+<tr><td>Kit CAC</td><td>₹500–700</td><td>January 30-kit test + 7-day Meta test</td><td>Shift budget to creators, stalls and PG tie-ups</td></tr>
+<tr><td>Local prices of dhobis and stores</td><td>₹40–150/kg</td><td>Ask 10 students; visit 3 stores</td><td>Reposition on reliability rather than price</td></tr>
+<tr><td>Meta CPM in India</td><td>₹80–200</td><td>Your first 7-day test</td><td>Recalculate CAC; lean on organic channels</td></tr>
+</table>
+
+<h3>Appendix E: Glossary (A to Z)</h3>
+<table>
+<tr><th style="width:22%">Term</th><th>Meaning</th></tr>
+<tr><td>ATL / BTL</td><td>Above-the-line (mass media, posters) vs below-the-line (targeted: stalls, flyers, DMs). S17.</td></tr>
+<tr><td>AOV</td><td>Average order value = revenue ÷ orders.</td></tr>
+<tr><td>B2C / B2B / D2C</td><td>Selling to consumers / to businesses / directly to consumers under your own brand, without middlemen.</td></tr>
+<tr><td>Break-even</td><td>The point where contribution covers fixed costs: no profit, no loss.</td></tr>
+<tr><td>Break-even ROAS</td><td>1 ÷ gross margin (course); the ad return below which you lose money.</td></tr>
+<tr><td>Burn rate / runway</td><td>Cash lost per month / how many months until cash runs out.</td></tr>
+<tr><td>CAC</td><td>Customer acquisition cost = marketing spend ÷ new customers.</td></tr>
+<tr><td>Churn</td><td>% of subscribers who cancel in a period.</td></tr>
+<tr><td>Cohort</td><td>A group of customers who joined in the same period, tracked together over time.</td></tr>
+<tr><td>COGS</td><td>Cost of goods sold: the direct cost of what you sold.</td></tr>
+<tr><td>Contribution margin</td><td>Revenue minus all variable costs.</td></tr>
+<tr><td>CPM / CPC / CTR / CVR</td><td>Cost per 1,000 views / cost per click / click-through rate / conversion rate.</td></tr>
+<tr><td>Equity / vesting / cliff</td><td>Ownership share / earning it over time / minimum time before any is earned.</td></tr>
+<tr><td>GMV / take rate</td><td>Total order value through a platform / the share the platform keeps.</td></tr>
+<tr><td>Gross margin</td><td>(Price − COGS) ÷ price. Course gate: 65%.</td></tr>
+<tr><td>GST / TCS</td><td>Goods and Services Tax / tax collected at source by marketplaces (1%, claimable).</td></tr>
+<tr><td>LTV</td><td>Lifetime value: contribution a customer brings over their whole relationship with you.</td></tr>
+<tr><td>MER</td><td>Marketing efficiency ratio = total revenue ÷ total marketing spend.</td></tr>
+<tr><td>MVP / pilot</td><td>Minimum viable product: the smallest real version you can test with paying customers.</td></tr>
+<tr><td>NPS</td><td>Net promoter score: % who'd recommend (9–10) minus % who wouldn't (0–6).</td></tr>
+<tr><td>Payback period</td><td>Months to earn back a customer's CAC.</td></tr>
+<tr><td>Pre-order</td><td>Customer pays before you buy or make the stock.</td></tr>
+<tr><td>ROAS</td><td>Return on ad spend = revenue from ads ÷ ad spend.</td></tr>
+<tr><td>SKU</td><td>Stock keeping unit: one specific product variant.</td></tr>
+<tr><td>SMP</td><td>Single minded proposition: one promise, one audience, ≤5 words. S17.</td></tr>
+<tr><td>SOP</td><td>Standard operating procedure: a written how-to for a repeated task.</td></tr>
+<tr><td>TAM / SAM / SOM</td><td>Total / serviceable / obtainable market size.</td></tr>
+<tr><td>Unit economics</td><td>Profit or loss on one customer or one product.</td></tr>
+<tr><td>UTM</td><td>Tags added to links so you can see which campaign a visitor came from.</td></tr>
+</table>
+<p class="small" style="margin-top:14px">Model files: the financial model is a small Python script (scripts/model.py). Change any assumption, re-run it, and every number in this report updates.</p>
+</section>
+
+</body>
+</html>

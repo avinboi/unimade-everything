@@ -1,0 +1,308 @@
+
+--- page 1 ---
+SCALING A D2C BUSINESS
+Session 18
+Media Plan Creation & Cost Estimation
+How do you split your ad money across channels, including the one your customers message you on?
+Ankit Agarwal   |   Masters' Union   |   90 mins
+--- page 2 ---
+SESSION OBJECTIVES
+By the End of This Session, You'll Be Able To...
+1
+Understand How Media 
+Planning Works
+See how paid, organic and conversational 
+channels fit into one plan.
+2
+Build a Connected Plan
+Create one funnel and one budget across 
+all your marketing channels.
+3
+Calculate ROAS and MER
+Work out the two numbers and check 
+whether your plan passes the test.
+SCALING A D2C BUSINESS  ·  SESSION 18 Session Objectives
+--- page 3 ---
+KICKOFF  ·  0–5 MIN
+So Far, Every Channel Has Been on Its Own
+WHAT WE HAVE COVERED
+Meta ads Google ads
+SEO Organic content
+Marketplaces Offline marketing
+TODAY
+We bring all of it back together into 
+one unified plan for all your marketing 
+activities.
+Until now, each one was its own project. Today they become one plan.
+SCALING A D2C BUSINESS  ·  SESSION 18 Kickoff
+--- page 4 ---
+5–10 min  ·  Pause and Discuss
+Who Messaged You?
+SCALING A D2C BUSINESS  ·  SESSION 18 Pause
+--- page 5 ---
+10–12 MIN  ·  ROADMAP
+What You Need for a Media Plan
+Three things. Today you make all three, in this order.
+1
+THREE CHANNELS
+Paid, organic and conversational, 
+each with one job.
+2
+A BUDGET SPLIT
+How much of one total budget 
+goes to each channel.
+3
+TWO TARGETS
+ROAS for the ads and MER for the 
+whole business.
+By the end of class, all three sit on one page: your Media Plan Sheet.
+SCALING A D2C BUSINESS  ·  SESSION 18 Roadmap
+--- page 6 ---
+12–22 MIN  ·  FRAMEWORK
+The 3 Channel Funnel
+Three channels, three jobs, one funnel.
+PAID
+Buy attention
+Ads on Meta or Google. Fast, but you 
+pay every time someone sees it.
+Example: Instagram and Google ads
+→
+ORGANIC
+Earn attention
+Posts, content and word of mouth. 
+Slower, builds trust, no media bill.
+Example: Instagram posts, posters
+→
+CONVERSATIONAL
+Keep the 
+conversation
+Messages with people who already 
+know you. Turns interest into orders 
+and orders into repeat.
+Example: WhatsApp
+All three feed one funnel, and we judge it on one number for the whole business.
+SCALING A D2C BUSINESS  ·  SESSION 18 Named Framework
+--- page 7 ---
+22–26 MIN  ·  EXAMPLES
+A Good and a Bad Example for Each Channel
+Illustrative examples
+PAID  ·  A META AD
+GOOD
+Cold brew for your 11am slump. Delivered to 
+your office desk. First pack 20% off. Order 
+today.
+BAD
+Best coffee ever! Premium! Artisanal! Buy 
+now!
+Good: one audience, one offer, one action. Bad: no 
+audience, no offer, claims nobody can check.
+ORGANIC  ·  AN INSTAGRAM POST
+GOOD
+3 ways to make café coffee at your desk. Save 
+this for Monday.
+BAD
+Happy Monday everyone! Here is our coffee. 
+#coffee #love #instagood
+Good: useful, one idea, a reason to save or share. Bad: 
+nothing to learn and nobody in mind.
+CONVERSATIONAL  ·  A WHATSAPP MESSAGE
+GOOD
+Hi Riya, thanks for your first order from 
+Breww 47. Your cold brew pack ships 
+tomorrow. Reply 1 to change your address. 
+Reply STOP to opt out.
+BAD
+BIG SALE!!! 50% OFF EVERYTHING!!! CLICK 
+NOW and forward this to 10 friends to win!!!
+Good: says who, why, one action, how to stop. Bad: 
+shouting, two asks, sent to people who never agreed.
+SCALING A D2C BUSINESS  ·  SESSION 18 Examples
+--- page 8 ---
+26–33 MIN  ·  BUILD BLOCK
+Map Your Channels
+YOUR TURN
+MAKE   4 min → SHOW   2 min → FIX   1 min
+YOUR TASK
+1 List every channel your brand uses or could use. Aim for six or more.
+2 Sort each one under Paid, Organic or Conversational.
+3 Circle the one you expect to bring the most sales.
+WHERE THINGS GO
+PAID
+Ads you pay for: Meta, Google, marketplace ads
+ORGANIC
+Reach you earn: posts, reels, search, YouTube, referrals
+CONVERSATIONAL
+Direct chats with your own customers: WhatsApp, email, 
+SMS
+A creator is paid if you pay them, organic if they post on 
+their own.
+Write your list on your slide in the class deck. We will check: every channel sorted once, something in each column, one circled.
+SCALING A D2C BUSINESS  ·  SESSION 18 Build Block
+--- page 9 ---
+33–36 MIN  ·  REQUIREMENTS
+WA, What Do You Need Before Starting?
+USE YOUR EXISTING NUMBER
+•   Switch the number from WhatsApp to the WhatsApp Business 
+app.
+•   The same number cannot run on both apps at once.
+•   You can back up and restore your chat history.
+USE A NEW NUMBER
+•   Keeps your personal chats separate from customers.
+•   A second SIM or eSIM, or a landline that can take a voice call.
+•   Better if your current number is personal.
+ALSO NEEDED
+A smartphone to run the app A number that can receive an SMS or call for the code Business name, category and a short description
+Paid tools need more: a Meta business portfolio, business verification for higher limits, and a number that is off the app unless coexistence is available.
+SCALING A D2C BUSINESS  ·  SESSION 18 Requirements
+--- page 10 ---
+36–40 MIN
+WhatsApp Business: Set Up in 5 Steps
+1 Business profile Name, short description, hours and address.
+2 Catalog Show your products and prices inside the chat.
+3 Greeting message Sent automatically to new contacts and after a quiet spell.
+4 Quick replies and labels Saved answers for common questions, and tags like New, Paid, Repeat.
+5 Away message Tells people when you will reply outside working hours.
+The app is free. Broadcast lists reach up to 256 people who have saved your number. Paid tools like Interakt or AiSensy are optional.
+SCALING A D2C BUSINESS  ·  SESSION 18 Walkthrough
+--- page 11 ---
+40–52 MIN  ·  BUILD BLOCK
+Create Your Funnel
+YOUR TURN
+PART 1   Overall funnel → PART 2   WhatsApp funnel → SHOW + FIX   on the projector
+PART 1  ·  OVERALL FUNNEL: A HOOK FOR EACH STEP
+1 Paid:  A hook for an ad that makes a stranger stop.
+2 Organic:  A hook for a post that earns a follow or a save.
+3 Conversational:  A hook that gets someone to start a chat.
+PART 2  ·  WHATSAPP FUNNEL: ONE MESSAGE FOR EACH STEP
+1 First message:  Who you are, why you are writing, one action.
+2 Follow up:  A nudge if they have not replied or bought.
+3 After purchase:  Thank you, one ask, and a way to stop.
+A HOOK IS
+The first line that makes someone stop.
+WE WILL CHECK
+Each hook does a different job
+Every message has only one action
+The person can opt out
+SCALING A D2C BUSINESS  ·  SESSION 18 Build Block
+--- page 12 ---
+52–56 MIN
+How to Measure Effectiveness?
+ROAS
+Return on Ad Spend
+Revenue from ads ÷ ad spend
+One channel or campaign. Did this ad pay for itself?
+MER
+Marketing Efficiency Ratio
+Total revenue ÷ total marketing spend
+The whole business. Is all our marketing paying off?
+BREAK EVEN ROAS
+1 ÷ gross margin. At 65% margin, 1 ÷ 0.65 = 1.54. Below that, each sale loses money before other costs.
+SCALING A D2C BUSINESS  ·  SESSION 18 ROAS and MER
+--- page 13 ---
+56–59 MIN  ·  WORKED EXAMPLE
+A Working Example
+Illustrative numbers
+ONE MONTH
+Total revenue ₹4,00,000
+Meta and Google ad spend ₹80,000
+Revenue credited to those ads ₹2,00,000
+Other marketing (creators, WhatsApp tool, 
+posters) ₹70,000
+Total marketing spend ₹1,50,000
+ROAS
+₹2,00,000 ÷ ₹80,000 = 2.5
+MER
+₹4,00,000 ÷ ₹1,50,000 = 2.67
+BREAK EVEN ROAS
+1 ÷ 0.65 = 1.54. The ads clear it.
+MER counts sales the ads do not take credit for, such as repeat orders from WhatsApp.
+SCALING A D2C BUSINESS  ·  SESSION 18 Worked Example
+--- page 14 ---
+59–64 MIN  ·  ROUND 2
+Calculate ROAS and MER
+YOUR TURN
+MAKE   2 min → SHOW   2 min → FIX   1 min
+YOUR TASK
+1 Revenue ₹6,00,000. Ad spend ₹1,50,000. Revenue credited to ads 
+₹3,00,000. Other marketing ₹50,000. Gross margin 60%.
+2 Work out ROAS and MER.
+3 Work out break even ROAS. Do the ads clear it?
+WE WILL CHECK
+Did you divide by the right number?
+Does MER include all marketing spend?
+Did you compare ROAS with break even?
+Write your three answers on your slide in the class deck.
+SCALING A D2C BUSINESS  ·  SESSION 18 Round 2
+--- page 15 ---
+64–66 MIN
+Splitting the Budget Across Channels
+1 Fix one total Decide the whole monthly budget first, in rupees.
+2 Give each channel a job and a share Paid for new buyers, organic for trust, WhatsApp for repeat orders and follow ups.
+3 Check the split with your numbers If a channel's ROAS beats break even, move more money to it. If not, cut it.
+A starting point, not a standard: most money on what you can already measure, a small share to test the rest.
+SCALING A D2C BUSINESS  ·  SESSION 18 Budget Allocation
+--- page 16 ---
+66–69 MIN  ·  WORKED EXAMPLE  ·  A REAL BUSINESS
+Breww 47's Media Plan Sheet
+Illustrative example
+CHANNEL JOB WHAT WE DO SHARE
+Paid Bring in new office workers Meta ads to people near our campuses. 60%  ₹60,000
+Organic Build trust Instagram posts and campus posters from Session 17. 25%  ₹25,000
+WhatsApp Bring them back A reminder message before the 11am to 4pm window, and a feedback message after. 15%  ₹15,000
+TARGET ROAS (PAID)
+2.5, above a break even of 1.54
+TARGET MER (WHOLE BUSINESS)
+3.0 on a ₹1,00,000 total
+Real data: 71% to 74% of Breww 47 orders land between 11am and 4pm, which is why the reminder goes out before it.
+SCALING A D2C BUSINESS  ·  SESSION 18 Worked Example
+--- page 17 ---
+69–80 MIN  ·  FINAL BUILD
+Build Your Final Media Plan
+YOUR TURN
+BRING YOUR FUNNEL FROM EARLIER, ADD BUDGETS, THEN TEST THE PLAN
+1 69–73 min Budgets:  Assign a rupee budget to each step of your funnel, adding up to one total.
+2 73–76 min Revenue guess:  Estimate the sales from each step: orders times order value.
+3 76–78 min The test:  Work out ROAS and MER. Pass if paid ROAS beats break even and MER meets your target.
+ON THE PROJECTOR  ·  78–80 MIN
+Two plans go up. You get one thing that 
+works and one thing to fix, then you fix it 
+live.
+We will check: a total that adds up, a revenue guess, 
+ROAS above break even, and MER at your target.
+Use your gross margin to find break even ROAS (1 ÷ margin). No margin yet? Use 60%.
+SCALING A D2C BUSINESS  ·  SESSION 18 Live Work
+--- page 18 ---
+ASK YOURSELF FIRST
+Does Your Brand Need WhatsApp?
+1 Does my category lend itself to conversational commerce, or is my buyer more transactional and less chatty by nature?
+2 Is a subscription or repeat model even relevant to my category, or is it mostly a one time purchase?
+3 If WhatsApp is a light channel for me, which of the other two channels gets its share?
+SCALING A D2C BUSINESS  ·  SESSION 18 Reflection
+--- page 19 ---
+SESSION OBJECTIVES  ·  ACHIEVED
+What You Set Out to Do, Today
+Understood how media planning works
+Built a connected plan with budgets
+Calculated ROAS and MER and tested the plan
+If any of these still feels shaky, that's exactly what the post-class submission is for.
+SCALING A D2C BUSINESS  ·  SESSION 18 Objectives Achieved
+--- page 20 ---
+83–88 MIN  ·  WRAP
+Deliverables & Next Step
+END OF SESSION
+A GTM media plan with a WhatsApp or CRM channel included, plus a stated ROAS and MER target, on your 
+Media Plan Sheet.
+POST-CLASS SUBMISSION
+Improve it using today's feedback, then submit your final GTM media plan with at least one conversational commerce channel and a 
+stated ROAS and MER target.
+Next: how to know where your traffic really comes from.
+SCALING A D2C BUSINESS  ·  SESSION 18 Wrap
+--- page 21 ---
+88–90 MIN  ·  PRE-CLASS PREP FOR SESSION 19
+Before Session 19: Your Assignment
+WATCH AND ASK
+Watch the short Google Analytics intro video and write down 1 question you still have about how tracking 
+works.
+Bring your question to class.
+Next session: UTM links, Meta Pixel and a Google Analytics dashboard, so you can see where your traffic comes from.
+SCALING A D2C BUSINESS  ·  SESSION 18 Next Assignment

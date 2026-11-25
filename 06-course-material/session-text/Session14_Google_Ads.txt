@@ -1,0 +1,327 @@
+
+--- page 1 ---
+SCALING A D2C BUSINESS
+Session 14
+Google Ads: Keyword Planner + Campaign Basics
+How do you find what your customers are searching for on Google?
+Ankit Agarwal   |   Masters' Union   |   90 mins
+--- page 2 ---
+SESSION OBJECTIVES
+By the End of This Session, You'll Be Able To...
+1
+Explain Intent vs 
+Interruption
+Say why a search ad behaves differently 
+from a social ad, and what that changes 
+about how you plan it.
+2
+Build a Tagged Keyword 
+List
+Use Keyword Planner to collect keywords 
+and tag each one informational, 
+comparison or transactional, with 
+negatives added.
+3
+Write a Search Ad
+Draft one Responsive Search Ad matched 
+to the transactional stage, inside Google's 
+character limits.
+SCALING A D2C BUSINESS  ·  SESSION 14 Session Objectives
+--- page 3 ---
+PRE-CLASS RECAP  ·  0–5 MIN
+Before We Start: Your 5 Exact Phrases
+YOU SEARCHED YOUR CATEGORY AND NOTED 5 PHRASES YOU'D TYPE AS THE CUSTOMER. LOOK AT YOUR LIST AND ASK:
+How many of these phrases show someone ready to buy, and how many show someone still learning?
+LET'S DISCUSS
+Read your most buyer sounding phrase aloud. What word tells you they are ready?
+Which phrase would you least want to pay for a click on, and why?
+SCALING A D2C BUSINESS  ·  SESSION 14 Pre-Class Recap
+--- page 4 ---
+KICKOFF  ·  5–10 MIN
+Intent Beats Interruption
+Session 13 interrupted people who were not looking. Search is the opposite.
+SOCIAL ADS INTERRUPT
+•   Someone is scrolling and you step in front of them
+•   You create demand the person did not know they had
+•   The creative has to earn attention in three seconds
+•   You choose the audience; the person never asked
+SEARCH ADS RESPOND
+•   Someone types exactly what they want and you answer
+•   You capture demand that already exists
+•   The words they typed decide whether you show up
+•   The person chose the topic; you choose whether to respond
+The catch: search only catches demand that already exists. If nobody types it, no keyword can find them.
+SCALING A D2C BUSINESS  ·  SESSION 14 Kickoff
+--- page 5 ---
+FRAMEWORK  ·  10–13 MIN
+The Buyer Intent Ladder
+1
+Informational
+"How do I...?" The person is learning and not 
+ready to buy.
+→
+2
+Comparison
+"Best..." or "X vs Y". The person is weighing 
+options.
+→
+3
+Transactional
+"Buy...", "price", "near me". The person is 
+ready to act.
+Each rung needs a different ad. One message for all three wastes money on every one of them.
+SCALING A D2C BUSINESS  ·  SESSION 14 Named Framework
+--- page 6 ---
+DEEP DIVE: THE LADDER  ·  13–18 MIN
+What Each Rung Looks Like for Breww 47
+Illustrative example
+Imagine we sell office coffee subscriptions to workspaces. Here is what different buyers might type.
+RUNG WHAT THEY MIGHT TYPE MINDSET WHAT IT MEANS
+Informational how to set up coffee in an office Learning. Might never buy. Cheap to reach, slow to convert
+Comparison office coffee service vs vending machine Weighing options. Needs proof and a clear difference
+Transactional office coffee subscription Gurgaon Ready to talk to a supplier. Highest intent, highest cost per click
+Keywords on this slide are examples. Volumes are unchecked until we look them up in Keyword Planner.
+SCALING A D2C BUSINESS  ·  SESSION 14 Deep Dive · The Ladder
+--- page 7 ---
+DEEP DIVE: THE LADDER  ·  18–22 MIN
+Each Rung Needs a Different Ad
+Informational Teach, do not sell " A simple guide to setting up coffee at work" Guide or blog post
+Comparison Show your edge "Per seat pricing, no machine to maintain" Comparison or proof page
+Transactional Offer and one clear action "Book a tasting for your team" Offer page with one action
+Textbooks add a fourth type, navigational: someone typing your brand name. We fold it into transactional today.
+SCALING A D2C BUSINESS  ·  SESSION 14 Deep Dive · The Ladder
+--- page 8 ---
+FIT CHECK  ·  22–25 MIN
+Does Your Category Actually Get Searched?
+Problem led or commodity Insurance, laptops, protein powder, plumbers HIGH People already search. Expect crowded, costly auctions.
+Considered purchase Skincare, mattresses, appliances MED–HIGH Comparison searches dominate. Proof matters.
+Local or service Cafés, salons, clinics LOCAL 'Near me' searches. Maps and location do the work.
+Novel or discovery led A new snack format, a new habit LOW Nobody types a name they've never heard. Create demand elsewhere first.
+Where does your category land? We will test your answer with real numbers in a few minutes.
+SCALING A D2C BUSINESS  ·  SESSION 14 Fit Check
+--- page 9 ---
+KEYWORD PLANNER  ·  25–29 MIN
+Getting Into Keyword Planner
+It is Google's keyword research tool inside Google Ads. Using it does not mean launching a campaign.
+1
+A Google account
+The same login you use for Gmail.
+2
+A Google Ads account, fully set up
+Google says basic features need completed account setup, including 
+billing. In class we use the shared demo account.
+3
+Tools, then Planning, then Keyword Planner
+Open the Tools menu and look in the Planning group.
+TWO TOOLS INSIDE
+Discover new keywords
+Start from phrases or your website and get ideas.
+Get search volume and forecasts
+Paste a list you already have and see how it performs.
+Very low volume and sensitive topics such as health or finance may return no 
+results.
+SCALING A D2C BUSINESS  ·  SESSION 14 Keyword Planner
+--- page 10 ---
+KEYWORD PLANNER  ·  29–35 MIN
+Live Walkthrough: From Seeds to Ideas
+1 Enter seeds Type 3 to 5 phrases from your pre class list, or paste your website address
+2 Set location and language Choose India or your city. Local intent changes the results
+3 Read the results Estimated monthly searches, competition, and the estimated cost to show an ad
+4 Refine Filter out irrelevant ideas, then add the good ones to a plan or export the list
+Do this live with one student's category on screen, then let everyone repeat it with their own.
+SCALING A D2C BUSINESS  ·  SESSION 14 Keyword Planner
+--- page 11 ---
+KEYWORD PLANNER  ·  35–39 MIN
+Reading the Numbers Without Fooling Yourself
+Volume is an estimate
+It may show as a range. Treat it as order of 
+magnitude, not an exact count.
+Competition means 
+advertisers
+It shows how many advertisers bid on the 
+term. It is not how hard it is to rank on 
+Google.
+Cost is a guide
+The estimated cost to show an ad reflects 
+what advertisers pay. Your real cost per click 
+can differ.
+NEAR ZERO VOLUME?
+Say it openly. For a discovery led category that is a finding, not a failure. Check Google Trends for relative interest and write down what that 
+means for your budget.
+SCALING A D2C BUSINESS  ·  SESSION 14 Keyword Planner
+--- page 12 ---
+BUDGET & BIDDING  ·  39–43 MIN
+Budget and Bidding Basics
+Daily budget
+The average you are willing to spend per day. 
+Google may spend a bit more or less on a given 
+day.
+Cost per click
+What you pay when someone clicks. Often less 
+than your maximum bid.
+Bid strategy
+With no conversion history, start by optimizing 
+for clicks. Move to conversions once you have 
+data.
+Illustrative numbers
+₹500 a day ÷ ₹20 per click = 25 clicks
+25 clicks × 2% who convert = 0.5 results a day, about one every two days.
+Read the real cost estimate off Keyword Planner, then redo the sum.
+WHO WINS THE AUCTION?
+Your bid plus ad quality: expected click rate, ad relevance 
+and landing page experience. Same idea as Meta: relevance 
+can beat a bigger bid.
+SCALING A D2C BUSINESS  ·  SESSION 14 Budget & Bidding
+--- page 13 ---
+BUDGET & BIDDING  ·  43–45 MIN
+Performance Max Is on Your Dashboard. Why We Use Search Today
+Search
+Text ads on Google results for people looking 
+for what you offer. You pick the keywords 
+and write the ads. This is today's build.
+Performance Max
+A goal based campaign that runs across 
+Google's channels. You give it assets and 
+audience signals, not a keyword list. Google's 
+AI does the matching.
+Display, Video, App, Shopping
+Other jobs: images across sites, video on 
+YouTube, app installs, product listings. Each 
+has its own inputs.
+Learn the keyword logic first. It is still how you judge what Performance Max is actually buying.
+SCALING A D2C BUSINESS  ·  SESSION 14 Budget & Bidding
+--- page 14 ---
+KEYWORD LIST  ·  45–49 MIN
+Match Types: How Closely a Search Must Fit
+Example keyword: office coffee subscription
+BROAD Your ad can show for searches related to the keyword, even without its words. Widest reach. Least control. Needs strong negatives.
+PHRASE Your ad can show for searches that include the meaning of the keyword. A good middle ground for most small budgets.
+EXACT Your ad can show for searches with the same meaning as the keyword. Tightest control. Lowest reach.
+For a first campaign: start with phrase and exact. Use broad only with a tight negatives list and room to spend.
+SCALING A D2C BUSINESS  ·  SESSION 14 Keyword List
+--- page 15 ---
+KEYWORD LIST  ·  49–53 MIN
+Negative Keywords: Searches You Refuse to Pay For
+A negative keyword stops your ad from showing when a search contains that word. It protects budget from clicks that were never 
+going to buy.
+Jobs and careers
+jobs, hiring, salary
+Free and DIY
+free, recipe, how to make
+Wrong product
+instant coffee, machine repair
+Wrong place
+cities you do not serve
+Once a campaign runs, review the search terms report each week and turn wasteful queries into new negatives.
+SCALING A D2C BUSINESS  ·  SESSION 14 Keyword List
+--- page 16 ---
+WORKED EXAMPLE  ·  53–56 MIN
+Breww 47's Tagged Keyword List
+Illustrative example
+INFORMATIONAL
+how to set up coffee in an office
+office coffee ideas for employees
+coffee as an employee benefit
+COMPARISON
+office coffee service vs vending machine
+best office coffee provider india
+coffee subscription vs buying beans
+TRANSACTIONAL
+office coffee subscription gurgaon
+coffee service for coworking space
+workplace coffee per seat pricing
+NEGATIVES:  free   recipe   jobs   instant   machine repair
+Volumes are not shown because we have not looked them up. Check each one in Keyword Planner before spending.
+SCALING A D2C BUSINESS  ·  SESSION 14 Worked Example
+--- page 17 ---
+56–65 MIN  ·  LIVE BUILD, PART 1 OF 3
+Build and Tag Your Keyword List
+1 Enter your pre class phrases as seeds in Keyword Planner and set your location.
+2 Collect about 15 keywords and tag each one informational, comparison or transactional.
+3 Add at least 5 negative keywords and choose phrase or exact match for your transactional ones.
+If your category shows near zero volume, write down what you saw and what channel you would use instead.
+SCALING A D2C BUSINESS  ·  SESSION 14 Live Build · Keywords
+--- page 18 ---
+SEARCH AD  ·  65–69 MIN
+Anatomy of a Responsive Search Ad
+You supply the pieces. Google tests combinations and learns which ones work.
+3 to 15
+Headlines
+Each up to 30 characters. Up to 3 can show 
+together.
+2 to 4
+Descriptions
+Each up to 90 characters. Up to 2 can show 
+together.
+1 page
+Final URL and path
+Where the click lands, plus a short display 
+path of two parts up to 15 characters each.
+Pin a headline to a position only if it must always appear, such as legal text. Pinning limits what Google can test.
+SCALING A D2C BUSINESS  ·  SESSION 14 Search Ad
+--- page 19 ---
+SEARCH AD  ·  69–72 MIN
+A Transactional Ad for Breww 47
+Illustrative example
+Sponsored   ·   breww47.com/office-coffee
+Office Coffee Subscription  |  Specialty Coffee, Per Seat  |  Book a Tasting for Your Team
+Fresh specialty coffee for your workspace, billed per seat. Ask for a tasting today.
+HEADLINES (6 OF UP TO 15)
+Office Coffee Subscription 26 / 30 Specialty Coffee, Per Seat 26 / 30
+Book a Tasting for Your Team 28 / 30 Gurgaon Office Coffee Service 29 / 30
+Coffee Your Team Will Love 26 / 30 No Machine to Maintain 22 / 30
+DESCRIPTIONS (2 OF UP TO 4)
+Fresh specialty coffee for your workspace, billed per seat. Ask for a tasting 
+today. 84 / 90 Turn the 3pm slump into a team habit. Simple monthly plans for offices. 71 / 90
+SCALING A D2C BUSINESS  ·  SESSION 14 Worked Example
+--- page 20 ---
+72–76 MIN  ·  LIVE BUILD, PART 2 OF 3
+Write the Headlines for Your Transactional Ad
+1 Pick your best transactional keyword and write 8 headlines of 30 characters or fewer.
+2 Make sure 2 of them include your keyword, 2 state a benefit, 2 state what is different, and 2 are a call to action.
+3 Count the characters in each one. Cut until every headline fits.
+Headlines get mixed in any order, so each one must make sense alone.
+SCALING A D2C BUSINESS  ·  SESSION 14 Live Build · Headlines
+--- page 21 ---
+76–80 MIN  ·  LIVE BUILD, PART 3 OF 3
+Write the Descriptions and Run the Match Test
+1 Write 2 descriptions of 90 characters or fewer: one on the offer, one on why you.
+2 Choose the page the click will land on and check it delivers exactly what the ad promised.
+3 Screenshot or save your keyword list and your ad together.
+Match test: keyword, ad and landing page must all say the same thing.
+SCALING A D2C BUSINESS  ·  SESSION 14 Live Build · Descriptions
+--- page 22 ---
+ASK YOURSELF FIRST  ·  80–83 MIN
+Is Search Even Where Your Buyer Is?
+1 Do people actually search for my category on Google, or is this a discovery led purchase that search will not catch at all?
+2 Is my category commodity and search heavy, or novel and search light?
+3 At the cost estimate I saw in Keyword Planner, can my budget buy enough clicks to learn anything?
+SCALING A D2C BUSINESS  ·  SESSION 14 Reflection
+--- page 23 ---
+SESSION OBJECTIVES  ·  ACHIEVED
+What You Set Out to Do, Today
+Explained why search ads respond to intent while social ads interrupt
+Built a keyword list tagged informational, comparison or transactional, with negatives
+Wrote a Responsive Search Ad matched to the transactional stage
+If any of these still feels shaky, that's exactly what the post-class submission is for.
+SCALING A D2C BUSINESS  ·  SESSION 14 Objectives Achieved
+--- page 24 ---
+85–88 MIN  ·  WRAP
+Deliverables & Next Step
+END OF SESSION
+A keyword list tagged by intent stage (informational, comparison, transactional), plus one sample ad matched to 
+the transactional stage.
+COMING UP: SESSION 15
+Paid search rents attention, and the rent never stops. SEO and GEO earn it. Next: blog structure, on page SEO, and getting cited inside AI 
+answers.
+SCALING A D2C BUSINESS  ·  SESSION 14 Wrap
+--- page 25 ---
+88–90 MIN  ·  PRE-CLASS PREP FOR SESSION 15
+Before Session 15: Your Assignment
+SUBMIT YOUR KEYWORD LIST AND AD
+A keyword list tagged by intent stage, plus one sample ad matched to the transactional stage.
+Include your negatives and one line on whether your category is search heavy or search light.
+ALSO, FOR SESSION 15
+Search Google for one question your future customer might ask and read the top 2 blog posts. Then ask ChatGPT or Perplexity the same 
+question and note whether any brand gets named.
+SCALING A D2C BUSINESS  ·  SESSION 14 Next Assignment

@@ -1,0 +1,315 @@
+
+--- page 1 ---
+SCALING A D2C BUSINESS
+Session 13
+Meta Ads Manager Basics
+What makes someone stop scrolling and click on your ad?
+Ankit Agarwal   |   Masters' Union   |   90 mins
+--- page 2 ---
+SESSION OBJECTIVES
+By the End of This Session, You'll Be Able To...
+1
+Explain the Auction
+Describe, in plain terms, how Meta 
+decides which ad wins a slot, and why the 
+highest bid doesn't always win.
+2
+Choose the Right Objective
+Pick a campaign objective that matches 
+your goal and your category's 
+consideration level, instead of defaulting 
+to the same one.
+3
+Build a Mock Campaign
+Set up one goal, one audience and one 
+creative, with a stated daily budget, and 
+capture it in a screenshot.
+SCALING A D2C BUSINESS  ·  SESSION 13 Session Objectives
+--- page 3 ---
+PRE-CLASS RECAP  ·  0–5 MIN
+Before We Start: The 2 Ads From Your Feed
+YOU READ THE ADS 101 PRIMER AND SCREENSHOTTED 2 META ADS. LOOK AT ONE AND ASK:
+Why did Meta show this ad to me, and what was the advertiser actually trying to get me to do?
+LET'S DISCUSS
+Guess its objective: awareness, traffic or conversion? What in the ad gave it away?
+Did it stop your scroll? In which second, and because of what?
+SCALING A D2C BUSINESS  ·  SESSION 13 Pre-Class Recap
+--- page 4 ---
+KICKOFF  ·  5–10 MIN
+How the Meta Ads Auction Actually Works
+Every time someone opens Instagram or Facebook, a tiny instant auction decides which ads they see.
+Your Bid
+What you're willing to pay for the result 
+you asked for.
+Estimated Action Rate
+How likely this person is to take the action 
+you're optimizing for.
+Ad Quality
+How relevant and engaging the ad is likely 
+to be for this specific person.
+A cheaper bid with a highly relevant ad can beat a bigger bid with a generic one. You are not buying a slot, you are earning it.
+SCALING A D2C BUSINESS  ·  SESSION 13 Kickoff
+--- page 5 ---
+FRAMEWORK  ·  10–13 MIN
+1 Goal, 1 Audience, 1 Creative
+1 Goal
+One campaign objective: the single outcome 
+you want Meta to find more of.
+1 Audience
+One group of people, defined one way: 
+interest, lookalike or retargeting.
+1 Creative
+One ad, one message, one call to action. 
+Nothing else changes.
+Why? Change three things at once and you can't tell which one worked. A first campaign should teach you something clean.
+SCALING A D2C BUSINESS  ·  SESSION 13 Named Framework
+--- page 6 ---
+FRAMEWORK  ·  13–16 MIN
+Where Each One Lives in Ads Manager
+Ads Manager has three levels. The rule maps one-to-one onto them.
+CAMPAIGN 1 Goal Objective, campaign name
+AD SET 1 Audience Audience, location, daily budget, schedule, placements
+AD 1 Creative Format, image or video, text, headline, call to action, destination
+SCALING A D2C BUSINESS  ·  SESSION 13 Named Framework
+--- page 7 ---
+CAMPAIGN OBJECTIVES  ·  16–20 MIN
+The Objective Tells Meta What to Optimize For
+The most common beginner mistake is picking an objective that doesn't match the real goal.
+OBJECTIVE OPTIMIZES FOR USE IT WHEN JUDGE IT BY
+Awareness Reach: the most people for your money Nobody knows you yet, or you're launching in a new area Reach, cost per 1,000 people reached
+Traffic Link clicks to a place you choose You need people to see an offer page, menu or article Landing page views, cost per click
+Conversions A specific action, like a purchase or sign-up People already know you and you have data to learn from Cost per purchase, return on ad spend
+In today's Ads Manager the menu is longer (Awareness, Traffic, Engagement, Leads, App promotion, Sales). Conversions maps to Sales and Leads.
+SCALING A D2C BUSINESS  ·  SESSION 13 Campaign Objectives
+--- page 8 ---
+CAMPAIGN OBJECTIVES  ·  20–23 MIN
+Match the Objective to How Long Buyers Think
+Coffee, snacks, impulse F&B LOW Awareness or Traffic, local Short decision. Reach people near you and make trying it easy.
+Fashion, beauty accessories LOW–MED Traffic, then Sales Browsing is part of buying. Retarget visitors once you have some.
+Skincare, wellness, supplements MEDIUM Awareness with video, then Sales Trust comes first. Show proof before asking for a purchase.
+Appliances, gadgets, high-ticket HIGH Traffic to a demo, then Sales People compare and wait. Plan for several touches before a sale.
+B2B or subscription services HIGH Leads The goal is a conversation, not a checkout.
+Where do you land? Say your category and your starting objective out loud.
+SCALING A D2C BUSINESS  ·  SESSION 13 Campaign Objectives
+--- page 9 ---
+WORKED EXAMPLE  ·  23–25 MIN
+Breww 47: Choosing the Goal
+Illustrative example
+Context: orders are placed at the counter, and 71–74% of them land between 11am and 4pm.
+Conversions (Sales) REJECTED There's no online checkout. The purchase happens at an outlet, so Meta has no purchase event to learn from.
+Awareness POSSIBLE Fine for a new campus launch, but reach alone can't tell us if anyone walked in.
+Traffic CHOSEN Send people to a one-page offer with a code to show at the counter. A click is measurable and so is the redemption.
+The real success measure sits offline: code redemptions at the counter, not clicks.
+SCALING A D2C BUSINESS  ·  SESSION 13 Worked Example
+--- page 10 ---
+AUDIENCE TARGETING  ·  25–31 MIN
+Three Ways to Choose Who Sees Your Ad
+Interest
+People who follow related pages, topics and 
+behaviors.
+NEEDS
+Nothing but a clear idea of your buyer.
+BEST WHEN
+Day one. This is the default for a brand with no 
+data.
+Lookalike
+People who resemble your existing 
+customers.
+NEEDS
+A source list of real customers or engaged 
+people. Meta needs a minimum of 100 from 
+one country.
+BEST WHEN
+Once you have a customer list worth copying.
+Retargeting
+People who already visited your site or 
+engaged with you.
+NEEDS
+Traffic or engagement to retarget. The pool 
+starts at zero.
+BEST WHEN
+After you've been visible for a while.
+A first campaign picks ONE of these. Most should start narrow, not stacked.
+SCALING A D2C BUSINESS  ·  SESSION 13 Audience Targeting
+--- page 11 ---
+AUDIENCE TARGETING  ·  31–35 MIN
+Which Audience Fits Which Stage?
+Cold Never heard of you Interest or location Office workers within 1.5 km of an outlet YES, start here
+Warm Watched, liked or followed Retargeting on engagement People who watched 50% of last week's Reel Later
+Hot Visited or bought Retargeting or Lookalike Offer-page visitors; lookalike of past redeemers Later
+A brand with no data has no warm or hot audience. That's why a first campaign is almost always cold.
+SCALING A D2C BUSINESS  ·  SESSION 13 Audience Targeting
+--- page 12 ---
+AUDIENCE TARGETING  ·  35–40 MIN
+Stating a Budget Without Guessing
+Your deliverable needs a stated daily budget. Here is how to choose one on purpose.
+Daily vs lifetime
+Daily spreads spend evenly. Lifetime lets Meta shift spend to better days and enables ad 
+scheduling.
+Duration
+Run at least a full week so one odd day doesn't decide the result.
+The learning phase
+Meta needs roughly 50 optimization results in a week to stabilize delivery. Small budgets may 
+never leave it.
+A SIMPLE WAY TO SET IT
+Daily budget × days = total test spend
+Check the account's minimum daily budget in Ads Manager 
+before you commit.
+SCALING A D2C BUSINESS  ·  SESSION 13 Audience Targeting
+--- page 13 ---
+AD CREATIVE  ·  40–45 MIN
+Pick One Format for Your First Ad
+Single Image
+BEST FOR
+A simple offer or product shot. Fastest to 
+make.
+WATCH OUT
+Easy to scroll past. Needs a strong visual.
+Video or Reel
+BEST FOR
+Story, demo or a human moment. Strongest 
+for attention.
+WATCH OUT
+Takes effort. The first 3 seconds decide 
+everything.
+Carousel
+BEST FOR
+Several products, or a step-by-step story.
+WATCH OUT
+Many people never swipe past card one.
+Placements: Feed works best at 4:5. Stories and Reels are full-screen 9:16. Design for where it will actually appear.
+SCALING A D2C BUSINESS  ·  SESSION 13 Ad Creative
+--- page 14 ---
+AD CREATIVE  ·  45–48 MIN
+What Makes Someone Stop Scrolling?
+WEAK CREATIVE
+"Fresh, premium coffee for office-goers! Visit Breww 47 today."
+STRONG CREATIVE
+Opens on a tired desk at 1pm. Text on screen: "It's 1pm. Your inbox is winning." Cut to the pour. Call to action: "Show this at the 
+counter."
+STOP A visual or line that interrupts in the first 3 
+seconds
+SAY
+One message, in the viewer's words
+DO
+One clear call to action
+SCALING A D2C BUSINESS  ·  SESSION 13 Ad Creative
+--- page 15 ---
+WORKED EXAMPLE  ·  48–50 MIN
+Breww 47's Mock Campaign on One Page
+Illustrative example
+GOAL
+Traffic to a one-page offer with a code to show at the counter
+AUDIENCE
+Interest: coffee and workplace. Location: 1.5 km around one 
+outlet. Age 22–40
+CREATIVE
+One 15-second Reel, 9:16, opening on the 1pm desk. One call 
+to action
+BUDGET
+₹500 a day for 7 days = ₹3,500 total. Success: 20 code 
+redemptions, about ₹175 each
+This is the shape of your deliverable: all four boxes, each answerable in one line.
+SCALING A D2C BUSINESS  ·  SESSION 13 Worked Example
+--- page 16 ---
+BEFORE THE DEMO  ·  50–54 MIN
+What You Need Before You Can Run a Single Ad
+Five pieces sit behind every Meta ad. Miss one and Ads Manager will stop you.
+1 Personal Facebook profile Your login to everything Meta. It stays private and is never shown on your ads. FREE
+2 Facebook Page The public identity of your brand. Your ads run as this Page. FREE
+3 Instagram professional account Business or Creator type, linked to the Page. Lets ads run under your Instagram handle. FREE
+4 Business portfolio The container that holds your Page, Instagram account and ad account. Formerly called Business Manager. FREE
+5 Ad account and payment method Where spend is billed. Currency and time zone cannot be changed later. NEEDS PAYMENT
+Running ads to a website later also needs a Meta Pixel and a verified domain. We skip both today.
+SCALING A D2C BUSINESS  ·  SESSION 13 Ads Setup
+--- page 17 ---
+BEFORE THE DEMO  ·  54–58 MIN
+Registration Walkthrough: The Order Matters
+1
+Switch Instagram to professional
+In the app settings, change the account type to Business or Creator.
+2
+Create a Facebook Page
+Use the brand name, pick a category, add a logo and a short description.
+3
+Link Instagram to the Page
+In the Page settings, connect your Instagram account so both are tied 
+together.
+4
+Create a business portfolio
+At business.facebook.com, sign in, name it after your brand, then add the 
+Page and Instagram account.
+5
+Create the ad account
+Inside the portfolio, add an ad account. Choose INR and India time zone 
+carefully.
+6
+Add a payment method
+Add it once, then open Ads Manager. In class this happens on the shared 
+demo account only.
+Steps 1 to 3 are free and you can do them tonight. Steps 4 to 6 we show live on the demo account.
+SCALING A D2C BUSINESS  ·  SESSION 13 Ads Setup
+--- page 18 ---
+BEFORE THE DEMO  ·  58–60 MIN
+Where Registration Usually Goes Wrong
+Page and Instagram are not linked Reconnect them in the Page settings or in the business portfolio settings, then refresh Ads Manager.
+You are not an admin Ask whoever created the Page or account to grant you full control. Partial access blocks ad creation.
+Wrong currency or time zone It is permanent for that ad account. Create a new ad account with the right settings.
+Very low starting spend limit New accounts usually start with a limit that grows with a clean payment history. Plan a smaller first test.
+Account or ad restricted Read the Advertising Standards, fix the flagged issue, and request a review. Use your real profile with two factor sign in.
+SCALING A D2C BUSINESS  ·  SESSION 13 Ads Setup
+--- page 19 ---
+60–67 MIN  ·  LIVE BUILD, PART 1 OF 3
+Create the Campaign: Set the Goal
+1 Open Ads Manager, click Create, and choose your objective.
+2 Write one line defending it against your category's consideration level.
+3 Name the campaign so you could find it in six months.
+Demo in the shared account, then students follow. Draft only: never press Publish.
+SCALING A D2C BUSINESS  ·  SESSION 13 Live Build · Goal
+--- page 20 ---
+67–74 MIN  ·  LIVE BUILD, PART 2 OF 3
+Define the Audience and Budget
+1 Set the location and age range for your one audience.
+2 Choose ONE targeting type: interest, lookalike or retargeting.
+3 State a daily budget and a duration, and show the formula.
+Check the estimated audience size on screen. Too narrow and too broad are both warnings.
+SCALING A D2C BUSINESS  ·  SESSION 13 Live Build · Audience
+--- page 21 ---
+74–80 MIN  ·  LIVE BUILD, PART 3 OF 3
+Build the Ad and Capture the Proof
+1 Choose one format and add your creative, text, headline and call to action.
+2 Run the Stop-Say-Do check on it out loud.
+3 Take your screenshot and tick off goal, audience, creative, budget.
+Your screenshot must show all four. If one is missing, it isn't done.
+SCALING A D2C BUSINESS  ·  SESSION 13 Live Build · Creative
+--- page 22 ---
+ASK YOURSELF FIRST  ·  80–83 MIN
+Is Meta Even the Right Place for This?
+1 Is Meta the right platform for my category, or does my buyer actually live somewhere else?
+2 Does my category need an awareness stage first, or can I go straight to a conversion campaign?
+3 Could I describe my goal, my audience and my creative in one sentence each?
+SCALING A D2C BUSINESS  ·  SESSION 13 Reflection
+--- page 23 ---
+SESSION OBJECTIVES  ·  ACHIEVED
+What You Set Out to Do, Today
+Explained how the Meta auction works: bid, estimated action rate and ad quality
+Chose a campaign objective and defended it against your category
+Built a mock campaign with one goal, one audience, one creative and a stated budget
+If any of these still feels shaky, that's exactly what the post-class submission is for.
+SCALING A D2C BUSINESS  ·  SESSION 13 Objectives Achieved
+--- page 24 ---
+85–88 MIN  ·  WRAP
+Deliverables & Next Step
+END OF SESSION
+A mock campaign screenshot showing one clear goal, one audience, one creative, and a stated budget.
+COMING UP: SESSION 14
+Meta interrupts people who weren't looking. Google Ads reaches people who were. Next: Keyword Planner and search campaign basics.
+SCALING A D2C BUSINESS  ·  SESSION 13 Wrap
+--- page 25 ---
+88–90 MIN  ·  PRE-CLASS PREP FOR SESSION 14
+Before Session 14: Your Assignment
+SUBMIT A MOCK CAMPAIGN SCREENSHOT
+One clear goal, one audience, one creative, and a stated daily budget.
+Add one line under the screenshot: why this objective suits your category's consideration level.
+Think ahead: before anyone sees this ad, what would your customer have typed into Google? We start there in Session 14.
+SCALING A D2C BUSINESS  ·  SESSION 13 Next Assignment

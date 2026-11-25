@@ -1,0 +1,449 @@
+
+--- page 1 ---
+SCALING A D2C BUSINESS
+Session 16
+Marketplace Listings + Quick Commerce
+How do you write product listings that get clicks, and does your business even have the margin to survive 
+quick commerce's real costs?
+Ankit Agarwal   |   Masters' Union   |   90 mins
+--- page 2 ---
+SESSION OBJECTIVES
+By the End of This Session, You'll Be Able To...
+1
+Place Marketplaces and 
+Quick Commerce
+Explain where marketplaces fit in a D2C 
+launch in India, and why quick commerce 
+is a fundamentally different game.
+2
+Write a Listing That 
+Converts
+Use Title, Bullets, Trust to build a mock 
+listing with a title, bullets, a price and one 
+trust signal.
+3
+Run the Margin Gut Check
+Test your own category against the 65% 
+Gross Margin Gate before you ever apply 
+to quick commerce.
+SCALING A D2C BUSINESS  ·  SESSION 16 Session Objectives
+--- page 3 ---
+KICKOFF  ·  0–4 MIN
+Why Marketplaces Are Still a Launch Channel
+WHY LIST THERE
+•   Shoppers are already there, searching for products
+•   Payments, delivery and returns tooling come built in
+•   Reviews build proof you can point to later
+•   A cheap way to test whether anyone wants the product
+THE TRADE OFF
+•   Fees come off every single sale
+•   You sit next to cheaper rivals, one click away
+•   The platform owns the customer relationship
+•   Your ranking depends on rules you do not control
+Use a marketplace to learn what sells. Keep building the brand you own.
+SCALING A D2C BUSINESS  ·  SESSION 16 Kickoff
+--- page 4 ---
+KICKOFF  ·  4–8 MIN
+Same Word, Two Different Games
+SELF SERVE MARKETPLACE
+Amazon, Flipkart, Meesho
+•   You register and list your own products
+•   Search ranking decides who gets seen
+•   Fees are charged when you make a sale
+QUICK COMMERCE
+Blinkit, Zepto, Swiggy Instamart
+•   A category manager decides whether you go live
+•   It is a supply deal: you stock their dark stores
+•   Listing fees and ad spend are paid upfront
+Today we learn to win the first game, and to check honestly whether you can afford the second.
+SCALING A D2C BUSINESS  ·  SESSION 16 Kickoff
+--- page 5 ---
+FRAMEWORK  ·  8–10 MIN
+Title, Bullets, Trust
+GETS THE CLICK
+Title
+Says what it is, who it is for and the size, 
+in the words a buyer types.
+WINS THE READ
+Bullets
+One benefit per line, each with a detail 
+that makes it believable.
+CLOSES THE SALE
+Trust
+Proof a stranger can see before paying: 
+ratings, photos, certificates.
+A course device built on real marketplace guidance. For the official version, read Amazon's Seller Central and Seller University pages on listing 
+quality.
+SCALING A D2C BUSINESS  ·  SESSION 16 Framework
+--- page 6 ---
+LISTING ANATOMY  ·  10–12 MIN
+Title: What It Is, For Whom, Which Size
+Illustrative example
+BRAND + PRODUCT + KEY DETAIL + PACK SIZE
+WEAK
+BEST Premium Coffee Fresh Taste Special Offer Buy Now!!!
+No brand, no size, no type, all noise
+STRONG
+Breww 47 Specialty Coffee Beans, Medium Roast, 250 g
+Brand, product, roast and size, in that order
+THREE RULES
+Put the words a buyer types first   ·   Leave out shouting, offers and symbols   ·   Check your category's style guide for length and format
+SCALING A D2C BUSINESS  ·  SESSION 16 Listing Anatomy
+--- page 7 ---
+LISTING ANATOMY  ·  12–14 MIN
+Bullets: One Job Per Line
+Illustrative example
+A common set of five. Each line has one job, written as a benefit and then a detail.
+1 Main benefit The reason to buy, in plain words Smooth, low bitterness cup
+2 Who it is for The buyer and the moment of use Made for a desk or a kitchen
+3 What is inside Size, count, ingredients, how it comes 250 g whole beans, resealable pack
+4 Proof A certificate or fact they can check Licence number printed on the pack
+5 Reassurance Storage, use, returns, support How to store and how to brew
+Plain claims only. Never promise a result you cannot prove, especially for food.
+SCALING A D2C BUSINESS  ·  SESSION 16 Listing Anatomy
+--- page 8 ---
+LISTING ANATOMY  ·  14–16 MIN
+Trust: What a Buyer Can See Before Paying
+Rating and review count
+Earned over time. It cannot be 
+shortcut.
+Clear photos of the real 
+pack
+Shows exactly what arrives.
+Certificates you actually 
+hold
+For food, the licence number on 
+the pack.
+A named brand page
+A brand store looks like a real 
+business.
+A visible delivery 
+promise
+How fast, and what happens on a 
+return.
+Honest answers to 
+questions
+Reply to buyers in public, quickly.
+Never fake reviews, borrow badges or claim what you cannot prove. Platforms remove them and can suspend your account. Today's 
+deliverable needs just one real trust signal.
+SCALING A D2C BUSINESS  ·  SESSION 16 Listing Anatomy
+--- page 9 ---
+KEYWORD RESEARCH  ·  16–18 MIN
+Keywords: Use the Marketplace Search Box
+The same idea as Session 15, applied to the platform where your listing lives.
+1
+Type your product
+Start typing in the search box on Amazon, 
+Flipkart or Meesho. The suggestions show 
+what shoppers on that platform type.
+2
+Read 3 rival titles
+Open the top three listings. Note the words 
+that repeat in their titles and bullets.
+3
+Place the best two
+Put the strongest phrase at the start of the 
+title and the next in the bullets. No stuffing.
+Write for the buyer first. A title that reads like a keyword pile gets skipped.
+SCALING A D2C BUSINESS  ·  SESSION 16 Keyword Research
+--- page 10 ---
+IMAGES AND PRICING  ·  18–20 MIN
+Photos Stop the Scroll, Price Closes the Deal
+A SET OF FIVE IMAGES
+1 Main image: product only, plain white background
+2 Pack size and what is inside
+3 Key benefits in a few words
+4 Proof: label, certificate, process
+5 In use: the product in a real setting
+THREE PRICE NUMBERS
+MRP
+The printed maximum price on the pack
+Selling price
+What the buyer pays. Compare with 3 rivals
+Net payout
+What reaches your bank after fees
+Price from your payout backwards. Do not copy a rival's price forwards.
+SCALING A D2C BUSINESS  ·  SESSION 16 Images and Pricing
+--- page 11 ---
+WORKED EXAMPLE  ·  20–23 MIN
+Breww 47: A Mock Listing on One Page
+Illustrative example
+MAIN IMAGE
+product on plain white
+2 3 4 5
+1  TITLE
+Breww 47 Specialty Coffee Beans, Medium Roast, 250 g
+₹500   MRP ₹600   Selling price shown to the buyer
+2  BULLETS
+•   Smooth, low bitterness cup for daily drinking
+•   Made for a desk, a kitchen or a pantry
+•   250 g whole beans in a resealable pack
+•   How to store it and how to brew it
+3  TRUST Licence number printed on the pack, shown in image 4
+Delivery promise and return terms shown above the buy button
+SCALING A D2C BUSINESS  ·  SESSION 16 Worked Example
+--- page 12 ---
+SELLER ACCOUNTS  ·  23–26 MIN
+Seller Account Basics: Amazon, Flipkart, Meesho
+Amazon India
+YOU NEED
+PAN, GSTIN, bank account, address proof, 
+phone and email
+YOU PAY
+A referral fee by category, plus fulfilment and 
+shipping fees
+WATCH OUT
+Brand tools such as A+ pages need Brand 
+Registry
+Flipkart
+YOU NEED
+GSTIN, PAN matching it, cancelled cheque, 
+pickup address proof, signature
+YOU PAY
+Commission by category and price, fixed, 
+collection and shipping fees
+WATCH OUT
+Legal name must match across PAN, GST and 
+bank
+Meesho
+YOU NEED
+GSTIN and a bank account, with pickup address 
+and supplier details
+YOU PAY
+Marketed as zero commission. Check current 
+shipping and ad terms
+WATCH OUT
+A price led platform. Check your category fits
+GST registration is needed from the first marketplace sale, even below the usual turnover limit. Nobody registers for real today.
+SCALING A D2C BUSINESS  ·  SESSION 16 Seller Accounts
+--- page 13 ---
+SELLER ACCOUNTS  ·  26–28 MIN
+Selling Price Is Not What Reaches Your Bank
+Illustrative example
+Made up rates for teaching. Not any platform's rate card.
+Selling price ₹500
+Commission, 10% −₹50
+Fixed fee −₹20
+Shipping fee −₹60
+GST on those fees, 18% −₹23.4
+Tax collected at source, 1% −₹5
+Net payout ₹341.6
+Cost of goods −₹150
+Left before ads, returns, packaging ₹191.6
+LEFT OF EVERY ₹100
+₹38
+before ads, returns and 
+packaging. Tax at source is 
+later claimable, so it is 
+timing, not cost.
+SCALING A D2C BUSINESS  ·  SESSION 16 Seller Accounts
+--- page 14 ---
+QUICK COMMERCE  ·  28–32 MIN
+Quick Commerce Is a Supply Deal, Not Just a Signup
+1
+Apply
+Register on the platform's 
+seller portal with your GSTIN, 
+brand and product details.
+2
+Get approved
+A category manager is 
+assigned. Without their 
+approval, no SKU goes live.
+3
+Agree terms
+Margin, listing fee and ad 
+commitments are set. Then 
+purchase orders arrive.
+4
+Supply stock
+You ship to their warehouse. 
+It is checked, then spread 
+across dark stores.
+Reports put onboarding at 20 to 60 days, and approval is never guaranteed. The platform chooses, you do not.
+SCALING A D2C BUSINESS  ·  SESSION 16 Quick Commerce
+--- page 15 ---
+QUICK COMMERCE  ·  32–36 MIN
+Marketplace vs Quick Commerce, Side by Side
+SELF SERVE MARKETPLACE QUICK COMMERCE
+Who lets you in Account approval, then you list yourself A category manager approves each SKU
+How you get seen Search ranking, reviews and ads Placement you buy with ad credits and banners
+Cost to start Registration is usually free; fees come per sale A listing fee per SKU and a monthly ad commitment
+Who holds stock You, or the platform's fulfilment warehouse Dark stores, supplied on purchase orders
+If it does not sell Reprice or pause the listing Reports say slow stock can come back at your cost
+Terms differ by platform, brand and city. Always confirm with the platform.
+SCALING A D2C BUSINESS  ·  SESSION 16 Quick Commerce
+--- page 16 ---
+QUICK COMMERCE  ·  36–41 MIN
+What Quick Commerce Platforms Look For
+LEGAL BASICS
+•   GSTIN, with the legal name matching your papers
+•   FSSAI licence for food and drink, not lapsed
+•   GS1 barcode on every SKU
+•   A registered business, not a private individual
+•   Labels with every mandatory field filled in
+A DEMAND SIGNAL
+No platform publishes its bar. The usual advice is proof that you already 
+sell, such as 200+ orders a month and a 4.2+ rating elsewhere.
+One agency's example, not a platform rule
+COMMON REASONS FOR REJECTION
+Mismatched documents, missing barcodes, label gaps, near identical 
+products, prices that cannot absorb the commission.
+Today nobody applies. These are things to build towards.
+SCALING A D2C BUSINESS  ·  SESSION 16 Quick Commerce
+--- page 17 ---
+REAL COSTS  ·  41–45 MIN
+What Quick Commerce Reportedly Costs a D2C Brand
+From 2026 press and agency reports. Not official rate cards. Terms vary by brand and city.
+Blinkit ₹25,000 per SKU per state, credited to an ad wallet that expires in 12 months Monthly marketing spend of ₹2 to 3 lakh reported; commission 8% to 20% by category
+Zepto Bundled entry package of ₹5 to 6 lakh: banners, in feed placement, brand store Direct category team approval; onboarding 4 to 8 weeks
+Swiggy Instamart Quarterly brand pack of ₹8 to 10 lakh: display ads, push notifications Suits brands buyers already know; weaker for unknown names
+Commission plus ad spend: roughly 30% to 35% of the selling price, before cost of goods (agency estimate).
+SCALING A D2C BUSINESS  ·  SESSION 16 Real Costs
+--- page 18 ---
+FRAMEWORK  ·  45–48 MIN
+The 65% Gross Margin Gate
+GROSS MARGIN
+(Selling price − Cost of goods) ÷ Selling price
+Example: sells at ₹500, costs ₹150 to make or buy. (500 − 150) ÷ 500 = 70%
+BELOW 60% 60 to 65 65% AND ABOVE
+40% 60% 65% 100%
+Reports say the economics turn structurally negative below about 60%. Sources put the real bar between 65% and 70%. We use 65% as the course gate.
+Miss the gate and quick commerce is not a channel decision yet. It is a pricing or cost problem to fix first.
+SCALING A D2C BUSINESS  ·  SESSION 16 Framework
+--- page 19 ---
+WORKED EXAMPLE  ·  48–51 MIN
+What 5 SKUs in 3 Cities Costs on Blinkit
+Reported figures
+LISTING FEE
+₹3,75,000
+5 SKUs × 3 states × ₹25,000. Credited as ad 
+wallet balance, 12 month expiry.
+MONTHLY ADS
+₹2 to 3 lakh
+Reported minimum marketing spend. 
+Homepage banners are auctioned on top.
+A QUARTER IN
+₹6 to 9 lakh
+Three months of the minimum spend, 
+before commission, stock and packaging.
+Whether the listing credit counts towards the monthly minimum is exactly the question to ask a category manager before paying. None 
+of this is spent today.
+SCALING A D2C BUSINESS  ·  SESSION 16 Worked Example
+--- page 20 ---
+WORKED EXAMPLE  ·  51–55 MIN
+Why the Gate Sits So High
+Illustrative example
+One ₹500 product. Commission plus ads taken as 33% of the price (₹165), inside the reported 30% to 35%.
+GROSS MARGIN COST OF GOODS COMMISSION + ADS LEFT PER UNIT OF THE PRICE VERDICT
+70% ₹150 ₹165 ₹185 37% Clears the gate
+65% ₹175 ₹165 ₹160 32% Clears, thin cushion
+40% ₹300 ₹165 ₹35 7% Fails, fix this first
+30% ₹350 ₹165 −₹15 −3% Fails, loses money
+What is left must still pay for packaging, dark store logistics, discounts, returned stock and cash tied up. Ad spend is a minimum commitment, so low sales 
+push the real share far above 33%.
+SCALING A D2C BUSINESS  ·  SESSION 16 Worked Example
+--- page 21 ---
+55–59 MIN  ·  LIVE GUT CHECK
+Run Your Own Margin Check
+1 Write down your selling price and your cost of goods per unit, using your Session 2 Lean Canvas numbers.
+2 Work out your gross margin, (price − cost) ÷ price, and place it on the gate: below 60%, 60 to 65%, or 65% and above.
+3 Write your one line verdict: clears, close, or fails, plus the first thing you would change.
+No platform is contacted. This is your own number against a reported threshold.
+SCALING A D2C BUSINESS  ·  SESSION 16 Live Gut Check
+--- page 22 ---
+THE ROAS TRAP  ·  59–63 MIN
+Dashboard ROAS Can Be Counted on MRP
+Illustrative example
+ROAS = revenue from ads ÷ ad spend. A dashboard shows it for you, but which revenue does it count?
+WHAT THE DASHBOARD SHOWS
+3.0x
+6 orders × MRP ₹500 = ₹3,000
+÷ ad spend ₹1,000
+Counts the printed price, not what customers paid.
+WHAT YOU ACTUALLY EARNED
+2.04x
+6 orders × paid ₹340 = ₹2,040
+÷ ad spend ₹1,000
+About 47% higher on the dashboard, from the price gap alone.
+THE FIX
+Recalculate ROAS yourself on net transaction value, the amount the customer actually paid. Small brands are reported at 1.2x to 1.5x real 
+ROAS.
+SCALING A D2C BUSINESS  ·  SESSION 16 The ROAS Trap
+--- page 23 ---
+THE ROAS TRAP  ·  63–68 MIN
+A Reported Cautionary Case
+Reported, unverified
+ONE FOUNDER'S STORY
+₹6 lakh
+spent listing on 3 platforms
+→ ₹1.2 lakh
+revenue back in 3 months
+Revenue, not profit. An unnamed founder, retold by an agency.
+ANOTHER SELLER
+An anonymous D2C seller told a business outlet that 
+sales had not reached 10% of what they spent on these 
+platforms in three months.
+WHAT TO TAKE FROM IT
+Fix margin before reach.   Count revenue at the price paid.   Set a stop rule before you pay a listing fee.
+SCALING A D2C BUSINESS  ·  SESSION 16 The ROAS Trap
+--- page 24 ---
+68–73 MIN  ·  LIVE BUILD, PART 1 OF 3
+Choose a Platform and Draft the Title
+1 Pick Amazon, Flipkart or Meesho for your category, and open one strong rival listing as your layout model.
+2 Type your product in that platform's search box and write down three suggested phrases.
+3 Draft your title: brand, product, key detail, pack size.
+Nothing is registered or submitted today. This is a mock.
+SCALING A D2C BUSINESS  ·  SESSION 16 Live Build · Platform and Title
+--- page 25 ---
+73–78 MIN  ·  LIVE BUILD, PART 2 OF 3
+Write the Bullets, Set the Price, Choose the Trust Signal
+1 Write five bullets: benefit first, then the detail that makes it believable.
+2 Set a selling price and an MRP , and check the price against the margin you found in the gut check.
+3 Choose one real trust signal and decide where it appears on the page.
+Spot check coming: I will read your title, one bullet and your trust signal.
+SCALING A D2C BUSINESS  ·  SESSION 16 Live Build · Bullets, Price, Trust
+--- page 26 ---
+78–83 MIN  ·  LIVE BUILD, PART 3 OF 3
+Assemble the Mock and Write the Verdict
+1 Build the mock listing in a slide or Canva, using your rival's page as the layout.
+2 Screenshot it so that the title, bullets, price and trust signal are all visible.
+3 Write your one line verdict on whether your category clears the 65% Gross Margin Gate for quick commerce.
+Submit two things: the mock listing screenshot and your one line verdict.
+SCALING A D2C BUSINESS  ·  SESSION 16 Live Build · Mock and Verdict
+--- page 27 ---
+ASK YOURSELF FIRST  ·  83–85 MIN
+Is This Channel Right for Your Category?
+1 Does my category actually sell well on marketplaces, or does it need storytelling and context that a listing strips away?
+2 Does my gross margin realistically clear the 65% Gross Margin Gate, or would listing fees and mandatory ad spend eat the profit before a single repeat order?
+3 If the answer to either is no, which channel from this course fits my brand better right now?
+SCALING A D2C BUSINESS  ·  SESSION 16 Reflection
+--- page 28 ---
+SESSION OBJECTIVES  ·  ACHIEVED
+What You Set Out to Do, Today
+Explained where marketplaces fit in a D2C launch in India
+Applied Title, Bullets, Trust to build a mock listing
+Explained how quick commerce differs from a self serve listing
+Ran a gross margin check against the 65% Gross Margin Gate
+If any of these still feels shaky, that's exactly what the post class submission is for.
+SCALING A D2C BUSINESS  ·  SESSION 16 Objectives Achieved
+--- page 29 ---
+86–88 MIN  ·  WRAP
+Deliverables & Next Step
+END OF SESSION
+A mock listing screenshot with a title, bullets, a price and one trust signal in place, plus a one line verdict on quick 
+commerce viability.
+COMING UP: SESSION 17
+Not every buyer is online. Next: offline marketing on a small budget, with posters, local tie ups and a simple budget split.
+SCALING A D2C BUSINESS  ·  SESSION 16 Wrap
+--- page 30 ---
+88–90 MIN  ·  PRE-CLASS PREP FOR SESSION 17
+Before Session 17: Your Assignment
+SUBMIT
+Your mock listing screenshot with title, bullets, pricing and one trust signal, plus a one line verdict on 
+whether your category clears the 65% Gross Margin Gate.
+Include your gross margin figure and how you worked it out.
+ALSO, FOR SESSION 17
+Photograph or find 2 examples of low budget local marketing in your neighbourhood, such as posters, hoardings or local tie ups, and bring 
+them to class.
+SCALING A D2C BUSINESS  ·  SESSION 16 Next Assignment

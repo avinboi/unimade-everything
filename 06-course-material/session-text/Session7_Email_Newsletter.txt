@@ -1,0 +1,143 @@
+
+--- page 1 ---
+SCALING A D2C BUSINESS
+Session 7
+Email Setup + Newsletter Tool
+How do you set up email and newsletters that look legit, not spammy?
+Ankit Agarwal   |   Masters' Union   |   90 mins
+--- page 2 ---
+SESSION OBJECTIVES
+By the End of This Session, You'll Be Able To...
+1
+Set Up a Branded Email
+Set up a branded email ID on Google 
+Workspace.
+2
+Send a Test Newsletter
+Write and send a test newsletter through 
+Brevo or Substack.
+3
+Outline a Welcome 
+Sequence
+Outline a 3-email welcome sequence 
+where each email has one clear job.
+SCALING A D2C BUSINESS  ·  SESSION 7 Session Objectives
+--- page 3 ---
+PRE-CLASS RECAP  ·  0–5 MIN
+Before We Start: 3 Welcome Emails
+Dollar Shave Club The Ken Lenny's Newsletter
+YOU CHECKED EACH WELCOME EMAIL FOR:
+Does it say thank you?   ·   Does it tell a short brand story?   ·   Does it make an offer?
+LET'S DISCUSS
+Which welcome email hit all 3? Which one skipped straight to the offer?
+Did any of them feel like spam — and if so, which of the 3 parts was missing?
+SCALING A D2C BUSINESS  ·  SESSION 7 Pre-Class Recap
+--- page 4 ---
+0 – 10 MIN
+Why Email Still Beats Social for an Owned Audience
+SOCIAL FOLLOWERS
+An algorithm decides if your post reaches them —
+usually a small fraction do, and that fraction shrinks 
+over time.
+AN EMAIL LIST
+Every subscriber lands directly in an inbox you don't 
+need permission from a platform to reach.
+SCALING A D2C BUSINESS  ·  SESSION 7 Kickoff
+--- page 5 ---
+10 – 20 MIN  ·  LIVE SETUP
+Set Up Your Branded Email ID
+A reply from hello@yourbrand.com signals a real business. A reply from a personal Gmail doesn't.
+• Set up on Google Workspace if you have a domain from Session 3 ready to connect.
+• No domain yet? A personal Gmail is completely fine for today's exercise — don't let setup block the session.
+hello@yourbrand.com
+beats yourbrand2024@gmail.com
+SCALING A D2C BUSINESS  ·  SESSION 7 Live Setup
+--- page 6 ---
+20 – 30 MIN
+Newsletter Tool Setup: Brevo vs Substack
+Brevo
+Full email marketing tool — automations, branded templates, 
+list segmentation. Best if you want your newsletter to look and 
+feel like your website.
+Substack
+Fastest to start, built for writing — has its own built-in audience 
+discovery. Best if the writing itself is the product.
+SCALING A D2C BUSINESS  ·  SESSION 7 Kickoff
+--- page 7 ---
+FRAMEWORK
+Welcome in 3
+A 3 email welcome sequence, each with one clear job.
+Thanks
+Confirm the signup and set expectations 
+for what's coming
+Story
+A short, real reason this brand exists
+Offer
+One concrete reason to make a first 
+purchase now
+SCALING A D2C BUSINESS  ·  SESSION 7 Named Framework
+--- page 8 ---
+WORKED EXAMPLE  ·  A REAL BUSINESS
+Welcome in 3: Breww 47's Sequence
+1
+THANKS
+“Welcome to the BeanBelt —here's what's brewing”
+Confirms the signup, sets expectations: weekly brew tips + first access to new blends.
+2
+STORY
+“Why we started brewing at 47”
+The founder story — the peak-hour insight behind Breww 47, told in a couple of honest paragraphs.
+3
+OFFER
+“Your first cup is on us”
+A concrete reason to visit an outlet this week — a first-order discount or a free add-on.
+SCALING A D2C BUSINESS  ·  SESSION 7 Named Framework
+--- page 9 ---
+45 – 70 MIN  ·  LIVE WORK
+Draft & Send Your First Newsletter
+Write your Thanks email — email 1 of your sequence — inside Brevo or Substack.
+• Use your locked Brand Kit if your tool supports branded templates.
+• Send it as a live test to 5 classmates before you move on.
+Check deliverability: did it land in the inbox, or in spam? Ask your 5 test recipients.
+SCALING A D2C BUSINESS  ·  SESSION 7 Live Work
+--- page 10 ---
+70 – 85 MIN
+Draft Your 3 Email Welcome Sequence
+1 Email 1 — Thanks: subject line + one-line purpose
+2 Email 2 — Story: subject line + the real reason this brand exists
+3 Email 3 — Offer: subject line + one concrete reason to buy now
+SCALING A D2C BUSINESS  ·  SESSION 7 Live Work
+--- page 11 ---
+ASK YOURSELF FIRST
+Is email even the right channel for your buyer?
+1 Is email a channel your specific buyer uses at your price point and age group, or would a WhatsApp broadcast get a stronger response?
+2 Do you have enough of a story to justify a 3-email sequence yet, or just one honest email for now?
+3 If you only sent one of these 3 emails, which one could your business not survive skipping?
+SCALING A D2C BUSINESS  ·  SESSION 7 Reflection
+--- page 12 ---
+SESSION OBJECTIVES  ·  ACHIEVED
+What You Set Out to Do, Today
+Set up a branded email ID on Google Workspace
+Wrote and sent a test newsletter through Brevo or Substack
+Outlined a 3-email welcome sequence where each email has one clear job
+If any of these still feels shaky, that's exactly what the post-class submission is for.
+SCALING A D2C BUSINESS  ·  SESSION 7 Objectives Achieved
+--- page 13 ---
+85 – 90 MIN  ·  WRAP
+Theme 2 Begins
+END OF SESSION
+Branded email ID + 1 test newsletter sent + a 3 email welcome sequence outline
+POST-CLASS SUBMISSION
+Create your brand email, send a live test newsletter, and submit your 3 email welcome sequence outline.
+Next: Session 8 — IG/LinkedIn/YT Shorts Strategy
+SCALING A D2C BUSINESS  ·  SESSION 7 Wrap
+--- page 14 ---
+PRE-CLASS PREP FOR SESSION 8
+Before Session 8: Your Assignment
+FIND 5 VIDEOS IN YOUR CATEGORY
+Search your product category on Instagram or YouTube Shorts
+Watch only the first 3 seconds of each — note the hook (question, visual surprise, bold claim) and the format (talking head, text-on-screen, 
+before/after, POV).
+Include at least 1 video from a brand your own size or smaller — not only large players.
+Bring your welcome sequence outline — the Story email's narrative often becomes your first piece of content.
+SCALING A D2C BUSINESS  ·  SESSION 7 Next Assignment

@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Unimade - Business Plan v2</title>
+<style>
+@page { size: A4; margin: 12mm 13mm 13mm 13mm; }
+* { box-sizing: border-box; }
+body { font-family: "Segoe UI", system-ui, sans-serif; color: #1d1d27; font-size: 9.9pt; line-height: 1.42; margin: 0; }
+h1 { font-size: 30pt; line-height: 1.05; margin: 0 0 8px; letter-spacing: -0.5px; }
+h2 { font-size: 17pt; margin: 0 0 10px; padding-bottom: 6px; border-bottom: 3px solid #7c3aed; break-after: avoid; }
+h3 { font-size: 12pt; margin: 13px 0 5px; color: #4c1d95; break-after: avoid; }
+h4 { font-size: 10.8pt; margin: 12px 0 4px; break-after: avoid; }
+p { margin: 0 0 8px; }
+ul, ol { margin: 0 0 8px; padding-left: 20px; }
+li { margin-bottom: 3px; }
+section { break-before: page; }
+section.nobreak { break-before: auto; margin-top: 22px; }
+table { width: 100%; border-collapse: collapse; margin: 5px 0 10px; font-size: 9pt; break-inside: avoid; }
+th { background: #2e1065; color: #fff; text-align: left; padding: 5px 7px; font-weight: 600; }
+td { padding: 3.5px 7px; border-bottom: 1px solid #e4e1ee; vertical-align: top; }
+tr:nth-child(even) td { background: #faf8ff; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+tr.tot td { font-weight: 700; background: #ede9fe !important; border-top: 2px solid #7c3aed; }
+.plan td, .plan th { text-align: right; font-size: 8.6pt; padding: 4px 5px; }
+.plan td:first-child, .plan th:first-child { text-align: left; }
+td.neg { color: #b91c1c; font-weight: 600; }
+.box { border-radius: 10px; padding: 11px 14px; margin: 10px 0 12px; break-inside: avoid; }
+.verdict { background: #f5f3ff; border-left: 5px solid #7c3aed; }
+.warn { background: #fff7ed; border-left: 5px solid #ea580c; }
+.good { background: #ecfdf5; border-left: 5px solid #059669; }
+.learn { background: #eff6ff; border-left: 5px solid #2563eb; }
+.box h4 { margin-top: 0; }
+.tag { display: inline-block; font-size: 8pt; font-weight: 700; padding: 1px 7px; border-radius: 99px; color: #fff; }
+.t-keep { background: #059669; } .t-park { background: #d97706; } .t-kill { background: #b91c1c; } .t-partner { background: #2563eb; }
+.cover { height: 262mm; display: flex; flex-direction: column; justify-content: space-between; padding: 8mm 4mm; }
+.cover .brand { font-size: 13pt; font-weight: 800; letter-spacing: 4px; color: #7c3aed; }
+.cover .sub { font-size: 14pt; color: #4b4b5c; max-width: 150mm; }
+.cover .meta { font-size: 9.5pt; color: #666; border-top: 1px solid #ddd; padding-top: 10px; }
+.big { font-size: 20pt; font-weight: 800; color: #4c1d95; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+.card { border: 1px solid #e4e1ee; border-radius: 10px; padding: 10px 12px; break-inside: avoid; }
+.card .k { font-size: 8.5pt; color: #6b6b7b; text-transform: uppercase; letter-spacing: .5px; }
+.card .v { font-size: 16pt; font-weight: 800; color: #2e1065; }
+.small { font-size: 8.8pt; color: #555; }
+.formula { font-family: Consolas, monospace; background: #f4f4f8; padding: 2px 6px; border-radius: 4px; font-size: 9.2pt; }
+.toc li { margin-bottom: 2px; }
+.est { color: #b45309; font-weight: 600; }
+</style>
+</head>
+<body>
+<!-- ============ COVER ============ -->
+<div class="cover">
+  <div>
+    <div class="brand">UNIMADE</div>
+    <h1 style="margin-top:28mm">Business Plan v2<br>College life, sorted.</h1>
+    <p class="sub">Unimade as one platform for everything hard about hostel and PG life: food, laundry, housing, cleaning, storage, health, money and more. Students in, partner brands in, Unimade earns on every connection. Written for a first-time founder, from zero.</p>
+  </div>
+  <div>
+    <div class="grid3">
+      <div class="card"><div class="k">What Unimade is</div><div class="v">Student-life platform</div><div class="small">12 services, delivered by verified partners</div></div>
+      <div class="card"><div class="k">How it earns</div><div class="v">6 revenue streams</div><div class="small">commissions, PG fees, brands, listings, own kit</div></div>
+      <div class="card"><div class="k">Year-1 goal</div><div class="v">3,500 students</div><div class="small">one Gurugram cluster · ₹{{totals.rev}} revenue</div></div>
+    </div>
+    <p class="meta">Prepared for Avin Dev · Unimade (unimade.vercel.app) · 2 November 2026 · Version 2 (replaces the laundry-first v1)<br>
+    Grounded in the 18 sessions of "Scaling a D2C Business" (Masters' Union). All amounts in Indian Rupees (₹). Figures marked <span class="est">estimate</span> are market estimates to confirm locally before spending money (Appendix D).</p>
+  </div>
+</div>
+
+<!-- ============ CONTENTS ============ -->
+<section>
+<h2>Contents</h2>
+<ol class="toc">
+  <li><b>The one-page answer</b></li>
+  <li><b>What Unimade is</b>: the platform, explained simply</li>
+  <li><b>Is it worth building?</b> Why platforms win, and why most fail</li>
+  <li><b>The two customers</b>: students and partners, and the student's year</li>
+  <li><b>The 12 services</b>: who delivers, who pays, what Unimade earns</li>
+  <li><b>How Unimade makes money</b>: the six revenue streams</li>
+  <li><b>Business basics from zero</b>: every term you need</li>
+  <li><b>Unit economics</b>: what Unimade earns per order, per student, per placement</li>
+  <li><b>12-month financial plan</b>: revenue, profit, cash, bad case</li>
+  <li><b>The launch sequence</b>: three waves, and the rule for adding a service</li>
+  <li><b>Getting students</b>: brand, channels, media plans (course frameworks)</li>
+  <li><b>Getting partners</b>: the pitch, the terms, "Unimade Verified", stopping leakage</li>
+  <li><b>Operations and tech</b>: running it without an app</li>
+  <li><b>Legal, money and team</b></li>
+  <li><b>Metrics</b>: the weekly dashboard</li>
+  <li><b>The 90-day plan</b></li>
+  <li><b>Risks</b></li>
+  <li><b>Things you didn't ask but need to know</b></li>
+  <li><b>Appendix</b>: Lean Canvas, scripts, assumptions to verify, glossary</li>
+</ol>
+
+<div class="box learn">
+<h4>What changed from version 1</h4>
+<p>Version 1 recommended that Unimade run laundry itself and ignore the other services. You've been clear that Unimade is about <i>all</i> of student life, with partners delivering and Unimade connecting and earning commission. This version is built entirely around that. The one thing kept from v1 is the discipline: <b>the vision is broad, but the launch is sequenced</b>, so you never run 12 services badly at once.</p>
+</div>
+</section>
+
+<!-- ============ 1. ONE PAGE ============ -->
+<section>
+<h2>1. The one-page answer</h2>
+<div class="box verdict">
+<h4>Verdict</h4>
+<p><b>Yes, build Unimade as a student-life platform.</b> Students already pay for food, laundry, housing, cleaning and storage, but they find these through word of mouth, notice boards and five WhatsApp groups that never reply. Partners (laundromats, tiffin kitchens, PG owners, cleaners, storage firms, brands) want students as customers but struggle to reach them. <b>Unimade sits in the middle, makes it trusted and easy, and takes a cut.</b> The business works if you do three things: (1) launch in one campus cluster, not everywhere; (2) add services in waves, each one earning its place; (3) make the money where it actually is, in the big moments like housing, move-in and brand deals, while everyday services keep students coming back.</p>
+</div>
+
+<h3>The model in one picture</h3>
+<table>
+<tr><th>Students get</th><th>Partners get</th><th>Unimade earns</th></tr>
+<tr><td>One place for everything: verified providers, student prices, booking on WhatsApp, a Unimade guarantee if something goes wrong</td><td>A steady stream of student customers they couldn't reach alone, without spending on marketing</td><td>Commission on bookings (8–20%), success fees on PG move-ins, monthly listing fees, brand campaign fees, plus its own Move-in Kit</td></tr>
+</table>
+
+<h3>The numbers that matter (base case, Nov 2026 – Oct 2027)</h3>
+<div class="grid3">
+  <div class="card"><div class="k">Year-1 revenue</div><div class="v">₹{{totals.rev}}</div><div class="small">from ₹{{totals.gmv}} of bookings through Unimade</div></div>
+  <div class="card"><div class="k">Year-1 profit</div><div class="v">₹{{totals.profit}}</div><div class="small">before paying yourself; bad case −₹1.2 lakh</div></div>
+  <div class="card"><div class="k">Cash you need</div><div class="v">₹1–1.5 lakh</div><div class="small">lowest point ₹{{cash_low}} + safety buffer</div></div>
+  <div class="card"><div class="k">Biggest earner</div><div class="v">PG placements</div><div class="small">₹{{cat.pg.net}} net each · {{by_cat.pg.share}}% of profit</div></div>
+  <div class="card"><div class="k">An active student is worth</div><div class="v">≈ ₹{{student.total}}/month</div><div class="small">laundry 3× + tiffin plan + 1 home service</div></div>
+  <div class="card"><div class="k">Biggest risk</div><div class="v">Leakage</div><div class="small">students and vendors going around you (Section 12)</div></div>
+</div>
+
+<h3>What to do first (the next 14 days)</h3>
+<ol>
+  <li><b>Sort out the team</b> in writing: who's in, what hours, what share (Section 14). A platform needs at least two people.</li>
+  <li><b>Interview 30 students</b> on their top 5 hardships and what they spend on each (Appendix B). Let them rank the services; don't guess.</li>
+  <li><b>Sign your first 8–10 partners</b> in one cluster: 2 laundromats, 3 tiffin kitchens, 3–5 PG owners (Appendix C scripts).</li>
+  <li><b>Launch Wave 1</b> (food, laundry, PG finder) on WhatsApp + a simple web page, to 150 students in 2–3 hostels and PGs.</li>
+  <li><b>Fix the website:</b> replace the dead "Download app" button with "Get sorted on WhatsApp", and show only the live services.</li>
+</ol>
+</section>
+
+<!-- ============ 2. WHAT UNIMADE IS ============ -->
+<section>
+<h2>2. What Unimade is</h2>
+<h3>One sentence (Session 1 format)</h3>
+<p class="box learn">"For hostel and PG students who are figuring out food, laundry, housing and everything else on their own, Unimade is a student-life platform that connects them to verified, student-priced providers in one place. Unlike scattered WhatsApp groups, notice boards and random vendors, everything on Unimade is checked, bookable in one chat, and backed by a Unimade guarantee."<br><br>
+Short version: <b>"We help college students sort out everyday life by connecting them to verified providers near campus."</b></p>
+
+<h3>How it works</h3>
+<div class="grid2">
+<div class="card">
+<h4>For a student</h4>
+<ol>
+<li>Joins Unimade with a student ID (keeps it student-only)</li>
+<li>Sets hostel / PG and campus</li>
+<li>Messages Unimade or taps a service: "need a tiffin", "laundry pickup", "find me a PG under ₹12k"</li>
+<li>Gets 2–3 verified options at student prices, books, pays through Unimade</li>
+<li>If anything goes wrong, Unimade fixes it</li>
+</ol>
+</div>
+<div class="card">
+<h4>For a partner</h4>
+<ol>
+<li>Applies; Unimade checks quality, licences and prices ("Unimade Verified")</li>
+<li>Agrees a commission or fee and a student price</li>
+<li>Gets bookings from Unimade, delivers the service</li>
+<li>Gets paid by Unimade weekly, minus commission</li>
+<li>Can pay extra to be featured, or to run student campaigns</li>
+</ol>
+</div>
+</div>
+
+<h3>The important design choice: a <i>branded</i> marketplace</h3>
+<p>There are two ways to build a platform like this:</p>
+<table>
+<tr><th>Model</th><th>How it works</th><th>Problem</th></tr>
+<tr><td>Open directory (like JustDial)</td><td>List vendors, students contact them directly, vendors pay for leads</td><td>Students meet the vendor once, then go direct forever. You lose the customer and the commission. No brand, no trust.</td></tr>
+<tr><td><b>Branded marketplace (recommended)</b></td><td>Students book and pay <i>through Unimade</i>. Unimade sets the standards, the student price and the guarantee. Partners deliver under "Unimade Verified".</td><td>More work for you (support, payments, quality), but you own the customer relationship, which is the whole value of the business.</td></tr>
+</table>
+<p>This is how the D2C course applies to a platform: the course is about <b>owning the customer and the brand experience</b>. Urban Company is the model to study. It doesn't employ every cleaner, but customers trust "Urban Company", not the individual provider. Unimade should be the same for student life.</p>
+
+<h3>Positioning</h3>
+<ul>
+<li><b>Tagline:</b> keep "College life. Made easier." For ads and posters (S17 Single Minded Proposition, ≤5 words): <b>"College life. Sorted."</b></li>
+<li><b>Voice:</b> your existing one, the funny older sibling ("Mom's not here. But we are." / "Same jeans since Monday? We noticed.").</li>
+<li><b>Promise:</b> "Verified. Student-priced. Sorted in one chat."</li>
+</ul>
+</section>
+
+<!-- ============ 3. WORTH IT ============ -->
+<section>
+<h2>3. Is it worth building?</h2>
+
+<table>
+<tr><th>Test</th><th>Unimade as a student-life platform</th><th class="num">Score</th></tr>
+<tr><td>Real pain? (S1: "has someone paid to solve it?")</td><td>Yes. Students already pay for tiffin, laundry, PGs (often through brokers), cleaning and storage. They just find these badly.</td><td class="num">5/5</td></tr>
+<tr><td>Frequency</td><td>High overall: food daily, laundry weekly, housing twice a year. Many reasons to open Unimade.</td><td class="num">5/5</td></tr>
+<tr><td>Money per student</td><td>Small per order (₹46 on laundry), big per moment (₹{{cat.pg.net}} on a PG placement)</td><td class="num">4/5</td></tr>
+<tr><td>Access to customers</td><td>You live among them. Hostels are dense. Zero-cost distribution.</td><td class="num">5/5</td></tr>
+<tr><td>Access to partners</td><td>Plenty of small vendors near every campus who want more students</td><td class="num">4/5</td></tr>
+<tr><td>Competition</td><td>Swiggy/Zomato (food), Urban Company (cleaning), NoBroker/Stanza (housing), but nobody owns "student life" in your cluster</td><td class="num">3/5</td></tr>
+<tr><td>Hard parts</td><td>Leakage, quality control across many partners, chicken-and-egg (need students to get partners and vice versa)</td><td class="num">2/5</td></tr>
+<tr><td>Scalability</td><td>High if the campus playbook works: copy cluster by cluster</td><td class="num">4/5</td></tr>
+<tr class="tot"><td>Total</td><td></td><td class="num">32/40</td></tr>
+</table>
+
+<h3>Why platforms win</h3>
+<ul>
+<li><b>Network effects:</b> more students attract more partners; more partners mean better choice and prices, which attracts more students.</li>
+<li><b>Light on assets:</b> no kitchens, no washing machines, no buildings. Partners own those.</li>
+<li><b>One customer, many sales:</b> the student you win for tiffin also books laundry, a PG, storage. The cost of winning them is shared across every service.</li>
+<li><b>Data:</b> you learn what students need, when, and at what price. That's valuable to every brand that wants students.</li>
+</ul>
+
+<h3>Why most platforms fail (and how Unimade avoids it)</h3>
+<table>
+<tr><th>Failure</th><th>What it looks like</th><th>Unimade's answer</th></tr>
+<tr><td>Too broad, too early</td><td>12 services, 2 partners each, all mediocre. Students try once, get a bad experience, never return.</td><td>Three waves. A service goes live only when 2–3 good partners are signed and tested (Section 10).</td></tr>
+<tr><td>Chicken and egg</td><td>No students → partners won't join; no partners → students don't care</td><td>Start with supply in a tiny area (one cluster), then flood that area with demand. Density first.</td></tr>
+<tr><td>Leakage</td><td>Students and partners go direct after the first booking</td><td>Payments through Unimade, guarantee, student prices only via Unimade, loyalty perks, contracts (Section 12)</td></tr>
+<tr><td>Quality slips</td><td>One bad tiffin or lost laundry bag goes viral in a hostel group</td><td>"Unimade Verified" checks, ratings after every order, three-strikes rule for partners</td></tr>
+<tr><td>Thin commissions</td><td>8–15% on small orders doesn't cover support costs</td><td>Earn big on high-value moments (PG, move-in, brands); keep everyday services lean</td></tr>
+</table>
+</section>
+
+<!-- ============ 4. CUSTOMERS ============ -->
+<section>
+<h2>4. The two customers</h2>
+<p>A platform has two sets of customers, and you have to win both.</p>
+
+<div class="grid2">
+<div class="box verdict">
+<h4>Side 1: students (and their parents)</h4>
+<p><b>Early adopters:</b> 1st and 2nd-year students living away from home in hostels and PGs in your Gurugram cluster. New to the city, no local network, short on time, on a budget of roughly ₹8,000–20,000 a month from parents <span class="est">estimate</span>.</p>
+<p><b>Parents:</b> often the real payers for housing, tiffin and move-in. Worried about safety, food and hygiene. Their question is "is it verified?", and "Unimade Verified" answers it.</p>
+<p><b>Size of the first market:</b> about 5 campuses and their PGs, roughly 3,000–5,000 students. The year-1 plan reaches {{oct.users}} verified students.</p>
+</div>
+<div class="box good">
+<h4>Side 2: partners</h4>
+<ul>
+<li>Laundromats and laundry brands near campus</li>
+<li>Tiffin kitchens, cloud kitchens, nearby cafés</li>
+<li><b>PG owners and student-housing operators</b></li>
+<li>Cleaners, electricians, plumbers, phone and laptop repair shops</li>
+<li>Storage companies and packers/movers</li>
+<li>Clinics, pharmacies, gyms</li>
+<li>Brands that want students (food, personal care, apps, banks, edtech)</li>
+<li>Employers offering internships and part-time work</li>
+</ul>
+</div>
+</div>
+
+<h3>The student's year: when each hardship hits</h3>
+<p>Mapping the year shows when to push each service. It's also why the money comes in waves.</p>
+<table>
+<tr><th>Months</th><th>What's happening</th><th>What students need</th><th>Unimade services in demand</th></tr>
+<tr><td><b>Jun–Aug</b></td><td>Admissions, moving to the city, freshers arrive</td><td>Housing, bedding and essentials, food setup, figuring out the area</td><td><b>PG finder, Move-in Kit, moving help, tiffin, laundry, area guide</b>. The biggest season.</td></tr>
+<tr><td>Sep–Nov</td><td>Settled in, routine</td><td>Daily life: food, laundry, cleaning, repairs, deals</td><td>Tiffin, laundry, cleaning, repairs, deals, internships</td></tr>
+<tr><td>Dec</td><td>Exams, winter break</td><td>Less of everything; some go home</td><td>Low month; storage for some</td></tr>
+<tr><td>Jan–Mar</td><td>New semester; some change PGs</td><td>Daily life + PG switches</td><td>Daily services, PG finder (second season), internships</td></tr>
+<tr><td><b>Apr–May</b></td><td>End of year, moving out, internships</td><td>Where to keep stuff, moving out, summer housing</td><td><b>Storage, moving help</b>, summer PGs near internships</td></tr>
+</table>
+
+<h3>What students do today</h3>
+<table>
+<tr><th>Need</th><th>Today</th><th>What's broken</th></tr>
+<tr><td>Food</td><td>Mess food, Maggi, Swiggy/Zomato, a tiffin someone recommended</td><td>Delivery apps are expensive for daily meals; tiffins are hit-or-miss and found by word of mouth</td></tr>
+<tr><td>Laundry</td><td>Hand wash, hostel machine queue, local dhobi</td><td>Time, unreliability, lost items</td></tr>
+<tr><td>Housing</td><td>Brokers, Facebook groups, walking around</td><td>Brokerage fees, fake photos, unsafe or overpriced PGs (your blog's "PG red flags" post is exactly this pain)</td></tr>
+<tr><td>Cleaning and repairs</td><td>Ask the warden, find "a guy"</td><td>Slow, untrusted, prices made up on the spot</td></tr>
+<tr><td>Storage</td><td>Leave stuff with a friend or carry it home</td><td>No affordable short-term option near campus</td></tr>
+<tr><td>Health</td><td>Search for a clinic when already sick</td><td>Don't know trusted doctors nearby</td></tr>
+</table>
+</section>
+
+<!-- ============ 5. SERVICES ============ -->
+<section>
+<h2>5. The 12 services</h2>
+<p>Here is the full Unimade service map: the hardships you described, plus a few more. Each service has a partner who delivers it, someone who pays Unimade, and a launch wave.</p>
+<table>
+<tr><th>#</th><th>Service</th><th>Partner who delivers</th><th>Who pays Unimade</th><th>How Unimade earns</th><th>Wave</th></tr>
+<tr><td>1</td><td><b>Food: tiffin and meal plans</b></td><td>Verified home and cloud kitchens with FSSAI registration</td><td>Kitchen</td><td>8–12% commission on monthly plans</td><td>1</td></tr>
+<tr><td>2</td><td><b>Food: where to eat</b> (student guide + deals)</td><td>Nearby cafés and restaurants</td><td>Café</td><td>Featured listing ₹999–1,499/month or ₹10–20 per redeemed deal</td><td>1</td></tr>
+<tr><td>3</td><td><b>Laundry</b></td><td>2–3 partner laundromats / laundry brands</td><td>Laundromat</td><td>15% commission per order</td><td>1</td></tr>
+<tr><td>4</td><td><b>PG and housing finder</b></td><td>Verified PG owners, student-housing operators</td><td>PG owner</td><td>Success fee ≈ 50% of one month's rent on move-in</td><td>1</td></tr>
+<tr><td>5</td><td>Roommate matching</td><td>(Unimade itself)</td><td>Free; feeds PG placements</td><td>Indirect</td><td>1</td></tr>
+<tr><td>6</td><td><b>Cleaning and repairs</b></td><td>Cleaners, electricians, plumbers, phone/laptop repair</td><td>Provider</td><td>15–20% commission</td><td>2</td></tr>
+<tr><td>7</td><td><b>Storage and moving</b></td><td>Storage company, packers / tempo operators</td><td>Partner</td><td>10–15% commission</td><td>2 (Apr–May)</td></tr>
+<tr><td>8</td><td><b>Student deals and brand campaigns</b></td><td>Brands that want students</td><td>Brand</td><td>Campaign fees ₹15,000–50,000; affiliate commission on deals</td><td>2</td></tr>
+<tr><td>9</td><td><b>Move-in Kit</b> (Unimade's own product)</td><td>Unimade (sourced wholesale)</td><td>Student / parent</td><td>Product margin: ₹{{kit.cm}} per kit before ads</td><td>3 (Jun–Aug)</td></tr>
+<tr><td>10</td><td>Health: doctor and pharmacy</td><td>Nearby clinics, pharmacies</td><td>Clinic / pharmacy</td><td>Listing fee or per-booking fee</td><td>3</td></tr>
+<tr><td>11</td><td>Internships and part-time work</td><td>Employers, startups</td><td>Employer</td><td>Free for students; employers pay per listing later</td><td>3 (content first)</td></tr>
+<tr><td>12</td><td>Community: buy/sell, lost &amp; found, events</td><td>Students themselves</td><td>Free</td><td>Indirect: keeps students active; later sponsored events</td><td>3</td></tr>
+</table>
+
+<h3>How the services were ranked</h3>
+<table>
+<tr><th>Service</th><th>How often needed</th><th>Money per use</th><th>Ease to launch</th><th>Partners available</th><th>Wave</th></tr>
+<tr><td>Food (tiffin + where to eat)</td><td>Daily</td><td>Medium (₹3,500 plans)</td><td>Easy</td><td>Many</td><td>1</td></tr>
+<tr><td>Laundry</td><td>Weekly</td><td>Low (₹350)</td><td>Easy</td><td>Many</td><td>1</td></tr>
+<tr><td>PG finder</td><td>Twice a year</td><td><b>High (₹6,000 fee)</b></td><td>Medium (visits, verification)</td><td>Many owners</td><td>1 (build supply now for summer)</td></tr>
+<tr><td>Cleaning and repairs</td><td>Monthly</td><td>Low</td><td>Medium (trust in rooms)</td><td>Many</td><td>2</td></tr>
+<tr><td>Storage and moving</td><td>Twice a year</td><td>Medium</td><td>Medium</td><td>Few</td><td>2</td></tr>
+<tr><td>Brand campaigns</td><td>—</td><td>High</td><td>Needs 1,000+ students first</td><td>Many brands</td><td>2</td></tr>
+<tr><td>Move-in Kit</td><td>Once</td><td>High</td><td>Medium (stock, cash)</td><td>Wholesale</td><td>3</td></tr>
+<tr><td>Health, internships, community</td><td>Occasional</td><td>Low</td><td>Easy</td><td>Many</td><td>3</td></tr>
+</table>
+
+<div class="box warn">
+<h4>What Unimade should not do</h4>
+<ul>
+<li><b>On-demand food delivery</b> (one meal at a time): Swiggy and Zomato do this with fleets you can't match. Focus on monthly tiffin plans and café deals, which they don't do well for students.</li>
+<li><b>Cook, wash or clean yourself.</b> Partners deliver; Unimade connects, checks and guarantees.</li>
+<li><b>Random errands:</b> every errand is different, so they can't be priced or quality-checked. Leave them out until much later.</li>
+</ul>
+</div>
+</section>
+
+<!-- ============ 6. REVENUE ============ -->
+<section>
+<h2>6. How Unimade makes money</h2>
+<p>Six revenue streams. Each works differently, and you turn them on in order.</p>
+<table>
+<tr><th>#</th><th>Stream</th><th>How it works</th><th>Example</th></tr>
+<tr><td>1</td><td><b>Commission on bookings</b></td><td>Student pays Unimade; Unimade keeps a % and pays the partner the rest</td><td>₹350 laundry order × 15% = ₹52.50 to Unimade</td></tr>
+<tr><td>2</td><td><b>Success fee</b></td><td>Partner pays Unimade when a student actually moves in or signs up</td><td>PG rent ₹12,000 → owner pays ₹6,000 on move-in</td></tr>
+<tr><td>3</td><td><b>Listing subscription</b></td><td>Partners pay monthly to be featured at the top or verified</td><td>Café pays ₹1,499/month to appear first in "where to eat"</td></tr>
+<tr><td>4</td><td><b>Brand campaigns</b></td><td>Brands pay to reach verified students: sampling, posters, events, deals</td><td>A snack brand pays ₹20,000 to sample in 5 hostels</td></tr>
+<tr><td>5</td><td><b>Own product</b></td><td>Unimade sells its own Move-in Kit (classic D2C)</td><td>₹{{kit.mrp}} kit, ₹{{kit.cm}} left before ads</td></tr>
+<tr><td>6</td><td>Membership (year 2)</td><td>Students pay monthly for perks: no fees, extra discounts, priority</td><td>Unimade+ ₹149/month, once students use 3+ services</td></tr>
+</table>
+
+<h3>Where the money really comes from</h3>
+<table>
+<tr><th>Source</th><th class="num">Units in year 1</th><th class="num">Revenue (₹)</th><th class="num">Net to Unimade (₹)</th><th class="num">Share of net</th></tr>
+<!--CAT_ROWS-->
+</table>
+<div class="box verdict">
+<h4>The key insight: daily services bring students back, big moments make the money</h4>
+<p>Laundry, food and cleaning together are about 28% of what Unimade keeps, even though they're most of the orders. PG placements, the Move-in Kit and storage make about 53%. Brand and partner fees make about 19%. So everyday services are your <b>engagement engine</b>: they keep students opening Unimade every week, so that when the big moment comes (a new PG, moving out, freshers' season), Unimade is the obvious first stop. Don't judge laundry by its ₹46 per order. Judge it by how many students it keeps active.</p>
+</div>
+
+<h3>Your earlier pricing, revisited</h3>
+<p>Your newsletter priced each order at a ₹50 service fee + ₹30 delivery, with the partner commission on top. On a ₹200 laundry order, that's 40% extra for the student, and students would go straight to the vendor to avoid it (leakage). The fix:</p>
+<ul>
+<li><b>No student fees at launch.</b> The partner pays the commission; the student sees one clean price that's equal to or lower than going direct (partners give a student price in exchange for volume).</li>
+<li><b>Delivery or pickup costs</b> are built into the partner's price, not added on.</li>
+<li><b>Unimade+</b> (₹149/month) comes in year 2, only once students use three or more services and there are real perks to sell.</li>
+</ul>
+</section>
+
+<!-- ============ 7. BASICS ============ -->
+<section>
+<h2>7. Business basics from zero</h2>
+<p>The course defines Gross Margin, ROAS, MER and Break-even ROAS (S16, S18). The rest are standard terms, including the ones specific to platforms.</p>
+
+<h3>Platform terms</h3>
+<table>
+<tr><th style="width:22%">Term</th><th>Meaning</th><th style="width:38%">Unimade example</th></tr>
+<tr><td><b>GMV</b></td><td>Total value of all bookings made through you</td><td>Year 1: ₹{{totals.gmv}} of bookings. Not your money; most goes to partners.</td></tr>
+<tr><td><b>Take rate</b></td><td>The % of a booking Unimade keeps</td><td>Laundry 15%, tiffin 10%, cleaning 20%</td></tr>
+<tr><td><b>Net revenue</b></td><td>What Unimade actually keeps (commissions and fees), excluding GST</td><td>Year 1: ₹{{totals.rev}}</td></tr>
+<tr><td><b>Leakage</b></td><td>When a student and partner meet through you, then deal directly</td><td>Student gets the laundromat's number and stops booking through Unimade</td></tr>
+<tr><td><b>Liquidity</b></td><td>How often a student who asks for something actually gets it, fast</td><td>"Need a tiffin by Monday" → 3 options within 1 hour = good liquidity</td></tr>
+<tr><td><b>Supply / demand side</b></td><td>Partners / students</td><td>Both need their own marketing and their own care</td></tr>
+<tr><td><b>Network effect</b></td><td>Each new user makes the platform more valuable for others</td><td>More students → better partners join → better deals → more students</td></tr>
+<tr><td><b>Active user</b></td><td>A student who made at least one booking this month</td><td>Registered students mean nothing if they never book</td></tr>
+<tr><td><b>ARPU</b></td><td>Average revenue per user</td><td>An active student using laundry, tiffin and cleaning ≈ ₹{{student.total}}/month net</td></tr>
+</table>
+
+<h3>Money and margin terms</h3>
+<table>
+<tr><th style="width:22%">Term</th><th>Formula</th><th style="width:38%">Unimade example</th></tr>
+<tr><td>Revenue</td><td>Money customers pay you (excluding GST)</td><td>For a platform: commissions + fees, not the full booking value</td></tr>
+<tr><td>COGS</td><td>Direct cost of what you sold</td><td>Move-in Kit: ₹{{kit.cogs}} of products</td></tr>
+<tr><td>Gross margin (S16)</td><td><span class="formula">(Price − COGS) ÷ Price</span></td><td>Kit: {{kit.gm_pct}}%. Clears the course's 65% gate.</td></tr>
+<tr><td>Contribution</td><td><span class="formula">Revenue − variable costs</span></td><td>Laundry: ₹52.50 commission − ₹7 payment fee ≈ ₹{{cat.laundry.net}} per order</td></tr>
+<tr><td>Fixed costs</td><td>Paid every month regardless of sales</td><td>Ops associate, PG field executive, tools: ₹30,000–70,000/month</td></tr>
+<tr><td>Break-even</td><td><span class="formula">Fixed costs ÷ contribution per unit</span></td><td>₹30,000 ÷ ₹{{cat.laundry.net}} = 652 laundry orders, or 8 PG placements</td></tr>
+<tr><td>Payment gateway fee</td><td>≈2% of what you collect</td><td>On a ₹3,500 tiffin plan, ₹70 goes to Razorpay, out of your ₹350 commission</td></tr>
+</table>
+
+<h3>Marketing terms</h3>
+<table>
+<tr><th style="width:22%">Term</th><th>Formula</th><th style="width:38%">Unimade example</th></tr>
+<tr><td>CPM / CTR / CPC</td><td>Cost per 1,000 views / clicks ÷ views / spend ÷ clicks</td><td>Meta in India ≈ ₹80–200 CPM <span class="est">estimate</span></td></tr>
+<tr><td>Conversion rate</td><td>Buyers ÷ visitors</td><td>100 students see the PG finder, 5 book a visit = 5%</td></tr>
+<tr><td>CAC</td><td>Marketing spend ÷ new customers</td><td>Two kinds for a platform: <b>student CAC</b> (target ≤ ₹100 per active student) and <b>partner CAC</b> (your time + onboarding)</td></tr>
+<tr><td>LTV</td><td>Contribution per month × months they stay</td><td>₹{{student.total}}/month × 8 months ≈ ₹3,900 for an active student, plus any PG fee</td></tr>
+<tr><td>ROAS (S18)</td><td><span class="formula">Revenue from ads ÷ ad spend</span></td><td>Count what was actually paid, not MRP (S16's "ROAS trap")</td></tr>
+<tr><td>MER (S18)</td><td><span class="formula">Total revenue ÷ total marketing spend</span></td><td>Year 1: {{totals.mer}}. Course target: 3.0 or more.</td></tr>
+<tr><td>Break-even ROAS (S18)</td><td><span class="formula">1 ÷ gross margin</span></td><td>Kit: {{kit.be_course}} (course) / {{kit.be_full}} with all costs counted</td></tr>
+</table>
+
+<div class="box warn">
+<h4>The most common platform mistake: confusing GMV with revenue</h4>
+<p>If ₹{{totals.gmv}} of bookings go through Unimade, it's tempting to say "we did ₹59 lakh". But Unimade's revenue is ₹{{totals.rev}}; the rest belongs to partners. Report both, and never mix them up, especially with investors or in competitions.</p>
+</div>
+</section>
+
+<!-- ============ 8. UNIT ECONOMICS ============ -->
+<section>
+<h2>8. Unit economics</h2>
+<p>What Unimade earns on <b>one</b> transaction in each service, after the payment-gateway fee (2% of what Unimade collects) and any direct costs.</p>
+
+<table>
+<tr><th>Service</th><th class="num">Typical booking</th><th class="num">Take</th><th class="num">Unimade revenue</th><th class="num">Direct costs</th><th class="num">Unimade keeps</th></tr>
+<tr><td>Laundry order</td><td class="num">₹{{cat.laundry.aov}}</td><td class="num">15%</td><td class="num">₹{{cat.laundry.rev}}</td><td class="num">₹{{cat.laundry.gateway}} gateway</td><td class="num"><b>₹{{cat.laundry.net}}</b></td></tr>
+<tr><td>Tiffin plan (monthly)</td><td class="num">₹{{cat.food.aov}}</td><td class="num">10%</td><td class="num">₹{{cat.food.rev}}</td><td class="num">₹{{cat.food.gateway}} gateway</td><td class="num"><b>₹{{cat.food.net}}</b></td></tr>
+<tr><td>Cleaning / repair</td><td class="num">₹{{cat.home.aov}}</td><td class="num">20%</td><td class="num">₹{{cat.home.rev}}</td><td class="num">₹{{cat.home.gateway}} gateway</td><td class="num"><b>₹{{cat.home.net}}</b></td></tr>
+<tr><td>Storage booking (3 months)</td><td class="num">₹{{cat.storage.aov}}</td><td class="num">15%</td><td class="num">₹{{cat.storage.rev}}</td><td class="num">₹{{cat.storage.gateway}} gateway</td><td class="num"><b>₹{{cat.storage.net}}</b></td></tr>
+<tr><td>PG placement</td><td class="num">₹{{cat.pg.aov}} rent</td><td class="num">50% of 1 month</td><td class="num">₹{{cat.pg.rev}}</td><td class="num">₹1,000 ambassador + ₹1,200 unpaid fees (20%)</td><td class="num"><b>₹{{cat.pg.net}}</b></td></tr>
+<tr><td>Brand campaign</td><td class="num">₹{{cat.brand.aov}}</td><td class="num">—</td><td class="num">₹{{cat.brand.rev}}</td><td class="num">₹5,000 to run it</td><td class="num"><b>₹{{cat.brand.net}}</b></td></tr>
+<tr><td>Featured listing (monthly)</td><td class="num">₹{{cat.featured.aov}}</td><td class="num">—</td><td class="num">₹{{cat.featured.rev}}</td><td class="num">—</td><td class="num"><b>₹{{cat.featured.net}}</b></td></tr>
+<tr><td>Move-in Kit (own product)</td><td class="num">₹{{kit.mrp}}</td><td class="num">—</td><td class="num">₹{{kit.net}} (ex-GST)</td><td class="num">₹{{kit.var}} product, box, delivery, returns</td><td class="num"><b>₹{{kit.cm}}</b> before ads</td></tr>
+</table>
+<p class="small">Booking sizes and commission rates are <span class="est">estimates</span>. Partners will negotiate; confirm in your first 10 partner meetings (Appendix D).</p>
+
+<h3>What one active student is worth</h3>
+<table>
+<tr><th>A typical active student's month</th><th class="num">Unimade keeps</th></tr>
+<tr><td>3 laundry orders</td><td class="num">₹{{student.laundry}}</td></tr>
+<tr><td>1 tiffin plan</td><td class="num">₹{{student.food}}</td></tr>
+<tr><td>1 cleaning or repair</td><td class="num">₹{{student.home}}</td></tr>
+<tr class="tot"><td>Per month</td><td class="num">₹{{student.total}}</td></tr>
+</table>
+<p>Over an 8-month academic year that's ≈ ₹3,900, and if the same student also finds their PG through Unimade, add ₹{{cat.pg.net}}. <b>That's why multi-service matters</b>: one student bringing ₹46 from laundry alone isn't a business; one student using four services is.</p>
+
+<h3>The PG placement maths (your most valuable service)</h3>
+<ul>
+<li>Average PG rent near campus ≈ ₹12,000/month <span class="est">estimate</span>. Owners often pay brokers to fill beds; Unimade asks for 50% of one month's rent, payable when the student moves in.</li>
+<li>One placement leaves ≈ ₹{{cat.pg.net}} after paying the ambassador who helped and allowing for owners who don't pay.</li>
+<li>Just 8 placements a month cover ₹30,000 of fixed costs. The plan has {{pg_year}} placements in year 1, mostly June–August.</li>
+<li>For students it's free, and safer than a broker: verified photos, a checklist visit, and Unimade stepping in if the PG doesn't match what was promised.</li>
+</ul>
+
+<h3>Leakage: what it costs</h3>
+<p>If 40% of laundry students went direct to the laundromat after a few months, that's ≈ ₹{{leak.lost}} a month lost at October volumes, plus the lost chance to sell them other services. Section 12 covers how to prevent it.</p>
+
+<h3>Move-in Kit and ads</h3>
+<p>The kit's gross margin is {{kit.gm_pct}}% (passes the course's 65% gate), so its break-even ROAS is {{kit.be_course}} by the course formula and {{kit.be_full}} with all costs counted. Spend up to ₹{{kit.cm}} to win a kit sale and you still break even; target ₹500–700.</p>
+</section>
+
+<!-- ============ 9. FINANCIAL PLAN ============ -->
+<section>
+<h2>9. The 12-month financial plan</h2>
+<p>Base case, Nov 2026 – Oct 2027, one Gurugram cluster. "Students" = verified students (cumulative); "GMV" = all bookings through Unimade; "Net" = what Unimade keeps after gateway fees and direct costs. Fixed costs: part-time ops associate from January; from June, 2 ops associates + a PG field executive. <b>No founder salary in year one.</b> Cash includes kit stock bought in batches.</p>
+<table class="plan">
+<tr><th>Month</th><th>Students</th><th>GMV</th><th>Revenue</th><th>Net</th><th>Fixed</th><th>Marketing</th><th>Profit</th><th>Cash (cum.)</th><th>MER</th></tr>
+<!--PLAN_ROWS-->
+</table>
+
+<div class="grid3">
+  <div class="card"><div class="k">Year revenue</div><div class="v">₹{{totals.rev}}</div><div class="small">on ₹{{totals.gmv}} GMV</div></div>
+  <div class="card"><div class="k">Year profit (base)</div><div class="v">₹{{totals.profit}}</div><div class="small">before founder salary and tax</div></div>
+  <div class="card"><div class="k">Year MER</div><div class="v">{{totals.mer}}</div><div class="small">course target ≥ 3.0</div></div>
+</div>
+
+<h3>Reading the plan</h3>
+<ul>
+<li><b>November–February:</b> roughly break-even while you build supply and the first 750 students. Hard, and normal.</li>
+<li><b>March–May:</b> profitable months as daily services grow, the first brand deals land, and storage season starts.</li>
+<li><b>June–August:</b> freshers' season. PG placements, Move-in Kits and new students together make this the year's biggest quarter.</li>
+<li><b>By October:</b> {{oct.users}} students, about ₹{{oct.rev}} of monthly revenue and ₹{{oct.profit}} monthly profit.</li>
+</ul>
+
+<div class="box warn">
+<h4>The bad case</h4>
+<p>If everything sells at half the plan but you spend the same on staff and marketing, year one ends at about <b>−₹1.2 lakh</b>. The stop rules in the 90-day plan exist so you don't hire or spend ahead of proof; follow them and the realistic worst case is losing ₹40,000–60,000 on the early months.</p>
+</div>
+
+<h3>How much money you need</h3>
+<table>
+<tr><th>Need</th><th class="num">₹</th><th>Note</th></tr>
+<tr><td>Launch (Nov–Dec): domain, WhatsApp setup, posters, partner kits, guarantee reserve</td><td class="num">15,000–25,000</td><td>Savings or family</td></tr>
+<tr><td>Early months running costs</td><td class="num">20,000–30,000</td><td>Lowest cash point in the plan: ₹{{cash_low}}</td></tr>
+<tr><td>Move-in Kit stock (May–Jul, in batches)</td><td class="num">60,000–80,000</td><td>Paid back within weeks in season; reduce with pre-orders</td></tr>
+<tr class="tot"><td>Total to arrange</td><td class="num">≈ 1,00,000–1,50,000</td><td>including a buffer</td></tr>
+</table>
+<p><b>Sources:</b> pre-orders, savings, Masters' Union incubation and competitions; later the Startup India Seed Fund (needs a registered company). <b>Don't raise investor money yet</b>; one proven cluster gets far better terms.</p>
+</section>
+
+<!-- ============ 10. LAUNCH SEQUENCE ============ -->
+<section>
+<h2>10. The launch sequence</h2>
+<p>All 12 services are the vision. They go live in three waves, each timed to the student year (Section 4).</p>
+
+<table>
+<tr><th style="width:17%">Wave</th><th>Services that go live</th><th>Why now</th><th style="width:25%">Wave goal</th></tr>
+<tr><td><b>Wave 1</b><br>Nov 2026 – Jan 2027</td><td>Food (tiffin plans + where-to-eat deals), Laundry, PG finder + roommate matching</td><td>Daily needs build habit; PG supply needs months of building before the summer rush; January brings PG switches</td><td>500 students, 15+ partners, first 6 PG placements</td></tr>
+<tr><td><b>Wave 2</b><br>Feb – May 2027</td><td>Cleaning and repairs, Storage and moving (Apr–May), Student deals and first brand campaigns</td><td>Trust from Wave 1 lets you send people into rooms; move-out season; 1,000+ students makes you interesting to brands</td><td>1,300 students, 30+ partners, 2 brand deals</td></tr>
+<tr><td><b>Wave 3</b><br>Jun – Aug 2027</td><td>Move-in Kit, freshers' bundle, health (clinic + pharmacy), internships, community</td><td>Freshers' season: every need hits at once, and parents are paying</td><td>2,800 students, 100+ PG placements in the year, 200 kits</td></tr>
+</table>
+
+<h3>The rule for adding a service (the "service gate")</h3>
+<p>A new service goes live only when <b>all five</b> are true. This is the platform version of the course's 65% margin gate: a check you pass before spending.</p>
+<ol>
+<li><b>Demand:</b> at least 30 students have asked for it (in interviews, WhatsApp or the community).</li>
+<li><b>Supply:</b> at least 2 partners are signed, verified and tested (you or a friend tried them).</li>
+<li><b>Money:</b> commission or fee agreed in writing, and Unimade keeps at least ₹40 per transaction after costs.</li>
+<li><b>Quality:</b> a written standard (time, price, hygiene, what happens if it goes wrong).</li>
+<li><b>Capacity:</b> existing services are running at ≥ 90% on-time and ≥ 4.3/5 rating. Don't add a new service while the old ones are shaky.</li>
+</ol>
+
+<h3>The freshers' bundle (Wave 3's big idea)</h3>
+<p>One offer for new students and their parents, sold from May: <b>"Moving to college? Unimade sorts it."</b></p>
+<ul>
+<li>Verified PG shortlist + visit with an ambassador (free for the student)</li>
+<li>Move-in Kit delivered to the PG on arrival day (₹{{kit.mrp}})</li>
+<li>First week of tiffin at a discount, first laundry pickup free</li>
+<li>Access to the Unimade community of their campus</li>
+</ul>
+<p>Parents get peace of mind; you get a student on day one who uses every service for the next 3–4 years.</p>
+</section>
+
+<!-- ============ 11. GETTING STUDENTS ============ -->
+<section>
+<h2>11. Getting students</h2>
+<p>The course frameworks applied to the student side, in the order taught.</p>
+
+<h3>Brand and presence (S3–S7)</h3>
+<table>
+<tr><th>Item</th><th>Do this</th></tr>
+<tr><td>Domain and email (S3, S7)</td><td>Buy unimade.in (≈ ₹500–900/year <span class="est">estimate</span>) and hello@unimade.in. Move off vercel.app.</td></tr>
+<tr><td>Brand kit (S4)</td><td>Lock violet + cyan, 2 fonts, the doodle style. "Unimade Verified" badge for partners.</td></tr>
+<tr><td>Instagram bio (S5)</td><td>"Food, laundry, PGs &amp; more near [campus]. Verified &amp; student-priced. Sorted in one chat ↓"</td></tr>
+<tr><td>Website (S6)</td><td>Above the fold: "College life. Sorted." + "Get sorted on WhatsApp" + a live count ("1,200 students · 25 verified partners"). Show only live services; "coming soon" for the rest.</td></tr>
+<tr><td>Email / WhatsApp welcome (S7)</td><td>Your onboarding newsletter is good; update prices and services, and use "Welcome in 3": thanks → story → offer.</td></tr>
+</table>
+
+<h3>Channels: what fits Unimade</h3>
+<table>
+<tr><th>Channel</th><th>Fit</th><th>How</th></tr>
+<tr><td>Offline / ATL (S17)</td><td><b>Main channel</b></td><td>Posters in laundry rooms, mess entrances, PG notice boards; canteen table tents; freshers' week stall. One QR per spot.</td></tr>
+<tr><td>Campus ambassadors</td><td><b>Main channel</b></td><td>1–2 per hostel/PG; paid ₹20 per verified student + ₹1,000 per PG placement + free perks</td></tr>
+<tr><td>WhatsApp (S18)</td><td><b>The product itself</b></td><td>Business app: catalogue of services, labels (New / Active / PG lead), quick replies, broadcasts (max 256 per list)</td></tr>
+<tr><td>Referrals</td><td>Strong</td><td>"Bring your roommate: both get ₹100 off your next tiffin plan"</td></tr>
+<tr><td>Instagram content (S8, S9)</td><td>Strong</td><td>3–4 posts a week across the 4 buckets (below); Hero/Hub/Help</td></tr>
+<tr><td>Influencers (S10, S11)</td><td>Medium–strong</td><td>Campus nano creators (1K–10K) paid in perks; for freshers' season, "hostel room tour" micro creators (10K–100K) tracked with codes</td></tr>
+<tr><td>SEO / blog (S15)</td><td>Strong for PG finder</td><td>Your 15 blog posts already target "PG near college", "PG red flags", "PG vs hostel". Add a "Find a verified PG" button to each.</td></tr>
+<tr><td>Google ads (S14)</td><td>PG finder only</td><td>Transactional searches: "PG near [college]", "girls PG [area] Gurugram"</td></tr>
+<tr><td>Meta ads (S13)</td><td>Freshers' season</td><td>Admitted students and parents; one goal, one audience, one creative, 7 days</td></tr>
+<tr><td>PR (S12)</td><td>Good</td><td>Data angle: "We surveyed 1,000 students: here's what hostel life really costs in Gurugram" (passes "So What" ×2)</td></tr>
+</table>
+
+<h3>Launch ATL plan (S17, ₹15,000, Wave 1)</h3>
+<table>
+<tr><th>Split</th><th>Activity</th><th class="num">₹</th><th>Counted by</th></tr>
+<tr><td>60% Safe bet</td><td>15 posters in hostels, messes and PGs + table tents at 3 canteens ("College life. Sorted. Scan →")</td><td class="num">9,000</td><td>One QR per spot → WhatsApp with spot code</td></tr>
+<tr><td>30% Test</td><td>"First week sorted" offer: ₹100 off first tiffin plan, first laundry pickup free, for the first 50 students</td><td class="num">4,500</td><td>Code SORTED100</td></tr>
+<tr><td>10% Wild card</td><td>"Worst hostel hack" meme contest on campus pages</td><td class="num">1,500</td><td>Code word in DMs</td></tr>
+</table>
+<p class="small">S17 reminders: outdoor ads in Gurugram need municipal permission; inside hostels and PGs, ask the warden or owner.</p>
+
+<h3>Freshers' season media plan (S18 Media Plan Sheet), Jun–Aug 2027, ₹1,70,000</h3>
+<table>
+<tr><th>Channel</th><th>Job</th><th>Activity</th><th class="num">Share</th><th class="num">₹</th></tr>
+<tr><td>Paid</td><td>New students and parents</td><td>Meta ads (freshers' bundle, kit, PG finder); Google ads for PG searches; 8 micro creators</td><td class="num">60%</td><td class="num">1,02,000</td></tr>
+<tr><td>Organic</td><td>Trust</td><td>Reels, blog, orientation-day stalls, ambassador visits, PG owner tie-ups</td><td class="num">25%</td><td class="num">42,500</td></tr>
+<tr><td>Conversational</td><td>Convert + keep</td><td>WhatsApp broadcasts, PG visit reminders, "your first week" sequence</td><td class="num">15%</td><td class="num">25,500</td></tr>
+</table>
+<p><b>Targets:</b> paid ROAS ≥ 2.5 on kits (break-even {{kit.be_full}}); MER ≥ 3.0. Move money weekly to channels beating break-even (S18).</p>
+
+<h3>Content (S9: 4 buckets, 3–4 posts a week)</h3>
+<table>
+<tr><th>Bucket</th><th>Examples</th></tr>
+<tr><td>Behind the brand</td><td>"We visited 40 PGs so you don't have to"; verifying a tiffin kitchen; meet a partner</td></tr>
+<tr><td>Education</td><td>PG red flags; how to budget ₹10k a month; best cheap eats near campus</td></tr>
+<tr><td>Customer proof</td><td>Student reviews; "300 students now eat with Unimade tiffins"</td></tr>
+<tr><td>Offer</td><td>Weekly café deal; freshers' bundle countdown; storage early-bird</td></tr>
+</table>
+</section>
+
+<!-- ============ 12. GETTING PARTNERS ============ -->
+<section>
+<h2>12. Getting partners</h2>
+<p>Partners are half your business. Most small vendors have never worked with a platform, so the pitch must be simple and the risk low for them.</p>
+
+<h3>The partner pitch (30 seconds)</h3>
+<p class="box learn">"We're Unimade, the student platform for [campus]. We have [X] students in hostels and PGs around you who need [tiffin / laundry / a PG]. We send you customers, handle bookings and payments, and pay you every week. You pay nothing to join, only [10–15]% on orders we send you. No customers, no cost."</p>
+
+<h3>Terms by partner type</h3>
+<table>
+<tr><th>Partner</th><th>Unimade asks for</th><th>Partner gives students</th><th>Unimade gives partner</th></tr>
+<tr><td>Laundromat</td><td>15% commission</td><td>Student price, separate washing, 48h return</td><td>Batched volume (pickups per hostel), weekly payment</td></tr>
+<tr><td>Tiffin kitchen</td><td>8–12% on monthly plans</td><td>Student price, menu, FSSAI registration, hygiene check</td><td>Steady monthly subscribers</td></tr>
+<tr><td>PG owner</td><td>50% of one month's rent per placement (signed agreement)</td><td>Honest photos, listed price, the facilities promised</td><td>Filled beds without a broker's full fee</td></tr>
+<tr><td>Cleaner / repair</td><td>15–20%</td><td>Fixed price list, verified ID</td><td>Bookings, repeat customers</td></tr>
+<tr><td>Café / restaurant</td><td>₹999–1,499/month featured, or ₹10–20 per redeemed deal</td><td>A student deal</td><td>Footfall from verified students</td></tr>
+<tr><td>Brand</td><td>Campaign fee</td><td>Samples, offers</td><td>Direct reach to verified students, with tracked results</td></tr>
+</table>
+
+<h3>"Unimade Verified": the standard</h3>
+<ul>
+<li><b>Checked in person:</b> you or an ambassador visit every partner before listing.</li>
+<li><b>Documents:</b> ID; FSSAI registration for food; ownership or lease proof for PGs; GST if they have it.</li>
+<li><b>Price promise:</b> the Unimade price is never higher than walking in.</li>
+<li><b>Ratings:</b> students rate after every order. Below 4.0 for a month = warning; three serious complaints = removed.</li>
+<li><b>Mystery checks:</b> once a month, a friend books as a normal student.</li>
+</ul>
+
+<h3>Stopping leakage (the biggest platform risk)</h3>
+<table>
+<tr><th>Tactic</th><th>Why it works</th></tr>
+<tr><td>All payments through Unimade (UPI / Razorpay)</td><td>The student never needs the partner's number or cash</td></tr>
+<tr><td>Unimade guarantee only on Unimade bookings</td><td>"Lost item? Bad meal? We refund." Going direct loses that protection.</td></tr>
+<tr><td>Student prices and deals only via Unimade</td><td>Going direct costs the student more</td></tr>
+<tr><td>Bundles and loyalty</td><td>Points across services ("10th laundry free", "₹100 off tiffin after 3 laundry orders")</td></tr>
+<tr><td>Partner agreement</td><td>Clause: students introduced by Unimade stay Unimade customers for 12 months; commission due on direct deals</td></tr>
+<tr><td>Make Unimade useful to partners</td><td>Weekly payouts, booking management, more customers. A partner who loves Unimade won't push students away.</td></tr>
+<tr><td>PG fee agreed in writing <i>before</i> the visit</td><td>The owner can't claim the student "found them independently"</td></tr>
+</table>
+
+<h3>How money flows</h3>
+<p>Student pays Unimade → Unimade keeps its commission → pays the partner weekly. Razorpay's split-payment product ("Route") can pay partners automatically, taking your share at source. PG success fees are invoiced to the owner on move-in day; collect a token upfront if possible.</p>
+</section>
+
+<!-- ============ 13. OPERATIONS ============ -->
+<section>
+<h2>13. Operations and tech</h2>
+
+<h3>Don't build an app yet</h3>
+<p>Your site has a "Download app" button, but an app costs months and lakhs, and students already live on WhatsApp. Run Unimade on simple tools until manual work is clearly the bottleneck (around 1,500+ active students or 3,000+ bookings a month).</p>
+<table>
+<tr><th>Need</th><th>Tool (≈ ₹0–5,000/month)</th></tr>
+<tr><td>Student front door</td><td>WhatsApp Business: catalogue of services, quick replies, labels; later the WhatsApp API (Interakt / AiSensy, S18) for automated flows</td></tr>
+<tr><td>Website</td><td>Your current site, plus a no-code "services" page (Softr / Glide on top of Airtable) where students see verified partners and book</td></tr>
+<tr><td>Partner and booking database</td><td>Airtable or Google Sheets: partners, students, bookings, status, payouts</td></tr>
+<tr><td>Payments</td><td>Razorpay payment links / UPI; Razorpay Route for automatic partner payouts</td></tr>
+<tr><td>PG listings</td><td>Airtable with photos, checklist results and prices; shared as a filtered link per student</td></tr>
+<tr><td>Accounts</td><td>Separate bank account, bookkeeping app, weekly reconciliation</td></tr>
+</table>
+
+<h3>A day in Unimade operations</h3>
+<ol>
+<li><b>Morning:</b> check new WhatsApp requests; send options within 1 hour (liquidity!).</li>
+<li>Confirm bookings with partners; send payment links.</li>
+<li><b>Afternoon:</b> PG visits with students (field executive or ambassador); partner verification visits.</li>
+<li><b>Evening:</b> laundry pickups batched per hostel; collect ratings from completed orders.</li>
+<li><b>Weekly:</b> partner payouts, metrics review, one new partner signed per category.</li>
+</ol>
+
+<h3>The Unimade guarantee</h3>
+<p>"If something booked on Unimade goes wrong, we fix it or refund it." Caps: laundry items up to ₹1,000 per order; tiffin, a free replacement meal or a refund for the day; PG, help finding another verified PG free, and the owner's fee withheld. Fund it with a reserve of about 2% of GMV, and recover from partners where it was their fault.</p>
+
+<h3>Move-in Kit operations</h3>
+<ul>
+<li>Source from Sadar Bazaar / IndiaMART; 3 quotes per item; build 5 sample kits; show to 20 students and 10 parents first.</li>
+<li>Electricals (extension board, lamp) must be BIS-certified.</li>
+<li>Buy in batches (20 for January, then 60 → 80 → 70 in summer), pre-orders first.</li>
+<li>Deliver to the PG on move-in day (cheap and memorable); courier for other cities.</li>
+</ul>
+</section>
+
+<!-- ============ 14. LEGAL / TEAM ============ -->
+<section>
+<h2>14. Legal, money and team</h2>
+<p class="small">General guidance, not legal or tax advice. A platform that collects money for other businesses has extra tax rules, so book a session with a chartered accountant (CA) before you start collecting payments for partners.</p>
+
+<h3>Registration</h3>
+<table>
+<tr><th>Stage</th><th>Structure</th></tr>
+<tr><td>Pilot (Nov–Dec)</td><td>Separate bank account; keep every record. Keep volumes small.</td></tr>
+<tr><td>Before collecting payments at scale (Jan 2027)</td><td><b>LLP</b> (if co-founders are in) or sole proprietorship + Udyam registration + current account. Payment gateways need a business entity.</td></tr>
+<tr><td>Before raising money or grants</td><td><b>Private Limited</b> + DPIIT Startup India recognition</td></tr>
+</table>
+
+<h3>GST: why platforms are different</h3>
+<ul>
+<li>A platform that collects payments for others can be treated as an <b>"e-commerce operator"</b> under GST. E-commerce operators may need to register <b>regardless of turnover</b> and collect TCS (tax at source) on partners' sales.</li>
+<li>For some services (restaurant/food services, and housekeeping such as cleaning and repairs when the provider isn't GST-registered), the law can make <b>the platform itself liable to pay GST</b> on the service.</li>
+<li>Your own commissions and fees are a service; GST applies once you cross the ₹20 lakh threshold (or earlier if registered).</li>
+<li>The Move-in Kit: selling on Amazon/Flipkart needs GST from the first sale (S16).</li>
+<li><b>Practical approach:</b> in the pilot, consider letting students pay partners directly for food and home services while Unimade invoices partners for commission, until a CA confirms the right setup. Ask specifically about Section 9(5) and TCS.</li>
+</ul>
+
+<h3>Other rules</h3>
+<table>
+<tr><th>Rule</th><th>What it means for Unimade</th></tr>
+<tr><td>Food safety (FSSAI)</td><td>Every food partner must have FSSAI registration or a licence. Check it, record it.</td></tr>
+<tr><td>Consumer Protection (E-Commerce) Rules</td><td>Show partner details, prices, refund policy and a grievance contact; don't allow fake reviews.</td></tr>
+<tr><td>DPDP Act 2023</td><td>Student data (names, rooms, phones, IDs): consent, minimal collection, a privacy policy, no selling data to brands. Brands get reach, not raw data.</td></tr>
+<tr><td>PG and rental listings</td><td>Use written agreements with owners; don't promise what you haven't checked; check whether local rules require broker registration in your area.</td></tr>
+<tr><td>Legal Metrology + BIS</td><td>Move-in Kit box labelling (MRP, contents, packer details); BIS marks on electricals.</td></tr>
+<tr><td>Trademark</td><td>File "Unimade" (classes for platform services, e.g. 35, plus relevant service classes). Do it early.</td></tr>
+<tr><td>Partner agreements</td><td>One page each: commission, payment terms, quality standards, non-circumvention (leakage) clause, termination.</td></tr>
+</table>
+
+<h3>The team</h3>
+<div class="box warn">
+<p>The website lists five people; one is working. A platform has two sides, field work, support and partner sales, so <b>it needs at least two committed people</b>. Fix this first:</p>
+<ol>
+<li>One honest conversation with each person: in or out, with hours per week, for 6 months.</li>
+<li>Equity follows future work, not past attendance; people stepping back get a small thank-you share or none, in writing.</li>
+<li>Vesting: shares earned over 4 years with a 1-year cliff.</li>
+<li>A one-page founders' agreement now; formalise it when you register.</li>
+<li>Update the website to show the real team.</li>
+</ol>
+<p><b>Suggested roles:</b> Founder 1 (you): partners, operations, numbers. Founder 2: students, brand, content, community. Then campus ambassadors (commission-based), a part-time ops associate from January, and a PG field executive from summer.</p>
+</div>
+</section>
+
+<!-- ============ 15. METRICS ============ -->
+<section>
+<h2>15. Metrics: the weekly dashboard</h2>
+<p>Review every Sunday. Platforms need numbers for <b>both sides</b> plus quality.</p>
+<table>
+<tr><th>Metric</th><th>What it tells you</th><th>Target by April 2027</th></tr>
+<tr><td>Verified students (total) / active students (booked this month)</td><td>Reach vs real usage</td><td>1,200 / 350</td></tr>
+<tr><td>Services used per active student</td><td>Whether multi-service is working</td><td>≥ 1.8</td></tr>
+<tr><td>Repeat rate (booked again within 30 days)</td><td>Habit</td><td>≥ 50%</td></tr>
+<tr><td>GMV and net revenue, by service</td><td>Size and where money comes from</td><td>Net ≥ ₹70,000/month</td></tr>
+<tr><td>Request → booking within 1 hour</td><td>Liquidity</td><td>≥ 70%</td></tr>
+<tr><td>Live, verified partners by service</td><td>Supply health</td><td>≥ 2 per live service, 25+ total</td></tr>
+<tr><td>Average rating; complaints per 100 bookings</td><td>Quality</td><td>≥ 4.3; &lt; 3</td></tr>
+<tr><td>Leakage signals</td><td>Students who stopped booking a service but still use the partner</td><td>Track by asking every lapsed student</td></tr>
+<tr><td>PG leads → visits → placements</td><td>Housing funnel</td><td>Visit→placement ≥ 25%</td></tr>
+<tr><td>Student CAC, by channel</td><td>Cost to win an active student</td><td>≤ ₹100</td></tr>
+<tr><td>Partner churn</td><td>Are partners happy?</td><td>&lt; 10% per quarter</td></tr>
+<tr><td>Cash in bank</td><td>Survival</td><td>≥ 1 month of fixed costs</td></tr>
+</table>
+<p class="small">Use UTM links and the Meta Pixel to track campaigns (the course's Session 19, which wasn't in your folder).</p>
+</section>
+
+<!-- ============ 16. 90 DAYS ============ -->
+<section>
+<h2>16. The 90-day plan</h2>
+<table>
+<tr><th style="width:17%">When</th><th>Do this</th><th style="width:27%">Done when / stop rule</th></tr>
+<tr><td><b>Week 1</b><br>3–9 Nov</td><td><ul><li>Team conversation + one-page founders' agreement</li><li>30 student interviews: top 5 hardships, spending on each, ranking (Appendix B)</li><li>CA call: GST setup for collecting partner payments</li></ul></td><td>Ranked list of needs with ₹ spend. <b>Stop rule:</b> if food, laundry or housing isn't in students' top 3, re-pick Wave 1 to match the interviews.</td></tr>
+<tr><td><b>Week 2</b><br>10–16 Nov</td><td><ul><li>Visit 20 partners; sign 8–10 (2 laundry, 3 tiffin, 3–5 PGs)</li><li>Test each one yourself</li><li>Domain, email, WhatsApp Business, Airtable, Razorpay</li><li>Website: live services only, WhatsApp button</li></ul></td><td>8 verified partners with written terms</td></tr>
+<tr><td><b>Weeks 3–4</b><br>17–30 Nov</td><td><ul><li>Soft launch to 150 students in 2–3 hostels/PGs (₹15,000 ATL plan)</li><li>Recruit 4 ambassadors</li><li>Handle every request yourself; time each step</li></ul></td><td>150 students, 60 bookings. <b>Stop rule:</b> if &lt; 25% of students book anything, fix the offer before adding students.</td></tr>
+<tr><td><b>Weeks 5–6</b><br>1–14 Dec</td><td><ul><li>Collect ratings; drop weak partners, add backups</li><li>List 15 verified PGs with photos and checklists for January movers</li><li>Get Move-in Kit quotes; order 5 samples</li></ul></td><td>Rating ≥ 4.3; 15 PGs listed</td></tr>
+<tr><td><b>Weeks 7–8</b><br>15–31 Dec</td><td><ul><li>Exams/break: light operations</li><li>Register an LLP / proprietorship; set up partner agreements</li><li>Plan the January push: 5 hostels/PGs, ambassadors, café deals</li></ul></td><td>Entity and bank ready</td></tr>
+<tr><td><b>Weeks 9–10</b><br>1–14 Jan</td><td><ul><li>New-semester push; PG finder for switchers</li><li>Part-time ops associate once you pass 300 students</li><li>20-kit test</li></ul></td><td>500 students; first 5 PG placements</td></tr>
+<tr><td><b>Weeks 11–13</b><br>15 Jan–2 Feb</td><td><ul><li>Expand to 8 buildings; add 5 cafés (deals)</li><li>Start conversations with 10 brands for March campaigns</li><li>Write the playbook (SOPs) for every live service</li></ul></td><td>600+ students, 15+ partners, ≥ 1.5 services per active student. <b>Decision point:</b> green → Wave 2 in February; red → fix Wave 1 before adding anything.</td></tr>
+</table>
+
+<h3>Milestones after 90 days</h3>
+<table>
+<tr><th>By</th><th>Milestone</th></tr>
+<tr><td>April 2027</td><td>1,200 students, 30 partners, cleaning and storage live, 2 brand campaigns, profitable months</td></tr>
+<tr><td>May 2027</td><td>Freshers' bundle pre-sales open; 40+ PGs verified for the summer</td></tr>
+<tr><td>Aug 2027</td><td>2,800 students; 100+ PG placements in the year; 200 kits</td></tr>
+<tr><td>Oct 2027</td><td>{{oct.users}} students; decide on cluster #2 with the playbook; register a Pvt Ltd; consider fundraising</td></tr>
+</table>
+</section>
+
+<!-- ============ 17. RISKS ============ -->
+<section>
+<h2>17. Risks</h2>
+<table>
+<tr><th>Risk</th><th>Likelihood</th><th>What you do</th></tr>
+<tr><td>Leakage (students and partners go direct)</td><td>High</td><td>Payments through Unimade, guarantee, student prices only via Unimade, loyalty, non-circumvention clause (Section 12)</td></tr>
+<tr><td>Spreading too thin</td><td>High</td><td>Three waves; the five-point service gate; never add a service while others are shaky</td></tr>
+<tr><td>Partner quality problems</td><td>High</td><td>Verified checks, ratings, mystery checks, backups, three-strikes rule</td></tr>
+<tr><td>Partners refuse to pay commission</td><td>Medium</td><td>Start with partners who want students most; pay them fast; show the volume; offer featured listing instead</td></tr>
+<tr><td>PG owners skip the success fee</td><td>Medium</td><td>Signed agreement before visits; token upfront; withhold future referrals; 20% already allowed for in the model</td></tr>
+<tr><td>GST and compliance surprises</td><td>Medium</td><td>CA before collecting payments for partners; keep records clean from day one</td></tr>
+<tr><td>Food safety incident</td><td>Low–medium, high impact</td><td>FSSAI-registered partners only, hygiene visits, fast response plan, insurance once larger</td></tr>
+<tr><td>Swiggy / Urban Company / NoBroker go after students</td><td>Low (year 1)</td><td>Your edge is local trust, density and covering <i>all</i> student needs; big apps do one thing</td></tr>
+<tr><td>Seasonality (vacations)</td><td>Certain</td><td>Storage and freshers' season fill the gaps; keep fixed costs flexible in Dec and May–Jun</td></tr>
+<tr><td>Founder burnout, studies suffer</td><td>High</td><td>Second founder, ambassadors, ops associate; protect exam weeks</td></tr>
+</table>
+</section>
+
+<!-- ============ 18. THINGS YOU DIDN'T ASK ============ -->
+<section>
+<h2>18. Things you didn't ask but need to know</h2>
+<ol>
+<li><b>Trust is the product.</b> Students can already find a tiffin or a PG. What they can't find is one they can <i>trust</i>. Every decision should make Unimade more trustworthy.</li>
+<li><b>Supply first, in a tiny area.</b> Ten great partners in one cluster beat a hundred average ones across Gurugram.</li>
+<li><b>Speed of reply is your service.</b> In a WhatsApp-run platform, a 5-minute reply feels like magic; a 5-hour reply feels like the old WhatsApp groups you're replacing.</li>
+<li><b>Registered students are a vanity number.</b> Count active students and services per student.</li>
+<li><b>Your community is a moat.</b> A student-only, campus-only community (buy/sell, questions, events) gives students a reason to open Unimade even when they don't need to book anything.</li>
+<li><b>Brands will pay for students, but only once you have proof.</b> Keep data on how many students saw, tried and used something. That's what a brand buys.</li>
+<li><b>Never sell student data.</b> Sell reach (sampling, posters, offers), never phone numbers. Breaking that trust ends the business, and the DPDP Act forbids it.</li>
+<li><b>Each service needs an owner.</b> Even if it's an ambassador, someone must be responsible for each live service's partners and ratings.</li>
+<li><b>Write the playbook as you go.</b> The value of Unimade at the end of year one is the playbook that lets you open cluster #2 in 6 weeks.</li>
+<li><b>Your course work and your business are the same.</b> Use real Unimade numbers in every course deliverable.</li>
+<li><b>Say "not yet", not "no".</b> Write down every service students ask for; that list becomes Waves 4, 5 and 6.</li>
+<li><b>Keep fixed costs near zero until revenue is real.</b> Hire after the work exists, not before.</li>
+</ol>
+</section>
+
+<!-- ============ APPENDIX ============ -->
+<section>
+<h2>Appendix A: Unimade Lean Canvas v2 (S2, with real numbers)</h2>
+<table>
+<tr><th style="width:24%">Box</th><th>Unimade</th></tr>
+<tr><td>Problem</td><td>1. Students new to the city can't find trusted food, laundry and services near campus. 2. Finding a safe, fairly priced PG means brokers, fake photos and fees. 3. Every need is handled separately, through word of mouth and messy WhatsApp groups.</td></tr>
+<tr><td>Existing alternatives</td><td>Swiggy/Zomato, local dhobis, brokers, Facebook and WhatsApp groups, notice boards, Urban Company, NoBroker</td></tr>
+<tr><td>Solution</td><td>1. Verified, student-priced partners for daily needs, booked in one chat. 2. Verified PG finder with visits and a guarantee. 3. One student account across every service, plus a campus community.</td></tr>
+<tr><td>Unique value proposition</td><td>"College life. Sorted." Every provider verified, student-priced, bookable in one chat, backed by Unimade.</td></tr>
+<tr><td>Customer segments</td><td>Students: 1st–2nd years in hostels and PGs in your Gurugram cluster (3,000–5,000). Payers: parents. Partners: laundromats, tiffin kitchens, PG owners, service pros, cafés, brands.</td></tr>
+<tr><td>Channels</td><td>Hostel and PG posters (QR per spot), ambassadors, WhatsApp, referrals, SEO blog for PG searches, freshers' stalls, Meta/Google in season</td></tr>
+<tr><td>Revenue streams</td><td>Commissions (laundry 15%, tiffin 10%, home services 20%, storage 15%); PG success fee ≈ ₹6,000; featured listings ₹1,499/month; brand campaigns ₹15,000–50,000; Move-in Kit ₹{{kit.mrp}}</td></tr>
+<tr><td>Cost structure</td><td>Ops associate + PG field executive (₹30,000–70,000/month fixed), ambassador payouts, marketing ₹4,000–70,000/month by season, payment fees 2%, guarantee reserve, kit stock</td></tr>
+<tr><td>Key metrics</td><td>Active students, services per student, repeat rate, net revenue, liquidity (1-hour match), ratings, PG placements</td></tr>
+<tr><td>Unfair advantage</td><td>Founders live on campus: direct access to students, wardens and PG owners; a brand voice students see as their own; trust built hostel by hostel</td></tr>
+</table>
+
+<h3>Appendix B: Student interview script (15 minutes)</h3>
+<ol>
+<li>What were the hardest things about moving into your hostel / PG? (Let them list; don't suggest.)</li>
+<li>Rank these by how much they bother you: food, laundry, finding a PG, cleaning, repairs, storage, health, money.</li>
+<li>For your top 3: what do you do today? What does it cost you a month? When did it last go wrong?</li>
+<li>How did you find your current PG / tiffin / laundry person? Did you pay a broker?</li>
+<li>Who pays for these: you or your parents?</li>
+<li><i>Now describe Unimade.</i> Which service would you use first? What would make you not trust it?</li>
+<li>Can I add you to the launch list? (Phone number = the only answer that counts.)</li>
+</ol>
+
+<h3>Appendix C: Partner scripts</h3>
+<h4>Tiffin kitchen / laundromat</h4>
+<ol>
+<li>How many students do you serve now? Could you handle 20–50 more?</li>
+<li>Your price for students on a monthly plan / per kg? Would you give a student price for steady volume?</li>
+<li>Would you pay 10–15% on orders we send you, with nothing to pay upfront?</li>
+<li>FSSAI registration (food)? Separate washing and 48-hour return (laundry)?</li>
+<li>Can we do a 2-week trial with 5–10 students?</li>
+</ol>
+<h4>PG owner</h4>
+<ol>
+<li>How many beds, what rent, how many empty now and in June–August?</li>
+<li>How do you fill beds today? What do brokers charge you?</li>
+<li>Would you pay half a month's rent when a Unimade student moves in, nothing otherwise?</li>
+<li>Can we photograph the rooms and do our checklist (safety, food, Wi-Fi, rules)?</li>
+<li>Will you sign a one-page agreement?</li>
+</ol>
+</section>
+
+<section>
+<h2>Appendix D: Assumptions to verify</h2>
+<p>Web research tools weren't available while writing, so market numbers are estimates. Confirm these before committing money. The model (scripts/model_platform.py) updates every number in this report in minutes.</p>
+<table>
+<tr><th>Assumption</th><th>In the plan</th><th>How to verify</th><th>If wrong</th></tr>
+<tr><td>Partners accept commission</td><td>Laundry 15%, tiffin 10%, home 20%</td><td>First 20 partner meetings</td><td>Lower rates on high-volume categories; push featured listings instead</td></tr>
+<tr><td>PG rent and owner fee</td><td>₹12,000 rent; 50% of 1 month</td><td>Talk to 10 PG owners; ask what brokers charge</td><td>Fixed fee (e.g. ₹3,000–5,000) per placement</td></tr>
+<tr><td>Students book through Unimade</td><td>≥ 25% of joined students book in month 1</td><td>Soft launch with 150 students</td><td>Sharpen the offer; focus on the top-ranked need</td></tr>
+<tr><td>Booking sizes</td><td>Laundry ₹350, tiffin ₹3,500, home ₹400</td><td>Partner price lists + student interviews</td><td>Update the model</td></tr>
+<tr><td>Brand campaign demand</td><td>7 campaigns at ≈ ₹20,000</td><td>Pitch 10 brands with your student numbers</td><td>Smaller sampling deals; barter at first</td></tr>
+<tr><td>Kit COGS</td><td>₹{{kit.cogs}}</td><td>3 quotes per item</td><td>Change contents to keep gross margin ≥ 65%</td></tr>
+<tr><td>GST treatment as a platform</td><td>Not modelled in detail</td><td>CA session before collecting payments</td><td>Adjust the payment flow (Section 14)</td></tr>
+<tr><td>Meta CPM in India</td><td>₹80–200</td><td>First 7-day test</td><td>Lean on ambassadors and organic</td></tr>
+</table>
+
+<h3>Appendix E: Glossary</h3>
+<table>
+<tr><th style="width:22%">Term</th><th>Meaning</th></tr>
+<tr><td>Active user</td><td>A student who booked something this month</td></tr>
+<tr><td>AOV / ARPU</td><td>Average order value / average revenue per user</td></tr>
+<tr><td>ATL / BTL</td><td>Mass / targeted offline marketing (S17)</td></tr>
+<tr><td>Break-even ROAS</td><td>1 ÷ gross margin (S18)</td></tr>
+<tr><td>CAC</td><td>Marketing spend ÷ new customers</td></tr>
+<tr><td>Churn</td><td>% of users or partners who stop in a period</td></tr>
+<tr><td>Commission / take rate</td><td>The % of each booking Unimade keeps</td></tr>
+<tr><td>Contribution</td><td>Revenue minus variable costs</td></tr>
+<tr><td>E-commerce operator</td><td>Under GST, a platform that supplies others' goods or services through itself; extra tax rules apply</td></tr>
+<tr><td>GMV</td><td>Total value of bookings through the platform</td></tr>
+<tr><td>Gross margin</td><td>(Price − COGS) ÷ price; course gate 65% (S16)</td></tr>
+<tr><td>Leakage</td><td>Users and partners transacting directly, bypassing the platform</td></tr>
+<tr><td>Liquidity</td><td>How reliably a request gets matched, quickly</td></tr>
+<tr><td>LTV</td><td>Contribution a customer brings over their lifetime</td></tr>
+<tr><td>MER</td><td>Total revenue ÷ total marketing spend (S18)</td></tr>
+<tr><td>Network effect</td><td>Each new user makes the platform more valuable to others</td></tr>
+<tr><td>Non-circumvention clause</td><td>Contract term stopping partners from dealing directly with customers you introduced</td></tr>
+<tr><td>ROAS</td><td>Revenue from ads ÷ ad spend (S18)</td></tr>
+<tr><td>SMP</td><td>Single minded proposition: one promise, ≤ 5 words (S17)</td></tr>
+<tr><td>SOP / playbook</td><td>Written how-to for repeated tasks; the playbook lets you copy Unimade to a new campus</td></tr>
+<tr><td>Success fee</td><td>A fee paid only when the outcome happens (e.g. a student moves into a PG)</td></tr>
+<tr><td>TCS</td><td>Tax collected at source by e-commerce operators on partners' sales</td></tr>
+<tr><td>Unit economics</td><td>Profit or loss on one transaction or customer</td></tr>
+<tr><td>Vesting / cliff</td><td>Earning shares over time / minimum time before any are earned</td></tr>
+</table>
+</section>
+
+</body>
+</html>

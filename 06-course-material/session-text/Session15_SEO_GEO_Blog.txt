@@ -1,0 +1,376 @@
+
+--- page 1 ---
+SCALING A D2C BUSINESS
+Session 15
+SEO, GEO + Blog Setup
+How do you write content that shows up on Google, and gets cited by ChatGPT and Perplexity?
+Ankit Agarwal   |   Masters' Union   |   90 mins
+--- page 2 ---
+SESSION OBJECTIVES
+By the End of This Session, You'll Be Able To...
+1
+Explain SEO, Plan the Blog
+Explain what SEO is, how it works and 
+why it matters, then sketch a pillar page 
+with supporting posts that link together.
+2
+Publish a Searchable Post
+Publish one post using the on page basics: 
+title, meta description, heading, link 
+address and image alt text.
+3
+Write for AI Answers
+Explain what GEO is and rewrite one 
+section so an AI engine could lift a clean 
+answer from it.
+SCALING A D2C BUSINESS  ·  SESSION 15 Session Objectives
+--- page 3 ---
+WHAT IS SEO?  ·  0–5 MIN
+SEO: Earning a Place in Search Results
+SEARCH ENGINE OPTIMIZATION
+Making your pages easy for search engines to find, 
+understand and rank, so the right people reach you 
+without you paying for each click.
+Search engine: Google, Bing and others. Most people in India start with Google.
+A SEARCH RESULTS PAGE
+Ad  A paid result. You pay per click.
+Organic result  An earned result. Nobody pays for the click.
+Organic result  Ranked by how helpful and relevant it looks.
+Organic result  This is the slot SEO is about.
+Session 14 was the paid slot at the top. Today is the earned slots below it.
+SCALING A D2C BUSINESS  ·  SESSION 15 What Is SEO
+--- page 4 ---
+WHY SEO  ·  5–9 MIN
+Rented Attention vs Earned Attention
+DECAYS
+Social post
+Strong for a day or two, then it sinks in 
+the feed.
+RENTED
+Paid ad
+Works as long as the budget runs. Stop 
+paying and it stops.
+COMPOUNDS
+Search friendly page
+Can keep bringing the right people for 
+months, without a daily spend.
+The catch: it is slow. A post published today will not rank in a 90 minute class. SEO is a patient channel.
+SCALING A D2C BUSINESS  ·  SESSION 15 Why SEO
+--- page 5 ---
+HOW SEO WORKS  ·  9–13 MIN
+How a Search Engine Works in Three Steps
+1
+Crawl
+Automated programs follow links across the 
+web and discover pages.
+→
+2
+Index
+The engine reads each page, works out what 
+it is about, and stores it.
+→
+3
+Rank
+When someone searches, it picks the most 
+helpful pages from what it stored.
+SO YOUR PAGE MUST BE
+Findable (public and linked to)   ·   Understandable (clear words and headings)   ·   Helpful (worth ranking)
+SCALING A D2C BUSINESS  ·  SESSION 15 How SEO Works
+--- page 6 ---
+HOW SEO WORKS  ·  13–16 MIN
+Two Sides of SEO: On Page and Off Page
+ON PAGE
+Everything you control on your own site
+•   Content that fully answers the question
+•   Title, description and headings
+•   Link address and image alt text
+•   Links between your own pages
+OFF PAGE
+Signals that come from outside your site
+•   Links from other websites to yours
+•   Press coverage and mentions
+•   Reviews and local business profiles
+•   People searching for your brand by name
+Our order today: on page first, then off page and the blog, then AI answers, then you build.
+SCALING A D2C BUSINESS  ·  SESSION 15 How SEO Works
+--- page 7 ---
+ON PAGE SEO  ·  16–19 MIN
+Match the Post to the Question
+You met this ladder in Session 14. Blog posts mostly serve the first two rungs.
+Informational A guide that answers the question fully how to set up coffee in an office BLOG POST
+Comparison A fair side by side with a clear verdict office coffee service vs vending machine BLOG POST
+Transactional An offer page with one clear action office coffee subscription gurgaon OFFER PAGE
+A post that answers a question nobody asked will not be found. Start from the question.
+SCALING A D2C BUSINESS  ·  SESSION 15 On Page SEO
+--- page 8 ---
+ON PAGE SEO  ·  19–23 MIN
+Where to Find What People Ask
+Three places inside Google Search itself. Try them on your own topic as we go.
+The search box
+Click the Google search box and start typing 
+your topic. The suggestions that drop down 
+are searches people really make.
+People also ask
+On the results page, look for the box titled 
+People also ask. Each question opens to 
+show an answer.
+Related searches
+Scroll to the bottom of the results page. 
+The Related searches list shows what 
+people look for next.
+More sources: Google Trends, Keyword Planner from Session 14, and the questions your own customers ask you.
+SCALING A D2C BUSINESS  ·  SESSION 15 On Page SEO
+--- page 9 ---
+ON PAGE SEO  ·  23–28 MIN
+The On Page Checklist
+Title Says what the post is about. Keep it to roughly 60 characters. The page title shown in results
+Meta description A short summary that earns the click. Roughly 150 to 160 characters. The grey text under the title
+H1 heading One per page. It matches the topic and the promise of the title. The big heading at the top
+Subheadings Use H2 and H3 for each question or step, in order. The outline of the page
+Link address Short, readable, with the main words. Set it before you publish. The end of the web address
+Image alt text A plain description of the image for readers who cannot see it. Hidden text on the image
+SCALING A D2C BUSINESS  ·  SESSION 15 On Page SEO
+--- page 10 ---
+ON PAGE SEO  ·  28–31 MIN
+How It Shows Up in Search Results
+Illustrative example
+breww47.com/blog/how-to-set-up-coffee-in-an-office
+How to Set Up Coffee in an Office | Breww 47
+A simple guide for workplaces: what you need, what it costs to run, and how to pick between a machine and a coffee service.
+TITLE
+44 characters
+DESCRIPTION
+123 characters
+LINK ADDRESS
+short, readable, main words
+Write the title and description for a person scanning a list of ten results. They decide in a second.
+SCALING A D2C BUSINESS  ·  SESSION 15 On Page SEO
+--- page 11 ---
+OFF PAGE SEO  ·  31–36 MIN
+Signals From Outside Your Site
+Links from other sites
+When another site links to your page, it is a 
+sign of trust and a way for search engines 
+to discover you.
+Coverage and mentions
+Press, partner blogs, podcasts. The press 
+release from Session 12 is off page SEO as 
+well as PR.
+Reviews and local 
+profile
+For outlet based brands, an accurate 
+Google Business Profile and real customer 
+reviews.
+You earn these. Buying links for ranking breaks Google's spam policies, 
+and sites that do can rank lower or disappear.
+Your blog is where on page work lives, and it is the thing off page signals 
+point to. Next: building it.
+SCALING A D2C BUSINESS  ·  SESSION 15 Off Page SEO
+--- page 12 ---
+THE BLOG  ·  36–40 MIN
+The 3 Pillar Blog Map
+Pillar Page
+One broad, thorough page on the main 
+topic.
+Supporting Posts
+Narrower posts that each answer one 
+specific question.
+Internal Links
+Every supporting post links up to the pillar, 
+and the pillar links down.
+One post alone is a lone page. A connected set shows both readers and search engines that you cover a topic.
+SCALING A D2C BUSINESS  ·  SESSION 15 Named Framework
+--- page 13 ---
+THE BLOG  ·  40–43 MIN
+Breww 47's Blog Map
+Illustrative example
+PILLAR
+The Complete Guide to Office Coffee
+SUPPORTING POST 1
+How to set up coffee in an office
+SUPPORTING POST 2
+Office coffee service vs vending 
+machine
+SUPPORTING POST 3
+Coffee as an employee benefit
+SUPPORTING POST 4
+What to ask before choosing an 
+office coffee supplier
+Each supporting post links up to the pillar with descriptive words, not 'click here'. The pillar links back down to each post.
+SCALING A D2C BUSINESS  ·  SESSION 15 Worked Example
+--- page 14 ---
+THE BLOG  ·  43–46 MIN
+Choosing Where to Publish
+Substack
+Post settings have fields for the SEO title, 
+SEO description and link address.
+Built around newsletters, so it doubles as an 
+email list.
+Verified in Substack's own SEO guide
+Notion
+Quick to publish a page to the web.
+Notion says custom page titles and 
+descriptions need a paid plan, and a custom 
+domain is an add on.
+Verified in Notion's help centre
+WordPress.com
+The most flexible and the most blog like.
+The free plan uses a wordpress.com address. 
+Check which SEO fields it offers on your plan.
+Confirm on the free plan before class
+For today, pick the one where you can set all six checklist items for free.
+SCALING A D2C BUSINESS  ·  SESSION 15 The Blog
+--- page 15 ---
+GEO  ·  46–49 MIN
+SEO vs GEO: A Click or a Citation
+SEO
+Search Engine Optimization
+Goal: rank in a list of links so the person clicks through to your 
+page.
+GEO
+Generative Engine Optimization
+Goal: be quoted or cited inside an AI generated answer, such as 
+ChatGPT, Perplexity or Google's AI Overviews.
+The field also goes by AEO, LLMO and GSO. The names are young and unsettled, so check what a source means before trusting it.
+SCALING A D2C BUSINESS  ·  SESSION 15 GEO
+--- page 16 ---
+GEO  ·  49–52 MIN
+What Google Actually Says About AI Search
+It is still SEO
+Google says optimizing for its AI search 
+features is optimizing for the search 
+experience, and so still SEO. Good SEO is the 
+base.
+No special tricks needed
+No special markup, AI only files or tiny 
+chopped up content are required. Write for 
+people, with clear headings.
+Be worth citing
+Original, first hand content with a real point 
+of view beats a summary of what others 
+already said.
+Treat any GEO tactic sold as a secret with suspicion. Clear writing helps people and machines alike, so that is what we practise.
+SCALING A D2C BUSINESS  ·  SESSION 15 GEO
+--- page 17 ---
+GEO  ·  52–55 MIN
+The Extractable Answer Test
+1
+Pick a heading
+Choose a section whose heading is a 
+question people ask.
+2
+Cover the rest
+Hide everything except the first 2 to 3 
+sentences under it.
+3
+Does it stand alone?
+If those sentences fully answer the 
+heading, the section passes.
+WHY IT WORKS AS A TEST
+A reader who skims, and a machine that lifts one passage, both meet your section out of context. If the opening lines stand alone, you served 
+both.
+SCALING A D2C BUSINESS  ·  SESSION 15 GEO
+--- page 18 ---
+GEO  ·  55–58 MIN
+Same Section, Before and After
+Illustrative copy
+Heading: What is an office coffee subscription?
+FAILS THE TEST
+Coffee has always been part of office life, and in recent years more and more companies have started wondering how best to keep their teams 
+caffeinated. There are many options out there...
+PASSES THE TEST
+An office coffee subscription is a monthly plan where a supplier provides and serves coffee for a workplace, usually billed per seat or per cup. 
+It replaces buying beans and maintaining a machine yourself.
+The first version makes a reader and an AI engine both scroll to find the answer. The second gives it away at once, then adds detail below.
+SCALING A D2C BUSINESS  ·  SESSION 15 GEO
+--- page 19 ---
+WRITING FOR EXTRACTION  ·  58–60 MIN
+Four Habits That Make a Section Clear
+Answer first
+Open each section with the direct answer, then explain.
+Headings that are questions
+Phrase subheadings the way a customer would ask them.
+Claims with evidence
+Name a source, or say it is your own data. No unexplained 
+numbers.
+A short summary on top
+A TL;DR of two or three lines helps skimmers and tools.
+Write for people first. These habits are just good writing.
+SCALING A D2C BUSINESS  ·  SESSION 15 Writing for Extraction
+--- page 20 ---
+BLOG SETUP  ·  60–62 MIN
+The Blog Launch Checklist
+SEO BASICS
+One question, one search intent
+Title of roughly 60 characters
+Meta description of roughly 150 to 160
+One H1 and clear subheadings
+Short link address with the main words
+CLEAR AND CITABLE
+Alt text on every image
+Links to your pillar and sibling posts
+Direct answer under each question heading
+TL;DR near the top
+Claims backed by a source or your own data
+SCALING A D2C BUSINESS  ·  SESSION 15 Blog Setup
+--- page 21 ---
+62–68 MIN  ·  LIVE BUILD, PART 1 OF 3
+Set Up and Sketch Your Map
+1 Create your blog on the platform you chose and open a new post.
+2 Sketch your 3 pillar blog map: one pillar title and at least three supporting post titles.
+3 Pick the one supporting post you will write today and write its question as the title.
+Choose a question your customers really ask. This post is the first brick of your map.
+SCALING A D2C BUSINESS  ·  SESSION 15 Live Build · Setup
+--- page 22 ---
+68–76 MIN  ·  LIVE BUILD, PART 2 OF 3
+Write It and Set the On Page SEO
+1 Draft the post: a short summary on top, then question headings with the answer first.
+2 Set the title, meta description, heading, link address and image alt text.
+3 Add one link to your pillar title, even if that page does not exist yet.
+Spot checks coming: I will look at your title, description and headings.
+SCALING A D2C BUSINESS  ·  SESSION 15 Live Build · On Page SEO
+--- page 23 ---
+76–84 MIN  ·  LIVE BUILD, PART 3 OF 3
+Run the Test, Fix One Section and Publish
+1 Choose one section and run the Extractable Answer Test on it.
+2 Rewrite that section until its first 2 to 3 sentences answer the heading on their own.
+3 Publish the post and keep the link, plus your before and after paragraph.
+Submit three things: the published link, your map sketch and the rewritten paragraph.
+SCALING A D2C BUSINESS  ·  SESSION 15 Live Build · Test and Publish
+--- page 24 ---
+ASK YOURSELF FIRST  ·  84–86 MIN
+Is This Channel Right for Your Category?
+1 Does my category have search worthy questions behind it, or is this an impulse purchase with no research phase?
+2 When I asked an AI engine my category's question, did a real brand get cited, and could that realistically be me, or is that a longer game than SEO already is?
+3 Do I have first hand knowledge or data that a generic article could not offer?
+SCALING A D2C BUSINESS  ·  SESSION 15 Reflection
+--- page 25 ---
+SESSION OBJECTIVES  ·  ACHIEVED
+What You Set Out to Do, Today
+Explained why SEO still matters next to paid and social
+Sketched a pillar page with supporting posts and internal links
+Published a post with the on page basics set
+Explained GEO and rewrote a section to pass the Extractable Answer Test
+If any of these still feels shaky, that's exactly what the post-class submission is for.
+SCALING A D2C BUSINESS  ·  SESSION 15 Objectives Achieved
+--- page 26 ---
+87–89 MIN  ·  WRAP
+Deliverables & Next Step
+END OF SESSION
+One published blog post, a sketch of the 3 pillar blog map it belongs to, and one section rewritten to pass the 
+Extractable Answer Test.
+COMING UP: SESSION 16
+Search also happens inside marketplaces. Next: product listings on Amazon, Flipkart and Meesho, and whether your margins could survive 
+quick commerce.
+SCALING A D2C BUSINESS  ·  SESSION 15 Wrap
+--- page 27 ---
+89–90 MIN  ·  PRE-CLASS PREP FOR SESSION 16
+Before Session 16: Your Assignment
+PUBLISH AND SUBMIT
+Your published post, your 3 pillar blog map sketch, and one rewritten paragraph that passes the 
+Extractable Answer Test.
+Include the link, and one line saying which platform you used and what it would not let you set.
+ALSO, FOR SESSION 16
+Screenshot 2 competing product listings on Amazon or Meesho in your category and note what is strong and weak in each. Also work out your 
+category's gross margin using your Session 2 Lean Canvas numbers.
+SCALING A D2C BUSINESS  ·  SESSION 15 Next Assignment
